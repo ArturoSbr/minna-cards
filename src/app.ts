@@ -298,6 +298,12 @@ function showWord(): void {
 function handleSubmit(): void {
   if (!state) return;
 
+  // Empty input = skip
+  if (answerInput.value.trim() === "") {
+    handleSkip();
+    return;
+  }
+
   const word = state.words[state.currentIndex];
   const isCorrect = checkAnswer(answerInput.value, word, state.mode);
 
@@ -383,8 +389,8 @@ function showResult(correct: boolean, word: Word): void {
   resultCard.offsetHeight;
   resultCard.style.animation = "";
 
-  // Focus continue button for keyboard users
-  continueBtn.focus();
+  // Delay focus so the Enter keyup doesn't immediately trigger Continue
+  setTimeout(() => continueBtn.focus(), 50);
 }
 
 function handleContinue(): void {
