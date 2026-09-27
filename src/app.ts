@@ -101,17 +101,22 @@ async function loadChapter(chapter: number): Promise<Word[]> {
   return response.json();
 }
 
+/** Strip placeholder characters (～ and ~) for comparison */
+function normalize(s: string): string {
+  return s.replace(/[～~]/g, "").trim();
+}
+
 /** Check if user's answer is correct */
 function checkAnswer(input: string, word: Word, mode: QuizMode): boolean {
-  const userAnswer = input.trim();
+  const userAnswer = normalize(input);
 
   if (mode === "en-to-kana") {
     // User types kana — exact match (kana has no case)
-    return word.kana.some((k) => k === userAnswer);
+    return word.kana.some((k) => normalize(k) === userAnswer);
   } else {
     // User types English — case-insensitive
     const lowerAnswer = userAnswer.toLowerCase();
-    return word.english.some((e) => e.trim().toLowerCase() === lowerAnswer);
+    return word.english.some((e) => normalize(e).toLowerCase() === lowerAnswer);
   }
 }
 
