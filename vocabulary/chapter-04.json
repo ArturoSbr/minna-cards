@@ -1,0 +1,551 @@
+[
+    {
+        "id": 1,
+        "english": [
+            "get up",
+            "wake up"
+        ],
+        "kana": [
+            "おきます"
+        ],
+        "kanji": "起きます"
+    },
+    {
+        "id": 2,
+        "english": [
+            "sleep",
+            "go to bed"
+        ],
+        "kana": [
+            "ねます"
+        ],
+        "kanji": "寝ます"
+    },
+    {
+        "id": 3,
+        "english": [
+            "work"
+        ],
+        "kana": [
+            "はたらきます"
+        ],
+        "kanji": "働きます"
+    },
+    {
+        "id": 4,
+        "english": [
+            "take a rest",
+            "take a holiday",
+            "be absent"
+        ],
+        "kana": [
+            "やすみます"
+        ],
+        "kanji": "休みます"
+    },
+    {
+        "id": 5,
+        "english": [
+            "study"
+        ],
+        "kana": [
+            "べんきょうします"
+        ],
+        "kanji": "勉強します"
+    },
+    {
+        "id": 6,
+        "english": [
+            "finish",
+            "end"
+        ],
+        "kana": [
+            "おわります"
+        ],
+        "kanji": "終わります"
+    },
+    {
+        "id": 7,
+        "english": [
+            "department store"
+        ],
+        "kana": [
+            "デパート"
+        ],
+        "kanji": null
+    },
+    {
+        "id": 8,
+        "english": [
+            "bank"
+        ],
+        "kana": [
+            "ぎんこう"
+        ],
+        "kanji": "銀行"
+    },
+    {
+        "id": 9,
+        "english": [
+            "post office"
+        ],
+        "kana": [
+            "ゆうびんきょく"
+        ],
+        "kanji": "郵便局"
+    },
+    {
+        "id": 10,
+        "english": [
+            "library"
+        ],
+        "kana": [
+            "としょかん"
+        ],
+        "kanji": "図書館"
+    },
+    {
+        "id": 11,
+        "english": [
+            "art museum",
+            "art gallery"
+        ],
+        "kana": [
+            "びじゅつかん"
+        ],
+        "kanji": "美術館"
+    },
+    {
+        "id": 12,
+        "english": [
+            "now"
+        ],
+        "kana": [
+            "いま"
+        ],
+        "kanji": "今"
+    },
+    {
+        "id": 13,
+        "english": [
+            "-o'clock"
+        ],
+        "kana": [
+            "～じ"
+        ],
+        "kanji": "～時"
+    },
+    {
+        "id": 14,
+        "english": [
+            "-minute"
+        ],
+        "kana": [
+            "～ふん",
+            "～ぷん"
+        ],
+        "kanji": "～分"
+    },
+    {
+        "id": 15,
+        "english": [
+            "half",
+            "half past"
+        ],
+        "kana": [
+            "はん"
+        ],
+        "kanji": "半"
+    },
+    {
+        "id": 16,
+        "english": [
+            "what time"
+        ],
+        "kana": [
+            "なんじ"
+        ],
+        "kanji": "何時"
+    },
+    {
+        "id": 17,
+        "english": [
+            "what minute"
+        ],
+        "kana": [
+            "なんぷん"
+        ],
+        "kanji": "何分"
+    },
+    {
+        "id": 18,
+        "english": [
+            "a.m.",
+            "morning"
+        ],
+        "kana": [
+            "ごぜん"
+        ],
+        "kanji": "午前"
+    },
+    {
+        "id": 19,
+        "english": [
+            "p.m.",
+            "afternoon"
+        ],
+        "kana": [
+            "ごご"
+        ],
+        "kanji": "午後"
+    },
+    {
+        "id": 20,
+        "english": [
+            "morning"
+        ],
+        "kana": [
+            "あさ"
+        ],
+        "kanji": "朝"
+    },
+    {
+        "id": 21,
+        "english": [
+            "daytime",
+            "noon"
+        ],
+        "kana": [
+            "ひる"
+        ],
+        "kanji": "昼"
+    },
+    {
+        "id": 22,
+        "english": [
+            "night",
+            "evening"
+        ],
+        "kana": [
+            "ばん",
+            "よる"
+        ],
+        "kanji": "晩 / 夜"
+    },
+    {
+        "id": 23,
+        "english": [
+            "the day before yesterday"
+        ],
+        "kana": [
+            "おととい"
+        ],
+        "kanji": null
+    },
+    {
+        "id": 24,
+        "english": [
+            "yesterday"
+        ],
+        "kana": [
+            "きのう"
+        ],
+        "kanji": null
+    },
+    {
+        "id": 25,
+        "english": [
+            "today"
+        ],
+        "kana": [
+            "きょう"
+        ],
+        "kanji": "今日"
+    },
+    {
+        "id": 26,
+        "english": [
+            "tomorrow"
+        ],
+        "kana": [
+            "あした"
+        ],
+        "kanji": null
+    },
+    {
+        "id": 27,
+        "english": [
+            "the day after tomorrow"
+        ],
+        "kana": [
+            "あさって"
+        ],
+        "kanji": null
+    },
+    {
+        "id": 28,
+        "english": [
+            "this morning"
+        ],
+        "kana": [
+            "けさ"
+        ],
+        "kanji": "今朝"
+    },
+    {
+        "id": 29,
+        "english": [
+            "this evening",
+            "tonight"
+        ],
+        "kana": [
+            "こんばん"
+        ],
+        "kanji": "今晩"
+    },
+    {
+        "id": 30,
+        "english": [
+            "rest",
+            "a holiday",
+            "day off"
+        ],
+        "kana": [
+            "やすみ"
+        ],
+        "kanji": "休み"
+    },
+    {
+        "id": 31,
+        "english": [
+            "lunchtime"
+        ],
+        "kana": [
+            "ひるやすみ"
+        ],
+        "kanji": "昼休み"
+    },
+    {
+        "id": 32,
+        "english": [
+            "every morning"
+        ],
+        "kana": [
+            "まいあさ"
+        ],
+        "kanji": "毎朝"
+    },
+    {
+        "id": 33,
+        "english": [
+            "every night"
+        ],
+        "kana": [
+            "まいばん"
+        ],
+        "kanji": "毎晩"
+    },
+    {
+        "id": 34,
+        "english": [
+            "every day"
+        ],
+        "kana": [
+            "まいにち"
+        ],
+        "kanji": "毎日"
+    },
+    {
+        "id": 35,
+        "english": [
+            "Monday"
+        ],
+        "kana": [
+            "げつようび"
+        ],
+        "kanji": "月曜日"
+    },
+    {
+        "id": 36,
+        "english": [
+            "Tuesday"
+        ],
+        "kana": [
+            "かようび"
+        ],
+        "kanji": "火曜日"
+    },
+    {
+        "id": 37,
+        "english": [
+            "Wednesday"
+        ],
+        "kana": [
+            "すいようび"
+        ],
+        "kanji": "水曜日"
+    },
+    {
+        "id": 38,
+        "english": [
+            "Thursday"
+        ],
+        "kana": [
+            "もくようび"
+        ],
+        "kanji": "木曜日"
+    },
+    {
+        "id": 39,
+        "english": [
+            "Friday"
+        ],
+        "kana": [
+            "きんようび"
+        ],
+        "kanji": "金曜日"
+    },
+    {
+        "id": 40,
+        "english": [
+            "Saturday"
+        ],
+        "kana": [
+            "どようび"
+        ],
+        "kanji": "土曜日"
+    },
+    {
+        "id": 41,
+        "english": [
+            "Sunday"
+        ],
+        "kana": [
+            "にちようび"
+        ],
+        "kanji": "日曜日"
+    },
+    {
+        "id": 42,
+        "english": [
+            "what day of the week"
+        ],
+        "kana": [
+            "なんようび"
+        ],
+        "kanji": "何曜日"
+    },
+    {
+        "id": 43,
+        "english": [
+            "number"
+        ],
+        "kana": [
+            "ばんごう"
+        ],
+        "kanji": "番号"
+    },
+    {
+        "id": 44,
+        "english": [
+            "what number"
+        ],
+        "kana": [
+            "なんばん"
+        ],
+        "kanji": "何番"
+    },
+    {
+        "id": 45,
+        "english": [
+            "from ~"
+        ],
+        "kana": [
+            "～から"
+        ],
+        "kanji": null
+    },
+    {
+        "id": 46,
+        "english": [
+            "up to ~",
+            "until ~"
+        ],
+        "kana": [
+            "～まで"
+        ],
+        "kanji": null
+    },
+    {
+        "id": 47,
+        "english": [
+            "and (used to connect nouns)"
+        ],
+        "kana": [
+            "～と～"
+        ],
+        "kanji": null
+    },
+    {
+        "id": 48,
+        "english": [
+            "That's tough, isn't it?",
+            "It must be hard"
+        ],
+        "kana": [
+            "たいへんですね"
+        ],
+        "kanji": "大変ですね"
+    },
+    {
+        "id": 49,
+        "english": [
+            "well",
+            "let me see"
+        ],
+        "kana": [
+            "えーと"
+        ],
+        "kanji": null
+    },
+    {
+        "id": 50,
+        "english": [
+            "Please [do so]"
+        ],
+        "kana": [
+            "おねがいします"
+        ],
+        "kanji": "お願いします"
+    },
+    {
+        "id": 51,
+        "english": [
+            "Certainly [sir/madam]"
+        ],
+        "kana": [
+            "かしこまりました"
+        ],
+        "kanji": null
+    },
+    {
+        "id": 52,
+        "english": [
+            "the number being inquired about"
+        ],
+        "kana": [
+            "おといあわせのばんごう"
+        ],
+        "kanji": "お問い合わせの番号"
+    },
+    {
+        "id": 53,
+        "english": [
+            "Thank you very much"
+        ],
+        "kana": [
+            "[どうも] ありがとう ございました"
+        ],
+        "kanji": null
+    }
+]

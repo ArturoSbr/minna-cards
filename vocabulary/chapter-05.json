@@ -1,0 +1,577 @@
+[
+    {
+        "id": 1,
+        "english": [
+            "go"
+        ],
+        "kana": [
+            "いきます"
+        ],
+        "kanji": "行きます"
+    },
+    {
+        "id": 2,
+        "english": [
+            "come"
+        ],
+        "kana": [
+            "きます"
+        ],
+        "kanji": "来ます"
+    },
+    {
+        "id": 3,
+        "english": [
+            "go home",
+            "return"
+        ],
+        "kana": [
+            "かえります"
+        ],
+        "kanji": "帰ります"
+    },
+    {
+        "id": 4,
+        "english": [
+            "school"
+        ],
+        "kana": [
+            "がっこう"
+        ],
+        "kanji": "学校"
+    },
+    {
+        "id": 5,
+        "english": [
+            "supermarket"
+        ],
+        "kana": [
+            "スーパー"
+        ],
+        "kanji": null
+    },
+    {
+        "id": 6,
+        "english": [
+            "station"
+        ],
+        "kana": [
+            "えき"
+        ],
+        "kanji": "駅"
+    },
+    {
+        "id": 7,
+        "english": [
+            "airplane"
+        ],
+        "kana": [
+            "ひこうき"
+        ],
+        "kanji": "飛行機"
+    },
+    {
+        "id": 8,
+        "english": [
+            "ship",
+            "boat"
+        ],
+        "kana": [
+            "ふね"
+        ],
+        "kanji": "船"
+    },
+    {
+        "id": 9,
+        "english": [
+            "electric train"
+        ],
+        "kana": [
+            "でんしゃ"
+        ],
+        "kanji": "電車"
+    },
+    {
+        "id": 10,
+        "english": [
+            "subway",
+            "underground"
+        ],
+        "kana": [
+            "ちかてつ"
+        ],
+        "kanji": "地下鉄"
+    },
+    {
+        "id": 11,
+        "english": [
+            "Shinkansen",
+            "bullet train"
+        ],
+        "kana": [
+            "しんかんせん"
+        ],
+        "kanji": "新幹線"
+    },
+    {
+        "id": 12,
+        "english": [
+            "bus"
+        ],
+        "kana": [
+            "バス"
+        ],
+        "kanji": null
+    },
+    {
+        "id": 13,
+        "english": [
+            "taxi"
+        ],
+        "kana": [
+            "タクシー"
+        ],
+        "kanji": null
+    },
+    {
+        "id": 14,
+        "english": [
+            "bicycle"
+        ],
+        "kana": [
+            "じてんしゃ"
+        ],
+        "kanji": "自転車"
+    },
+    {
+        "id": 15,
+        "english": [
+            "on foot"
+        ],
+        "kana": [
+            "あるいて"
+        ],
+        "kanji": "歩いて"
+    },
+    {
+        "id": 16,
+        "english": [
+            "person",
+            "people"
+        ],
+        "kana": [
+            "ひと"
+        ],
+        "kanji": "人"
+    },
+    {
+        "id": 17,
+        "english": [
+            "friend"
+        ],
+        "kana": [
+            "ともだち"
+        ],
+        "kanji": "友達"
+    },
+    {
+        "id": 18,
+        "english": [
+            "he",
+            "boyfriend"
+        ],
+        "kana": [
+            "かれ"
+        ],
+        "kanji": "彼"
+    },
+    {
+        "id": 19,
+        "english": [
+            "she",
+            "girlfriend"
+        ],
+        "kana": [
+            "かのじょ"
+        ],
+        "kanji": "彼女"
+    },
+    {
+        "id": 20,
+        "english": [
+            "family"
+        ],
+        "kana": [
+            "かぞく"
+        ],
+        "kanji": "家族"
+    },
+    {
+        "id": 21,
+        "english": [
+            "alone",
+            "by oneself"
+        ],
+        "kana": [
+            "ひとりで"
+        ],
+        "kanji": "一人で"
+    },
+    {
+        "id": 22,
+        "english": [
+            "last week"
+        ],
+        "kana": [
+            "せんしゅう"
+        ],
+        "kanji": "先週"
+    },
+    {
+        "id": 23,
+        "english": [
+            "this week"
+        ],
+        "kana": [
+            "こんしゅう"
+        ],
+        "kanji": "今週"
+    },
+    {
+        "id": 24,
+        "english": [
+            "next week"
+        ],
+        "kana": [
+            "らいしゅう"
+        ],
+        "kanji": "来週"
+    },
+    {
+        "id": 25,
+        "english": [
+            "last month"
+        ],
+        "kana": [
+            "せんげつ"
+        ],
+        "kanji": "先月"
+    },
+    {
+        "id": 26,
+        "english": [
+            "this month"
+        ],
+        "kana": [
+            "こんげつ"
+        ],
+        "kanji": "今月"
+    },
+    {
+        "id": 27,
+        "english": [
+            "next month"
+        ],
+        "kana": [
+            "らいげつ"
+        ],
+        "kanji": "来月"
+    },
+    {
+        "id": 28,
+        "english": [
+            "last year"
+        ],
+        "kana": [
+            "きょねん"
+        ],
+        "kanji": "去年"
+    },
+    {
+        "id": 29,
+        "english": [
+            "this year"
+        ],
+        "kana": [
+            "ことし"
+        ],
+        "kanji": "今年"
+    },
+    {
+        "id": 30,
+        "english": [
+            "next year"
+        ],
+        "kana": [
+            "らいねん"
+        ],
+        "kanji": "来年"
+    },
+    {
+        "id": 31,
+        "english": [
+            "-th month of the year"
+        ],
+        "kana": [
+            "～がつ"
+        ],
+        "kanji": "～月"
+    },
+    {
+        "id": 32,
+        "english": [
+            "what month"
+        ],
+        "kana": [
+            "なんがつ"
+        ],
+        "kanji": "何月"
+    },
+    {
+        "id": 33,
+        "english": [
+            "first day of the month"
+        ],
+        "kana": [
+            "ついたち"
+        ],
+        "kanji": "1日"
+    },
+    {
+        "id": 34,
+        "english": [
+            "second day of the month",
+            "two days"
+        ],
+        "kana": [
+            "ふつか"
+        ],
+        "kanji": "2日"
+    },
+    {
+        "id": 35,
+        "english": [
+            "third day of the month",
+            "three days"
+        ],
+        "kana": [
+            "みっか"
+        ],
+        "kanji": "3日"
+    },
+    {
+        "id": 36,
+        "english": [
+            "fourth day of the month",
+            "four days"
+        ],
+        "kana": [
+            "よっか"
+        ],
+        "kanji": "4日"
+    },
+    {
+        "id": 37,
+        "english": [
+            "fifth day of the month",
+            "five days"
+        ],
+        "kana": [
+            "いつか"
+        ],
+        "kanji": "5日"
+    },
+    {
+        "id": 38,
+        "english": [
+            "sixth day of the month",
+            "six days"
+        ],
+        "kana": [
+            "むいか"
+        ],
+        "kanji": "6日"
+    },
+    {
+        "id": 39,
+        "english": [
+            "seventh day of the month",
+            "seven days"
+        ],
+        "kana": [
+            "なのか"
+        ],
+        "kanji": "7日"
+    },
+    {
+        "id": 40,
+        "english": [
+            "eighth day of the month",
+            "eight days"
+        ],
+        "kana": [
+            "ようか"
+        ],
+        "kanji": "8日"
+    },
+    {
+        "id": 41,
+        "english": [
+            "ninth day of the month",
+            "nine days"
+        ],
+        "kana": [
+            "ここのか"
+        ],
+        "kanji": "9日"
+    },
+    {
+        "id": 42,
+        "english": [
+            "tenth day of the month",
+            "ten days"
+        ],
+        "kana": [
+            "とおか"
+        ],
+        "kanji": "10日"
+    },
+    {
+        "id": 43,
+        "english": [
+            "fourteenth day of the month",
+            "fourteen days"
+        ],
+        "kana": [
+            "じゅうよっか"
+        ],
+        "kanji": "14日"
+    },
+    {
+        "id": 44,
+        "english": [
+            "twentieth day of the month",
+            "twenty days"
+        ],
+        "kana": [
+            "はつか"
+        ],
+        "kanji": "20日"
+    },
+    {
+        "id": 45,
+        "english": [
+            "twenty-fourth day of the month",
+            "twenty-four days"
+        ],
+        "kana": [
+            "にじゅうよっか"
+        ],
+        "kanji": "24日"
+    },
+    {
+        "id": 46,
+        "english": [
+            "-th day of the month",
+            "number of days"
+        ],
+        "kana": [
+            "～にち"
+        ],
+        "kanji": "～日"
+    },
+    {
+        "id": 47,
+        "english": [
+            "which day of the month",
+            "how many days"
+        ],
+        "kana": [
+            "なんにち"
+        ],
+        "kanji": "何日"
+    },
+    {
+        "id": 48,
+        "english": [
+            "when"
+        ],
+        "kana": [
+            "いつ"
+        ],
+        "kanji": null
+    },
+    {
+        "id": 49,
+        "english": [
+            "birthday"
+        ],
+        "kana": [
+            "たんじょうび"
+        ],
+        "kanji": "誕生日"
+    },
+    {
+        "id": 50,
+        "english": [
+            "local train"
+        ],
+        "kana": [
+            "ふつう"
+        ],
+        "kanji": "普通"
+    },
+    {
+        "id": 51,
+        "english": [
+            "rapid train"
+        ],
+        "kana": [
+            "きゅうこう"
+        ],
+        "kanji": "急行"
+    },
+    {
+        "id": 52,
+        "english": [
+            "express train"
+        ],
+        "kana": [
+            "とっきゅう"
+        ],
+        "kanji": "特急"
+    },
+    {
+        "id": 53,
+        "english": [
+            "next",
+            "next time"
+        ],
+        "kana": [
+            "つぎの"
+        ],
+        "kanji": "次の"
+    },
+    {
+        "id": 54,
+        "english": [
+            "You're welcome",
+            "Don't mention it"
+        ],
+        "kana": [
+            "どういたしまして"
+        ],
+        "kanji": null
+    },
+    {
+        "id": 55,
+        "english": [
+            "platform ~",
+            "track ~"
+        ],
+        "kana": [
+            "～ばんせん"
+        ],
+        "kanji": "～番線"
+    }
+]

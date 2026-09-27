@@ -1,0 +1,475 @@
+[
+    {
+        "id": 1,
+        "english": [
+            "this",
+            "this thing here"
+        ],
+        "kana": [
+            "これ"
+        ],
+        "kanji": null
+    },
+    {
+        "id": 2,
+        "english": [
+            "that",
+            "that thing near you"
+        ],
+        "kana": [
+            "それ"
+        ],
+        "kanji": null
+    },
+    {
+        "id": 3,
+        "english": [
+            "that",
+            "that thing over there"
+        ],
+        "kana": [
+            "あれ"
+        ],
+        "kanji": null
+    },
+    {
+        "id": 4,
+        "english": [
+            "this ~",
+            "this ... here"
+        ],
+        "kana": [
+            "この～"
+        ],
+        "kanji": null
+    },
+    {
+        "id": 5,
+        "english": [
+            "that ~",
+            "that ... near you"
+        ],
+        "kana": [
+            "その～"
+        ],
+        "kanji": null
+    },
+    {
+        "id": 6,
+        "english": [
+            "that ~",
+            "that ... over there"
+        ],
+        "kana": [
+            "あの～"
+        ],
+        "kanji": null
+    },
+    {
+        "id": 7,
+        "english": [
+            "book"
+        ],
+        "kana": [
+            "ほん"
+        ],
+        "kanji": "本"
+    },
+    {
+        "id": 8,
+        "english": [
+            "dictionary"
+        ],
+        "kana": [
+            "じしょ"
+        ],
+        "kanji": "辞書"
+    },
+    {
+        "id": 9,
+        "english": [
+            "magazine"
+        ],
+        "kana": [
+            "ざっし"
+        ],
+        "kanji": "雑誌"
+    },
+    {
+        "id": 10,
+        "english": [
+            "newspaper"
+        ],
+        "kana": [
+            "しんぶん"
+        ],
+        "kanji": "新聞"
+    },
+    {
+        "id": 11,
+        "english": [
+            "notebook"
+        ],
+        "kana": [
+            "ノート"
+        ],
+        "kanji": null
+    },
+    {
+        "id": 12,
+        "english": [
+            "pocket notebook",
+            "memo pad"
+        ],
+        "kana": [
+            "てちょう"
+        ],
+        "kanji": "手帳"
+    },
+    {
+        "id": 13,
+        "english": [
+            "business card"
+        ],
+        "kana": [
+            "めいし"
+        ],
+        "kanji": "名刺"
+    },
+    {
+        "id": 14,
+        "english": [
+            "card",
+            "credit card"
+        ],
+        "kana": [
+            "カード"
+        ],
+        "kanji": null
+    },
+    {
+        "id": 15,
+        "english": [
+            "pencil"
+        ],
+        "kana": [
+            "えんぴつ"
+        ],
+        "kanji": "鉛筆"
+    },
+    {
+        "id": 16,
+        "english": [
+            "ballpoint pen"
+        ],
+        "kana": [
+            "ボールペン"
+        ],
+        "kanji": null
+    },
+    {
+        "id": 17,
+        "english": [
+            "mechanical pencil",
+            "propelling pencil"
+        ],
+        "kana": [
+            "シャープペンシル"
+        ],
+        "kanji": null
+    },
+    {
+        "id": 18,
+        "english": [
+            "key"
+        ],
+        "kana": [
+            "かぎ"
+        ],
+        "kanji": "鍵"
+    },
+    {
+        "id": 19,
+        "english": [
+            "watch",
+            "clock"
+        ],
+        "kana": [
+            "とけい"
+        ],
+        "kanji": "時計"
+    },
+    {
+        "id": 20,
+        "english": [
+            "umbrella"
+        ],
+        "kana": [
+            "かさ"
+        ],
+        "kanji": "傘"
+    },
+    {
+        "id": 21,
+        "english": [
+            "bag",
+            "briefcase"
+        ],
+        "kana": [
+            "かばん"
+        ],
+        "kanji": "鞄"
+    },
+    {
+        "id": 22,
+        "english": [
+            "cassette tape",
+            "tape"
+        ],
+        "kana": [
+            "テープ"
+        ],
+        "kanji": null
+    },
+    {
+        "id": 23,
+        "english": [
+            "tape recorder"
+        ],
+        "kana": [
+            "テープレコーダー"
+        ],
+        "kanji": null
+    },
+    {
+        "id": 24,
+        "english": [
+            "television",
+            "TV"
+        ],
+        "kana": [
+            "テレビ"
+        ],
+        "kanji": null
+    },
+    {
+        "id": 25,
+        "english": [
+            "radio"
+        ],
+        "kana": [
+            "ラジオ"
+        ],
+        "kanji": null
+    },
+    {
+        "id": 26,
+        "english": [
+            "camera"
+        ],
+        "kana": [
+            "カメラ"
+        ],
+        "kanji": null
+    },
+    {
+        "id": 27,
+        "english": [
+            "computer",
+            "personal computer"
+        ],
+        "kana": [
+            "コンピューター"
+        ],
+        "kanji": null
+    },
+    {
+        "id": 28,
+        "english": [
+            "car",
+            "automobile",
+            "vehicle"
+        ],
+        "kana": [
+            "くるま"
+        ],
+        "kanji": "車"
+    },
+    {
+        "id": 29,
+        "english": [
+            "desk"
+        ],
+        "kana": [
+            "つくえ"
+        ],
+        "kanji": "机"
+    },
+    {
+        "id": 30,
+        "english": [
+            "chair"
+        ],
+        "kana": [
+            "いす"
+        ],
+        "kanji": "椅子"
+    },
+    {
+        "id": 31,
+        "english": [
+            "chocolate"
+        ],
+        "kana": [
+            "チョコレート"
+        ],
+        "kanji": null
+    },
+    {
+        "id": 32,
+        "english": [
+            "coffee"
+        ],
+        "kana": [
+            "コーヒー"
+        ],
+        "kanji": null
+    },
+    {
+        "id": 33,
+        "english": [
+            "souvenir",
+            "present"
+        ],
+        "kana": [
+            "おみやげ"
+        ],
+        "kanji": "お土産"
+    },
+    {
+        "id": 34,
+        "english": [
+            "English language"
+        ],
+        "kana": [
+            "えいご"
+        ],
+        "kanji": "英語"
+    },
+    {
+        "id": 35,
+        "english": [
+            "Japanese language"
+        ],
+        "kana": [
+            "にほんご"
+        ],
+        "kanji": "日本語"
+    },
+    {
+        "id": 36,
+        "english": [
+            "~ language"
+        ],
+        "kana": [
+            "～ご"
+        ],
+        "kanji": "～語"
+    },
+    {
+        "id": 37,
+        "english": [
+            "what"
+        ],
+        "kana": [
+            "なん",
+            "なに"
+        ],
+        "kanji": "何"
+    },
+    {
+        "id": 38,
+        "english": [
+            "so"
+        ],
+        "kana": [
+            "そう"
+        ],
+        "kanji": null
+    },
+    {
+        "id": 39,
+        "english": [
+            "No, it isn't",
+            "You are wrong",
+            "It is different"
+        ],
+        "kana": [
+            "ちがいます"
+        ],
+        "kanji": "違います"
+    },
+    {
+        "id": 40,
+        "english": [
+            "I see",
+            "Is that so?"
+        ],
+        "kana": [
+            "そうですか"
+        ],
+        "kanji": null
+    },
+    {
+        "id": 41,
+        "english": [
+            "well...",
+            "let me see..."
+        ],
+        "kana": [
+            "あのう"
+        ],
+        "kanji": null
+    },
+    {
+        "id": 42,
+        "english": [
+            "Please",
+            "Here you are"
+        ],
+        "kana": [
+            "どうぞ"
+        ],
+        "kanji": null
+    },
+    {
+        "id": 43,
+        "english": [
+            "Thank you very much"
+        ],
+        "kana": [
+            "[どうも] ありがとう [ございます]"
+        ],
+        "kanji": null
+    },
+    {
+        "id": 44,
+        "english": [
+            "I am looking forward to working with you"
+        ],
+        "kana": [
+            "これから おせわになります"
+        ],
+        "kanji": "これから お世話になります"
+    },
+    {
+        "id": 45,
+        "english": [
+            "Likewise, pleased to meet you"
+        ],
+        "kana": [
+            "こちらこそ よろしく [おねがいします]"
+        ],
+        "kanji": "こちらこそ よろしく [お願いします]"
+    }
+]

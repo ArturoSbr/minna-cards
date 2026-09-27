@@ -1,0 +1,432 @@
+[
+  {
+    "id": 1,
+    "english": [
+      "here",
+      "this place"
+    ],
+    "kana": [
+      "ここ"
+    ],
+    "kanji": null
+  },
+  {
+    "id": 2,
+    "english": [
+      "there",
+      "that place near you"
+    ],
+    "kana": [
+      "そこ"
+    ],
+    "kanji": null
+  },
+  {
+    "id": 3,
+    "english": [
+      "that place over there"
+    ],
+    "kana": [
+      "あそこ"
+    ],
+    "kanji": null
+  },
+  {
+    "id": 4,
+    "english": [
+      "where",
+      "what place"
+    ],
+    "kana": [
+      "どこ"
+    ],
+    "kanji": null
+  },
+  {
+    "id": 5,
+    "english": [
+      "this way",
+      "this place (polite)"
+    ],
+    "kana": [
+      "こちら"
+    ],
+    "kanji": null
+  },
+  {
+    "id": 6,
+    "english": [
+      "that way",
+      "that place near you (polite)"
+    ],
+    "kana": [
+      "そちら"
+    ],
+    "kanji": null
+  },
+  {
+    "id": 7,
+    "english": [
+      "that way over there",
+      "that place over there (polite)"
+    ],
+    "kana": [
+      "あちら"
+    ],
+    "kanji": null
+  },
+  {
+    "id": 8,
+    "english": [
+      "which way",
+      "where (polite)"
+    ],
+    "kana": [
+      "どちら"
+    ],
+    "kanji": null
+  },
+  {
+    "id": 9,
+    "english": [
+      "classroom"
+    ],
+    "kana": [
+      "きょうしつ"
+    ],
+    "kanji": "教室"
+  },
+  {
+    "id": 10,
+    "english": [
+      "dining hall",
+      "cafeteria"
+    ],
+    "kana": [
+      "しょくどう"
+    ],
+    "kanji": "食堂"
+  },
+  {
+    "id": 11,
+    "english": [
+      "office"
+    ],
+    "kana": [
+      "じむしょ"
+    ],
+    "kanji": "事務所"
+  },
+  {
+    "id": 12,
+    "english": [
+      "conference room",
+      "meeting room"
+    ],
+    "kana": [
+      "かいぎしつ"
+    ],
+    "kanji": "会議室"
+  },
+  {
+    "id": 13,
+    "english": [
+      "reception desk"
+    ],
+    "kana": [
+      "うけつけ"
+    ],
+    "kanji": "受付"
+  },
+  {
+    "id": 14,
+    "english": [
+      "lobby"
+    ],
+    "kana": [
+      "ロビー"
+    ],
+    "kanji": null
+  },
+  {
+    "id": 15,
+    "english": [
+      "room"
+    ],
+    "kana": [
+      "へや"
+    ],
+    "kanji": "部屋"
+  },
+  {
+    "id": 16,
+    "english": [
+      "toilet",
+      "restroom"
+    ],
+    "kana": [
+      "トイレ",
+      "おてあらい"
+    ],
+    "kanji": "お手洗い"
+  },
+  {
+    "id": 17,
+    "english": [
+      "staircase",
+      "stairs"
+    ],
+    "kana": [
+      "かいだん"
+    ],
+    "kanji": "階段"
+  },
+  {
+    "id": 18,
+    "english": [
+      "elevator",
+      "lift"
+    ],
+    "kana": [
+      "エレベーター"
+    ],
+    "kanji": null
+  },
+  {
+    "id": 19,
+    "english": [
+      "escalator"
+    ],
+    "kana": [
+      "エスカレーター"
+    ],
+    "kanji": null
+  },
+  {
+    "id": 20,
+    "english": [
+      "[one's] country"
+    ],
+    "kana": [
+      "[お]くに"
+    ],
+    "kanji": "[お]国"
+  },
+  {
+    "id": 21,
+    "english": [
+      "company"
+    ],
+    "kana": [
+      "かいしゃ"
+    ],
+    "kanji": "会社"
+  },
+  {
+    "id": 22,
+    "english": [
+      "house",
+      "home"
+    ],
+    "kana": [
+      "うち"
+    ],
+    "kanji": "家"
+  },
+  {
+    "id": 23,
+    "english": [
+      "telephone",
+      "telephone call"
+    ],
+    "kana": [
+      "でんわ"
+    ],
+    "kanji": "電話"
+  },
+  {
+    "id": 24,
+    "english": [
+      "shoes"
+    ],
+    "kana": [
+      "くつ"
+    ],
+    "kanji": "靴"
+  },
+  {
+    "id": 25,
+    "english": [
+      "necktie",
+      "tie"
+    ],
+    "kana": [
+      "ネクタイ"
+    ],
+    "kanji": null
+  },
+  {
+    "id": 26,
+    "english": [
+      "wine"
+    ],
+    "kana": [
+      "ワイン"
+    ],
+    "kanji": null
+  },
+  {
+    "id": 27,
+    "english": [
+      "tobacco",
+      "cigarette"
+    ],
+    "kana": [
+      "たばこ"
+    ],
+    "kanji": "煙草"
+  },
+  {
+    "id": 28,
+    "english": [
+      "department",
+      "sales counter"
+    ],
+    "kana": [
+      "うりば"
+    ],
+    "kanji": "売り場"
+  },
+  {
+    "id": 29,
+    "english": [
+      "basement"
+    ],
+    "kana": [
+      "ちか"
+    ],
+    "kanji": "地下"
+  },
+  {
+    "id": 30,
+    "english": [
+      "-th floor"
+    ],
+    "kana": [
+      "～かい",
+      "～がい"
+    ],
+    "kanji": "～階"
+  },
+  {
+    "id": 31,
+    "english": [
+      "what floor"
+    ],
+    "kana": [
+      "なんがい"
+    ],
+    "kanji": "何階"
+  },
+  {
+    "id": 32,
+    "english": [
+      "yen"
+    ],
+    "kana": [
+      "～えん"
+    ],
+    "kanji": "～円"
+  },
+  {
+    "id": 33,
+    "english": [
+      "how much"
+    ],
+    "kana": [
+      "いくら"
+    ],
+    "kanji": null
+  },
+  {
+    "id": 34,
+    "english": [
+      "hundred"
+    ],
+    "kana": [
+      "ひゃく"
+    ],
+    "kanji": "百"
+  },
+  {
+    "id": 35,
+    "english": [
+      "thousand"
+    ],
+    "kana": [
+      "せん"
+    ],
+    "kanji": "千"
+  },
+  {
+    "id": 36,
+    "english": [
+      "ten thousand"
+    ],
+    "kana": [
+      "まん"
+    ],
+    "kanji": "万"
+  },
+  {
+    "id": 37,
+    "english": [
+      "Excuse me"
+    ],
+    "kana": [
+      "すみません"
+    ],
+    "kanji": null
+  },
+  {
+    "id": 38,
+    "english": [
+      "polite equivalent of です"
+    ],
+    "kana": [
+      "～でございます"
+    ],
+    "kanji": null
+  },
+  {
+    "id": 39,
+    "english": [
+      "Please show me [~]"
+    ],
+    "kana": [
+      "[～を] みせてください"
+    ],
+    "kanji": "[～を] 見せてください"
+  },
+  {
+    "id": 40,
+    "english": [
+      "well, then",
+      "in that case"
+    ],
+    "kana": [
+      "じゃ"
+    ],
+    "kanji": null
+  },
+  {
+    "id": 41,
+    "english": [
+      "Give me [~], please"
+    ],
+    "kana": [
+      "[～を] ください"
+    ],
+    "kanji": null
+  }
+]

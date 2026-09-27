@@ -1,0 +1,366 @@
+[
+  {
+    "id": 1,
+    "english": [
+      "I",
+      "me"
+    ],
+    "kana": [
+      "わたし"
+    ],
+    "kanji": "私"
+  },
+  {
+    "id": 2,
+    "english": [
+      "we"
+    ],
+    "kana": [
+      "わたしたち"
+    ],
+    "kanji": "私たち"
+  },
+  {
+    "id": 3,
+    "english": [
+      "you"
+    ],
+    "kana": [
+      "あなた"
+    ],
+    "kanji": "貴方"
+  },
+  {
+    "id": 4,
+    "english": [
+      "that person"
+    ],
+    "kana": [
+      "あのひと"
+    ],
+    "kanji": "あの人"
+  },
+  {
+    "id": 5,
+    "english": [
+      "that person (polite)"
+    ],
+    "kana": [
+      "あのかた"
+    ],
+    "kanji": "あの方"
+  },
+  {
+    "id": 6,
+    "english": [
+      "everyone",
+      "ladies and gentlemen",
+      "all of you"
+    ],
+    "kana": [
+      "みなさん"
+    ],
+    "kanji": "皆さん"
+  },
+  {
+    "id": 7,
+    "english": [
+      "Mr.",
+      "Ms."
+    ],
+    "kana": [
+      "～さん"
+    ],
+    "kanji": null
+  },
+  {
+    "id": 8,
+    "english": [
+      "suffix for children"
+    ],
+    "kana": [
+      "～ちゃん"
+    ],
+    "kanji": null
+  },
+  {
+    "id": 9,
+    "english": [
+      "suffix for boys"
+    ],
+    "kana": [
+      "～くん"
+    ],
+    "kanji": "～君"
+  },
+  {
+    "id": 10,
+    "english": [
+      "suffix for nationality",
+      "citizen of"
+    ],
+    "kana": [
+      "～じん"
+    ],
+    "kanji": "～人"
+  },
+  {
+    "id": 11,
+    "english": [
+      "teacher",
+      "instructor"
+    ],
+    "kana": [
+      "せんせい"
+    ],
+    "kanji": "先生"
+  },
+  {
+    "id": 12,
+    "english": [
+      "teacher",
+      "educator"
+    ],
+    "kana": [
+      "きょうし"
+    ],
+    "kanji": "教師"
+  },
+  {
+    "id": 13,
+    "english": [
+      "student"
+    ],
+    "kana": [
+      "がくせい"
+    ],
+    "kanji": "学生"
+  },
+  {
+    "id": 14,
+    "english": [
+      "company employee"
+    ],
+    "kana": [
+      "かいしゃいん"
+    ],
+    "kanji": "会社員"
+  },
+  {
+    "id": 15,
+    "english": [
+      "employee of ~ company"
+    ],
+    "kana": [
+      "～のしゃいん"
+    ],
+    "kanji": "～の社員"
+  },
+  {
+    "id": 16,
+    "english": [
+      "bank employee"
+    ],
+    "kana": [
+      "ぎんこういん"
+    ],
+    "kanji": "銀行員"
+  },
+  {
+    "id": 17,
+    "english": [
+      "doctor",
+      "medical doctor"
+    ],
+    "kana": [
+      "いしゃ"
+    ],
+    "kanji": "医者"
+  },
+  {
+    "id": 18,
+    "english": [
+      "researcher",
+      "scholar"
+    ],
+    "kana": [
+      "けんきゅうしゃ"
+    ],
+    "kanji": "研究者"
+  },
+  {
+    "id": 19,
+    "english": [
+      "engineer"
+    ],
+    "kana": [
+      "エンジニア"
+    ],
+    "kanji": null
+  },
+  {
+    "id": 20,
+    "english": [
+      "university",
+      "college"
+    ],
+    "kana": [
+      "だいがく"
+    ],
+    "kanji": "大学"
+  },
+  {
+    "id": 21,
+    "english": [
+      "hospital"
+    ],
+    "kana": [
+      "びょういん"
+    ],
+    "kanji": "病院"
+  },
+  {
+    "id": 22,
+    "english": [
+      "electricity",
+      "light"
+    ],
+    "kana": [
+      "でんき"
+    ],
+    "kanji": "電気"
+  },
+  {
+    "id": 23,
+    "english": [
+      "who"
+    ],
+    "kana": [
+      "だれ"
+    ],
+    "kanji": "誰"
+  },
+  {
+    "id": 24,
+    "english": [
+      "who (polite)"
+    ],
+    "kana": [
+      "どなた"
+    ],
+    "kanji": null
+  },
+  {
+    "id": 25,
+    "english": [
+      "years old"
+    ],
+    "kana": [
+      "～さい"
+    ],
+    "kanji": "～歳"
+  },
+  {
+    "id": 26,
+    "english": [
+      "how old"
+    ],
+    "kana": [
+      "なんさい"
+    ],
+    "kanji": "何歳"
+  },
+  {
+    "id": 27,
+    "english": [
+      "how old (polite)"
+    ],
+    "kana": [
+      "おいくつ"
+    ],
+    "kanji": null
+  },
+  {
+    "id": 28,
+    "english": [
+      "yes"
+    ],
+    "kana": [
+      "はい"
+    ],
+    "kanji": null
+  },
+  {
+    "id": 29,
+    "english": [
+      "no"
+    ],
+    "kana": [
+      "いいえ"
+    ],
+    "kanji": null
+  },
+  {
+    "id": 30,
+    "english": [
+      "How do you do",
+      "Nice to meet you"
+    ],
+    "kana": [
+      "はじめまして"
+    ],
+    "kanji": "初めまして"
+  },
+  {
+    "id": 31,
+    "english": [
+      "I came from ~",
+      "I am from ~"
+    ],
+    "kana": [
+      "～からきました"
+    ],
+    "kanji": "～から来ました"
+  },
+  {
+    "id": 32,
+    "english": [
+      "Pleased to meet you"
+    ],
+    "kana": [
+      "どうぞよろしく[おねがいします]"
+    ],
+    "kanji": "どうぞよろしく[お願いします]"
+  },
+  {
+    "id": 33,
+    "english": [
+      "Excuse me, but..."
+    ],
+    "kana": [
+      "しつれいですが"
+    ],
+    "kanji": "失礼ですが"
+  },
+  {
+    "id": 34,
+    "english": [
+      "May I have your name?",
+      "What is your name?"
+    ],
+    "kana": [
+      "おなまえは？"
+    ],
+    "kanji": "お名前は？"
+  },
+  {
+    "id": 35,
+    "english": [
+      "This is Mr./Ms. ~"
+    ],
+    "kana": [
+      "こちらは～さんです"
+    ],
+    "kanji": null
+  }
+]
