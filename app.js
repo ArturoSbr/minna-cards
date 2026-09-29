@@ -228,7 +228,11 @@ function renderStudyPage() {
     studyPageInfo.textContent = `${studyPage + 1} / ${studyTotalPages}`;
     // Update button states
     studyPrevBtn.disabled = studyPage === 0;
-    studyNextBtn.disabled = studyPage >= studyTotalPages - 1;
+    if (studyPage >= studyTotalPages - 1) {
+        studyNextBtn.textContent = "Exit";
+    } else {
+        studyNextBtn.textContent = "Next \u2192";
+    }
     // Render rows
     studyTableBody.innerHTML = "";
     pageWords.forEach((word) => {
@@ -261,6 +265,8 @@ function studyNextPage() {
     if (studyPage < studyTotalPages - 1) {
         studyPage++;
         renderStudyPage();
+    } else {
+        handleQuit();
     }
 }
 // --- Quiz Logic ---

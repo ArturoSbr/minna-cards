@@ -298,7 +298,11 @@ function renderStudyPage(): void {
 
   // Update button states
   studyPrevBtn.disabled = studyPage === 0;
-  studyNextBtn.disabled = studyPage >= studyTotalPages - 1;
+  if (studyPage >= studyTotalPages - 1) {
+    studyNextBtn.textContent = "Exit";
+  } else {
+    studyNextBtn.textContent = "Next \u2192";
+  }
 
   // Render rows
   studyTableBody.innerHTML = "";
@@ -338,6 +342,8 @@ function studyNextPage(): void {
   if (studyPage < studyTotalPages - 1) {
     studyPage++;
     renderStudyPage();
+  } else {
+    handleQuit();
   }
 }
 
