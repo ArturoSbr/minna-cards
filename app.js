@@ -167,10 +167,8 @@ async function preloadWordCounts() {
             chapterWordCounts.set(ch, 0);
         }
     }
-    // If chapter is already selected, update count
-    if (selectedChapter !== null) {
-        updateWordCountForChapter(selectedChapter);
-    }
+    // Auto-select Chapter 1
+    selectChapter(1);
 }
 function selectChapter(chapter) {
     selectedChapter = chapter;

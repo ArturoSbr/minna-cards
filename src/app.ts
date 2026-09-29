@@ -217,10 +217,8 @@ async function preloadWordCounts(): Promise<void> {
     }
   }
 
-  // If chapter is already selected, update count
-  if (selectedChapter !== null) {
-    updateWordCountForChapter(selectedChapter);
-  }
+  // Auto-select Chapter 1
+  selectChapter(1);
 }
 
 function selectChapter(chapter: number): void {
