@@ -26,6 +26,7 @@ interface QuizState {
 // --- Constants ---
 
 const CHAPTERS = [1, 2, 3, 4, 5];
+const STUDY_PAGE_SIZE = 5;
 
 // --- DOM Elements ---
 
@@ -37,15 +38,28 @@ function $(id: string): HTMLElement {
 
 // Screens
 const setupScreen = $("setup-screen");
+const studyScreen = $("study-screen");
 const quizScreen = $("quiz-screen");
 const resultsScreen = $("results-screen");
 
 // Setup
 const chapterSelect = $("chapter-select");
+const actionFork = $("action-fork");
+const studyBtn = $("study-btn");
+const quizBtn = $("quiz-btn");
+const quizOptions = $("quiz-options");
 const modeSelect = $("mode-select");
 const wordCountInput = $("word-count-input") as HTMLInputElement;
 const wordCountTotal = $("word-count-total");
 const startBtn = $("start-btn") as HTMLButtonElement;
+
+// Study
+const studyBackBtn = $("study-back-btn");
+const studyTitle = $("study-title");
+const studyPageInfo = $("study-page-info");
+const studyTableBody = $("study-table-body");
+const studyPrevBtn = $("study-prev-btn") as HTMLButtonElement;
+const studyNextBtn = $("study-next-btn") as HTMLButtonElement;
 
 // Quiz
 const quitBtn = $("quit-btn");
@@ -77,8 +91,14 @@ const restartBtn = $("restart-btn");
 
 let selectedChapter: number | null = null;
 let selectedMode: QuizMode = "en-to-kana";
-let chapterWordCounts: Map<number, number> = new Map();
+const chapterWordCounts: Map<number, number> = new Map();
+const chapterDataCache: Map<number, Word[]> = new Map();
 let state: QuizState | null = null;
+
+// Study state
+let studyWords: Word[] = [];
+let studyPage = 0;
+let studyTotalPages = 0;
 
 // --- Utility Functions ---
 
@@ -91,14 +111,19 @@ function shuffleArray<T>(arr: T[]): T[] {
   return arr;
 }
 
-/** Load a chapter's vocabulary from JSON */
+/** Load a chapter's vocabulary from JSON (with cache) */
 async function loadChapter(chapter: number): Promise<Word[]> {
+  if (chapterDataCache.has(chapter)) {
+    return chapterDataCache.get(chapter)!;
+  }
   const paddedNum = String(chapter).padStart(2, "0");
   const response = await fetch(`vocabulary/chapter-${paddedNum}.json`);
   if (!response.ok) {
     throw new Error(`Failed to load chapter ${chapter}`);
   }
-  return response.json();
+  const data: Word[] = await response.json();
+  chapterDataCache.set(chapter, data);
+  return data;
 }
 
 /** Strip placeholder characters (～, ~, 〜) for comparison */
@@ -133,7 +158,7 @@ function checkAnswer(input: string, word: Word, mode: QuizMode): boolean {
 // --- Screen Navigation ---
 
 function showScreen(screen: HTMLElement): void {
-  [setupScreen, quizScreen, resultsScreen].forEach((s) => {
+  [setupScreen, studyScreen, quizScreen, resultsScreen].forEach((s) => {
     s.classList.add("hidden");
   });
   screen.classList.remove("hidden");
@@ -166,6 +191,10 @@ function initSetupScreen(): void {
     });
   });
 
+  // Fork buttons
+  studyBtn.addEventListener("click", handleStudy);
+  quizBtn.addEventListener("click", handleQuizFork);
+
   // Start button
   startBtn.addEventListener("click", handleStart);
 
@@ -188,7 +217,7 @@ async function preloadWordCounts(): Promise<void> {
     }
   }
 
-  // If chapter 1 is auto-selected on load, update count
+  // If chapter is already selected, update count
   if (selectedChapter !== null) {
     updateWordCountForChapter(selectedChapter);
   }
@@ -203,8 +232,11 @@ function selectChapter(chapter: number): void {
     chip.classList.toggle("selected", ch === chapter);
   });
 
+  // Show the fork buttons, hide quiz options
+  actionFork.classList.remove("hidden");
+  quizOptions.classList.add("hidden");
+
   updateWordCountForChapter(chapter);
-  validateSetup();
 }
 
 function updateWordCountForChapter(chapter: number): void {
@@ -212,6 +244,12 @@ function updateWordCountForChapter(chapter: number): void {
   wordCountInput.value = String(count);
   wordCountInput.max = String(count);
   wordCountTotal.textContent = `of ${count} words`;
+}
+
+function handleQuizFork(): void {
+  // Show quiz options (mode, word count, start)
+  quizOptions.classList.remove("hidden");
+  validateSetup();
 }
 
 function selectMode(mode: QuizMode): void {
@@ -233,6 +271,77 @@ function validateSetup(): void {
 
   startBtn.disabled = !valid;
 }
+
+// --- Study Logic ---
+
+async function handleStudy(): Promise<void> {
+  if (selectedChapter === null) return;
+
+  const words = await loadChapter(selectedChapter);
+  studyWords = words;
+  studyPage = 0;
+  studyTotalPages = Math.ceil(words.length / STUDY_PAGE_SIZE);
+
+  studyTitle.textContent = `Chapter ${selectedChapter} — Study`;
+
+  showScreen(studyScreen);
+  renderStudyPage();
+}
+
+function renderStudyPage(): void {
+  const start = studyPage * STUDY_PAGE_SIZE;
+  const end = Math.min(start + STUDY_PAGE_SIZE, studyWords.length);
+  const pageWords = studyWords.slice(start, end);
+
+  // Update page info
+  studyPageInfo.textContent = `${studyPage + 1} / ${studyTotalPages}`;
+
+  // Update button states
+  studyPrevBtn.disabled = studyPage === 0;
+  studyNextBtn.disabled = studyPage >= studyTotalPages - 1;
+
+  // Render rows
+  studyTableBody.innerHTML = "";
+  pageWords.forEach((word) => {
+    const tr = document.createElement("tr");
+
+    const englishTd = document.createElement("td");
+    englishTd.textContent = word.english.join(", ");
+
+    const kanaTd = document.createElement("td");
+    kanaTd.textContent = word.kana.join(", ");
+
+    const kanjiTd = document.createElement("td");
+    if (word.kanji) {
+      kanjiTd.textContent = word.kanji;
+      kanjiTd.className = "kanji-cell";
+    } else {
+      kanjiTd.textContent = "—";
+      kanjiTd.className = "no-kanji";
+    }
+
+    tr.appendChild(englishTd);
+    tr.appendChild(kanaTd);
+    tr.appendChild(kanjiTd);
+    studyTableBody.appendChild(tr);
+  });
+}
+
+function studyPrevPage(): void {
+  if (studyPage > 0) {
+    studyPage--;
+    renderStudyPage();
+  }
+}
+
+function studyNextPage(): void {
+  if (studyPage < studyTotalPages - 1) {
+    studyPage++;
+    renderStudyPage();
+  }
+}
+
+// --- Quiz Logic ---
 
 async function handleStart(): Promise<void> {
   if (selectedChapter === null) return;
@@ -259,8 +368,6 @@ async function handleStart(): Promise<void> {
   showScreen(quizScreen);
   showWord();
 }
-
-// --- Quiz Logic ---
 
 function showWord(): void {
   if (!state) return;
@@ -480,11 +587,18 @@ function initQuizListeners(): void {
   restartBtn.addEventListener("click", handleQuit);
 }
 
+function initStudyListeners(): void {
+  studyBackBtn.addEventListener("click", handleQuit);
+  studyPrevBtn.addEventListener("click", studyPrevPage);
+  studyNextBtn.addEventListener("click", studyNextPage);
+}
+
 // --- Init ---
 
 function init(): void {
   initSetupScreen();
   initQuizListeners();
+  initStudyListeners();
 }
 
 init();

@@ -599,3 +599,108 @@ body {
     padding: var(--space-lg);
   }
 }
+
+/* --- Action Fork (Study / Quiz) --- */
+.action-fork {
+  display: flex;
+  gap: var(--space-sm);
+}
+
+.action-fork.hidden {
+  display: none;
+}
+
+.action-fork .btn-secondary,
+.action-fork .btn-primary {
+  flex: 1;
+}
+
+/* --- Quiz Options (collapsible) --- */
+.quiz-options {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xl);
+  animation: fadeIn var(--transition-base) ease forwards;
+}
+
+.quiz-options.hidden {
+  display: none;
+}
+
+/* --- Study Screen --- */
+.study-header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  margin-bottom: var(--space-lg);
+}
+
+.study-title {
+  flex: 1;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+}
+
+.study-page-info {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  font-weight: 400;
+}
+
+.study-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  margin-bottom: var(--space-lg);
+}
+
+.study-table thead {
+  background: var(--bg-elevated);
+}
+
+.study-table th {
+  padding: 0.6rem 0.75rem;
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  text-align: left;
+}
+
+.study-table td {
+  padding: 0.75rem;
+  font-size: 0.9rem;
+  color: var(--text-primary);
+  border-top: 1px solid var(--border-subtle);
+  vertical-align: middle;
+}
+
+.study-table tr:hover td {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.study-table .kanji-cell {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+.study-table .no-kanji {
+  color: var(--text-muted);
+  opacity: 0.4;
+  font-style: italic;
+  font-size: 0.8rem;
+}
+
+.study-pagination {
+  display: flex;
+  gap: var(--space-sm);
+}
+
+.study-pagination .btn-secondary {
+  flex: 1;
+}
