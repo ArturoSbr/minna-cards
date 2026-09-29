@@ -66,21 +66,30 @@ async function loadChapter(chapter) {
     }
     return response.json();
 }
-/** Strip placeholder characters (～ and ~) for comparison */
+/** Strip placeholder characters (～, ~, 〜) for comparison */
 function normalize(s) {
-    return s.replace(/[～~]/g, "").trim();
+    return s.replace(/[～~〜]/g, "").trim();
+}
+/** Expand optional [bracket] parts into variants */
+function expandVariants(s) {
+    const withContent = s.replace(/[\[\]]/g, "");    // keep content, remove brackets
+    const withoutContent = s.replace(/\[.*?\]/g, ""); // remove brackets and content
+    const variants = [normalize(withContent)];
+    const stripped = normalize(withoutContent);
+    if (stripped !== variants[0]) {
+        variants.push(stripped);
+    }
+    return variants;
 }
 /** Check if user's answer is correct */
 function checkAnswer(input, word, mode) {
     const userAnswer = normalize(input);
     if (mode === "en-to-kana") {
-        // User types kana — exact match (kana has no case)
-        return word.kana.some((k) => normalize(k) === userAnswer);
+        return word.kana.some((k) => expandVariants(k).includes(userAnswer));
     }
     else {
-        // User types English — case-insensitive
         const lowerAnswer = userAnswer.toLowerCase();
-        return word.english.some((e) => normalize(e).toLowerCase() === lowerAnswer);
+        return word.english.some((e) => expandVariants(e).some((v) => v.toLowerCase() === lowerAnswer));
     }
 }
 // --- Screen Navigation ---
