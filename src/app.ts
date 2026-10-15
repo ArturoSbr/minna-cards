@@ -143,12 +143,30 @@ function expandVariants(s: string): string[] {
   return variants;
 }
 
+/** Remove all whitespace, including full-width spaces (U+3000) */
+function stripSpaces(s: string): string {
+  return s.replace(/\s/g, "");
+}
+
+/** All accepted Japanese spellings: kana entries + "/"-separated kanji forms */
+function getJapaneseAnswers(word: Word): string[] {
+  const kanjiForms = word.kanji
+    ? word.kanji.split("/").map((k) => k.trim()).filter(Boolean)
+    : [];
+  return [...word.kana, ...kanjiForms];
+}
+
 /** Check if user's answer is correct */
 function checkAnswer(input: string, word: Word, mode: QuizMode): boolean {
   const userAnswer = normalize(input);
 
   if (mode === "en-to-kana") {
-    return word.kana.some((k) => expandVariants(k).includes(userAnswer));
+    // Japanese has no spaces — ignore any (half- or full-width) the user typed
+    const jpAnswer = stripSpaces(userAnswer);
+    // Accept kana, or the kanji form an IME may have autocorrected to
+    return getJapaneseAnswers(word).some((a) =>
+      expandVariants(a).map(stripSpaces).includes(jpAnswer)
+    );
   } else {
     const lowerAnswer = userAnswer.toLowerCase();
     return word.english.some((e) => expandVariants(e).some((v) => v.toLowerCase() === lowerAnswer));
