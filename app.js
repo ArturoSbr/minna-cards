@@ -293,7 +293,9 @@ async function handleStart() {
         words: shuffled,
         currentIndex: 0,
         correctCount: 0,
-        newWordsAsked: 0,
+        firstTryCorrect: 0,
+        missedWordIds: new Set(),
+        seenWordIds: new Set(),
         totalTarget: count,
         mode: selectedMode,
         isReviewPhase: false,
@@ -303,23 +305,31 @@ async function handleStart() {
     showScreen(quizScreen);
     showWord();
 }
+function updateProgress() {
+    if (!state)
+        return;
+    const pct = Math.round((state.correctCount / state.totalTarget) * 100);
+    progressBarFill.style.width = `${pct}%`;
+    const word = state.words[state.currentIndex];
+    const isReviewWord = state.isReviewPhase || (word && state.missedWordIds.has(word.id));
+    if (isReviewWord) {
+        progressText.textContent = `Review • ${state.correctCount} of ${state.totalTarget}`;
+        progressText.classList.add("review-mode");
+    }
+    else {
+        progressText.textContent = `${state.correctCount} of ${state.totalTarget}`;
+        progressText.classList.remove("review-mode");
+    }
+}
 function showWord() {
     if (!state)
         return;
     const word = state.words[state.currentIndex];
-    // Update progress
-    if (!state.isReviewPhase) {
-        state.newWordsAsked++;
-        const pct = Math.round((state.newWordsAsked / state.totalTarget) * 100);
-        progressText.textContent = `Word ${state.newWordsAsked} of ${state.totalTarget}`;
-        progressText.classList.remove("review-mode");
-        progressBarFill.style.width = `${pct}%`;
+    state.seenWordIds.add(word.id);
+    if (state.seenWordIds.size >= state.totalTarget && !state.isReviewPhase) {
+        state.isReviewPhase = true;
     }
-    else {
-        progressText.textContent = `Review`;
-        progressText.classList.add("review-mode");
-        progressBarFill.style.width = "100%";
-    }
+    updateProgress();
     // Set prompt based on mode
     if (state.mode === "en-to-kana") {
         // Show English, user types kana
@@ -357,9 +367,16 @@ function handleSubmit() {
     const word = state.words[state.currentIndex];
     const isCorrect = checkAnswer(answerInput.value, word, state.mode);
     if (isCorrect) {
+        if (!state.missedWordIds.has(word.id)) {
+            state.firstTryCorrect++;
+        }
         state.correctCount++;
+        updateProgress();
     }
     else {
+        if (!state.missedWordIds.has(word.id)) {
+            state.missedWordIds.add(word.id);
+        }
         // Re-queue the word at a random position among remaining words
         requeueWord(word);
     }
@@ -369,6 +386,9 @@ function handleSkip() {
     if (!state)
         return;
     const word = state.words[state.currentIndex];
+    if (!state.missedWordIds.has(word.id)) {
+        state.missedWordIds.add(word.id);
+    }
     // Skip = wrong answer, re-queue
     requeueWord(word);
     showResult(false, word);
@@ -445,7 +465,7 @@ function handleContinue() {
     }
     // Check if we're entering review phase
     // (all original new words have been shown)
-    if (state.newWordsAsked >= state.totalTarget && !state.isReviewPhase) {
+    if (state.seenWordIds.size >= state.totalTarget && !state.isReviewPhase) {
         state.isReviewPhase = true;
     }
     showWord();
@@ -453,8 +473,8 @@ function handleContinue() {
 function showResults() {
     if (!state)
         return;
-    resultsScore.textContent = `${state.correctCount} / ${state.totalTarget}`;
-    const pct = Math.round((state.correctCount / state.totalTarget) * 100);
+    resultsScore.textContent = `${state.firstTryCorrect} / ${state.totalTarget}`;
+    const pct = Math.round((state.firstTryCorrect / state.totalTarget) * 100);
     let message = "";
     if (pct === 100)
         message = "Perfect! すごい！🎉";

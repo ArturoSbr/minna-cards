@@ -559,6 +559,13 @@ body {
   gap: var(--space-lg);
 }
 
+.results-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-xs);
+}
+
 .results-icon {
   font-size: 3rem;
 }
@@ -566,6 +573,12 @@ body {
 .results-title {
   font-size: 1.5rem;
   font-weight: 600;
+}
+
+.results-subtitle {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  font-weight: 400;
 }
 
 .results-score {

@@ -17,7 +17,9 @@ interface QuizState {
   words: Word[];
   currentIndex: number;
   correctCount: number;
-  newWordsAsked: number;    // only counts first-time words
+  firstTryCorrect: number;  // counts questions answered correctly on the first attempt
+  missedWordIds: Set<number>; // tracks IDs of words that were missed/skipped
+  seenWordIds: Set<number>;   // tracks IDs of unique words presented
   totalTarget: number;      // original word count chosen by user
   mode: QuizMode;
   isReviewPhase: boolean;   // true when all new words are done, reviewing missed ones
@@ -378,7 +380,9 @@ async function handleStart(): Promise<void> {
     words: shuffled,
     currentIndex: 0,
     correctCount: 0,
-    newWordsAsked: 0,
+    firstTryCorrect: 0,
+    missedWordIds: new Set(),
+    seenWordIds: new Set(),
     totalTarget: count,
     mode: selectedMode,
     isReviewPhase: false,
@@ -391,25 +395,35 @@ async function handleStart(): Promise<void> {
   showWord();
 }
 
+function updateProgress(): void {
+  if (!state) return;
+
+  const pct = Math.round((state.correctCount / state.totalTarget) * 100);
+  progressBarFill.style.width = `${pct}%`;
+
+  const word = state.words[state.currentIndex];
+  const isReviewWord = state.isReviewPhase || (word && state.missedWordIds.has(word.id));
+
+  if (isReviewWord) {
+    progressText.textContent = `Review • ${state.correctCount} of ${state.totalTarget}`;
+    progressText.classList.add("review-mode");
+  } else {
+    progressText.textContent = `${state.correctCount} of ${state.totalTarget}`;
+    progressText.classList.remove("review-mode");
+  }
+}
+
 function showWord(): void {
   if (!state) return;
 
   const word = state.words[state.currentIndex];
+  state.seenWordIds.add(word.id);
 
-  // Update progress
-  if (!state.isReviewPhase) {
-    state.newWordsAsked++;
-    const pct = Math.round(
-      ((state.newWordsAsked) / state.totalTarget) * 100
-    );
-    progressText.textContent = `Word ${state.newWordsAsked} of ${state.totalTarget}`;
-    progressText.classList.remove("review-mode");
-    progressBarFill.style.width = `${pct}%`;
-  } else {
-    progressText.textContent = `Review`;
-    progressText.classList.add("review-mode");
-    progressBarFill.style.width = "100%";
+  if (state.seenWordIds.size >= state.totalTarget && !state.isReviewPhase) {
+    state.isReviewPhase = true;
   }
+
+  updateProgress();
 
   // Set prompt based on mode
   if (state.mode === "en-to-kana") {
@@ -452,8 +466,15 @@ function handleSubmit(): void {
   const isCorrect = checkAnswer(answerInput.value, word, state.mode);
 
   if (isCorrect) {
+    if (!state.missedWordIds.has(word.id)) {
+      state.firstTryCorrect++;
+    }
     state.correctCount++;
+    updateProgress();
   } else {
+    if (!state.missedWordIds.has(word.id)) {
+      state.missedWordIds.add(word.id);
+    }
     // Re-queue the word at a random position among remaining words
     requeueWord(word);
   }
@@ -465,6 +486,9 @@ function handleSkip(): void {
   if (!state) return;
 
   const word = state.words[state.currentIndex];
+  if (!state.missedWordIds.has(word.id)) {
+    state.missedWordIds.add(word.id);
+  }
   // Skip = wrong answer, re-queue
   requeueWord(word);
   showResult(false, word);
@@ -550,7 +574,7 @@ function handleContinue(): void {
 
   // Check if we're entering review phase
   // (all original new words have been shown)
-  if (state.newWordsAsked >= state.totalTarget && !state.isReviewPhase) {
+  if (state.seenWordIds.size >= state.totalTarget && !state.isReviewPhase) {
     state.isReviewPhase = true;
   }
 
@@ -560,9 +584,9 @@ function handleContinue(): void {
 function showResults(): void {
   if (!state) return;
 
-  resultsScore.textContent = `${state.correctCount} / ${state.totalTarget}`;
+  resultsScore.textContent = `${state.firstTryCorrect} / ${state.totalTarget}`;
 
-  const pct = Math.round((state.correctCount / state.totalTarget) * 100);
+  const pct = Math.round((state.firstTryCorrect / state.totalTarget) * 100);
   let message = "";
   if (pct === 100) message = "Perfect! すごい！🎉";
   else if (pct >= 80) message = "Great job! がんばった！💪";
