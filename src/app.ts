@@ -82,6 +82,7 @@ const resultIcon = $("result-icon");
 const resultLabel = $("result-label");
 const resultAnswer = $("result-answer");
 const resultKanji = $("result-kanji");
+const resultUserInput = $("result-user-input");
 const resultAlts = $("result-alts");
 const continueBtn = $("continue-btn");
 
@@ -470,8 +471,9 @@ function handleSubmit(): void {
     return;
   }
 
+  const rawInput = answerInput.value;
   const word = state.words[state.currentIndex];
-  const isCorrect = checkAnswer(answerInput.value, word, state.mode);
+  const isCorrect = checkAnswer(rawInput, word, state.mode);
 
   if (isCorrect) {
     if (!state.missedWordIds.has(word.id)) {
@@ -487,7 +489,7 @@ function handleSubmit(): void {
     requeueWord(word);
   }
 
-  showResult(isCorrect, word);
+  showResult(isCorrect, word, rawInput);
 }
 
 function handleSkip(): void {
@@ -499,7 +501,7 @@ function handleSkip(): void {
   }
   // Skip = wrong answer, re-queue
   requeueWord(word);
-  showResult(false, word);
+  showResult(false, word, null);
 }
 
 function requeueWord(word: Word): void {
@@ -517,7 +519,7 @@ function requeueWord(word: Word): void {
   }
 }
 
-function showResult(correct: boolean, word: Word): void {
+function showResult(correct: boolean, word: Word, userInput?: string | null): void {
   // Style the result card
   resultCard.classList.remove("correct", "wrong");
   resultCard.classList.add(correct ? "correct" : "wrong");
@@ -539,6 +541,26 @@ function showResult(correct: boolean, word: Word): void {
   } else {
     resultKanji.textContent = "";
     resultKanji.style.display = "none";
+  }
+
+  // Show user input if incorrect
+  if (correct) {
+    resultUserInput.classList.add("hidden");
+    resultUserInput.style.display = "none";
+    resultUserInput.textContent = "";
+  } else {
+    resultUserInput.style.display = "";
+    if (userInput && userInput.trim().length > 0) {
+      resultUserInput.className = "result-user-input";
+      resultUserInput.textContent = "You typed: ";
+      const typedSpan = document.createElement("span");
+      typedSpan.className = "typed-text";
+      typedSpan.textContent = userInput.trim();
+      resultUserInput.appendChild(typedSpan);
+    } else {
+      resultUserInput.className = "result-user-input skipped";
+      resultUserInput.textContent = "You skipped this question";
+    }
   }
 
   // Show alternative meanings
