@@ -9,6 +9,34 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17722003053"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'AW-17722003053');
+  </script>
+
+  <!-- Event snippet for Minna Cards Study or Quiz conversion page -->
+  <script>
+    function gtag_report_conversion(url) {
+      var callback = function () {
+        if (typeof(url) != 'undefined') {
+          window.location = url;
+        }
+      };
+      if (typeof gtag === 'function') {
+        gtag('event', 'conversion', {
+          'send_to': 'AW-17722003053/vakfCKT4zKIdEO2cwYJC',
+          'event_callback': callback
+        });
+      }
+      return false;
+    }
+  </script>
 </head>
 <body>
 
@@ -28,8 +56,8 @@
       </div>
 
       <div id="action-fork" class="action-fork hidden">
-        <button id="study-btn" class="btn-secondary">📖 Study</button>
-        <button id="quiz-btn" class="btn-primary">✍️ Quiz</button>
+        <button id="study-btn" class="btn-secondary" onclick="gtag_report_conversion()">📖 Study</button>
+        <button id="quiz-btn" class="btn-primary" onclick="gtag_report_conversion()">✍️ Quiz</button>
       </div>
 
       <div id="quiz-options" class="quiz-options hidden">
