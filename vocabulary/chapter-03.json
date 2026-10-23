@@ -8,7 +8,10 @@
     "kana": [
       "ここ"
     ],
-    "kanji": null
+    "kanji": null,
+    "romaji": [
+      "koko"
+    ]
   },
   {
     "id": 2,
@@ -19,7 +22,10 @@
     "kana": [
       "そこ"
     ],
-    "kanji": null
+    "kanji": null,
+    "romaji": [
+      "soko"
+    ]
   },
   {
     "id": 3,
@@ -29,7 +35,10 @@
     "kana": [
       "あそこ"
     ],
-    "kanji": null
+    "kanji": null,
+    "romaji": [
+      "asoko"
+    ]
   },
   {
     "id": 4,
@@ -40,7 +49,10 @@
     "kana": [
       "どこ"
     ],
-    "kanji": null
+    "kanji": null,
+    "romaji": [
+      "doko"
+    ]
   },
   {
     "id": 5,
@@ -51,7 +63,10 @@
     "kana": [
       "こちら"
     ],
-    "kanji": null
+    "kanji": null,
+    "romaji": [
+      "kochira"
+    ]
   },
   {
     "id": 6,
@@ -62,7 +77,10 @@
     "kana": [
       "そちら"
     ],
-    "kanji": null
+    "kanji": null,
+    "romaji": [
+      "sochira"
+    ]
   },
   {
     "id": 7,
@@ -73,7 +91,10 @@
     "kana": [
       "あちら"
     ],
-    "kanji": null
+    "kanji": null,
+    "romaji": [
+      "achira"
+    ]
   },
   {
     "id": 8,
@@ -84,7 +105,10 @@
     "kana": [
       "どちら"
     ],
-    "kanji": null
+    "kanji": null,
+    "romaji": [
+      "dochira"
+    ]
   },
   {
     "id": 9,
@@ -94,7 +118,10 @@
     "kana": [
       "きょうしつ"
     ],
-    "kanji": "教室"
+    "kanji": "教室",
+    "romaji": [
+      "kyoushitsu"
+    ]
   },
   {
     "id": 10,
@@ -105,7 +132,10 @@
     "kana": [
       "しょくどう"
     ],
-    "kanji": "食堂"
+    "kanji": "食堂",
+    "romaji": [
+      "shokudou"
+    ]
   },
   {
     "id": 11,
@@ -115,7 +145,10 @@
     "kana": [
       "じむしょ"
     ],
-    "kanji": "事務所"
+    "kanji": "事務所",
+    "romaji": [
+      "jimusho"
+    ]
   },
   {
     "id": 12,
@@ -126,7 +159,10 @@
     "kana": [
       "かいぎしつ"
     ],
-    "kanji": "会議室"
+    "kanji": "会議室",
+    "romaji": [
+      "kaigishitsu"
+    ]
   },
   {
     "id": 13,
@@ -136,7 +172,10 @@
     "kana": [
       "うけつけ"
     ],
-    "kanji": "受付"
+    "kanji": "受付",
+    "romaji": [
+      "uketsuke"
+    ]
   },
   {
     "id": 14,
@@ -146,7 +185,11 @@
     "kana": [
       "ロビー"
     ],
-    "kanji": null
+    "kanji": null,
+    "romaji": [
+      "robi-",
+      "robii"
+    ]
   },
   {
     "id": 15,
@@ -156,7 +199,10 @@
     "kana": [
       "へや"
     ],
-    "kanji": "部屋"
+    "kanji": "部屋",
+    "romaji": [
+      "heya"
+    ]
   },
   {
     "id": 16,
@@ -168,7 +214,11 @@
       "トイレ",
       "おてあらい"
     ],
-    "kanji": "お手洗い"
+    "kanji": "お手洗い",
+    "romaji": [
+      "toire",
+      "otearai"
+    ]
   },
   {
     "id": 17,
@@ -179,7 +229,10 @@
     "kana": [
       "かいだん"
     ],
-    "kanji": "階段"
+    "kanji": "階段",
+    "romaji": [
+      "kaidan"
+    ]
   },
   {
     "id": 18,
@@ -190,7 +243,11 @@
     "kana": [
       "エレベーター"
     ],
-    "kanji": null
+    "kanji": null,
+    "romaji": [
+      "erebe-ta-",
+      "erebeetaa"
+    ]
   },
   {
     "id": 19,
@@ -200,7 +257,11 @@
     "kana": [
       "エスカレーター"
     ],
-    "kanji": null
+    "kanji": null,
+    "romaji": [
+      "esukare-ta-",
+      "esukareetaa"
+    ]
   },
   {
     "id": 20,
@@ -210,7 +271,10 @@
     "kana": [
       "[お]くに"
     ],
-    "kanji": "[お]国"
+    "kanji": "[お]国",
+    "romaji": [
+      "[o]kuni"
+    ]
   },
   {
     "id": 21,
@@ -220,7 +284,10 @@
     "kana": [
       "かいしゃ"
     ],
-    "kanji": "会社"
+    "kanji": "会社",
+    "romaji": [
+      "kaisha"
+    ]
   },
   {
     "id": 22,
@@ -231,7 +298,10 @@
     "kana": [
       "うち"
     ],
-    "kanji": "家"
+    "kanji": "家",
+    "romaji": [
+      "uchi"
+    ]
   },
   {
     "id": 23,
@@ -242,7 +312,10 @@
     "kana": [
       "でんわ"
     ],
-    "kanji": "電話"
+    "kanji": "電話",
+    "romaji": [
+      "denwa"
+    ]
   },
   {
     "id": 24,
@@ -252,7 +325,10 @@
     "kana": [
       "くつ"
     ],
-    "kanji": "靴"
+    "kanji": "靴",
+    "romaji": [
+      "kutsu"
+    ]
   },
   {
     "id": 25,
@@ -263,7 +339,10 @@
     "kana": [
       "ネクタイ"
     ],
-    "kanji": null
+    "kanji": null,
+    "romaji": [
+      "nekutai"
+    ]
   },
   {
     "id": 26,
@@ -273,7 +352,10 @@
     "kana": [
       "ワイン"
     ],
-    "kanji": null
+    "kanji": null,
+    "romaji": [
+      "wain"
+    ]
   },
   {
     "id": 27,
@@ -284,7 +366,10 @@
     "kana": [
       "たばこ"
     ],
-    "kanji": "煙草"
+    "kanji": "煙草",
+    "romaji": [
+      "tabako"
+    ]
   },
   {
     "id": 28,
@@ -295,7 +380,10 @@
     "kana": [
       "うりば"
     ],
-    "kanji": "売り場"
+    "kanji": "売り場",
+    "romaji": [
+      "uriba"
+    ]
   },
   {
     "id": 29,
@@ -305,7 +393,10 @@
     "kana": [
       "ちか"
     ],
-    "kanji": "地下"
+    "kanji": "地下",
+    "romaji": [
+      "chika"
+    ]
   },
   {
     "id": 30,
@@ -316,7 +407,13 @@
       "～かい",
       "～がい"
     ],
-    "kanji": "～階"
+    "kanji": "～階",
+    "romaji": [
+      "~kai",
+      "～kai",
+      "~gai",
+      "～gai"
+    ]
   },
   {
     "id": 31,
@@ -326,7 +423,10 @@
     "kana": [
       "なんがい"
     ],
-    "kanji": "何階"
+    "kanji": "何階",
+    "romaji": [
+      "nangai"
+    ]
   },
   {
     "id": 32,
@@ -336,7 +436,11 @@
     "kana": [
       "～えん"
     ],
-    "kanji": "～円"
+    "kanji": "～円",
+    "romaji": [
+      "~en",
+      "～en"
+    ]
   },
   {
     "id": 33,
@@ -346,7 +450,10 @@
     "kana": [
       "いくら"
     ],
-    "kanji": null
+    "kanji": null,
+    "romaji": [
+      "ikura"
+    ]
   },
   {
     "id": 34,
@@ -356,7 +463,10 @@
     "kana": [
       "ひゃく"
     ],
-    "kanji": "百"
+    "kanji": "百",
+    "romaji": [
+      "hyaku"
+    ]
   },
   {
     "id": 35,
@@ -366,7 +476,10 @@
     "kana": [
       "せん"
     ],
-    "kanji": "千"
+    "kanji": "千",
+    "romaji": [
+      "sen"
+    ]
   },
   {
     "id": 36,
@@ -376,7 +489,10 @@
     "kana": [
       "まん"
     ],
-    "kanji": "万"
+    "kanji": "万",
+    "romaji": [
+      "man"
+    ]
   },
   {
     "id": 37,
@@ -386,7 +502,10 @@
     "kana": [
       "すみません"
     ],
-    "kanji": null
+    "kanji": null,
+    "romaji": [
+      "sumimasen"
+    ]
   },
   {
     "id": 38,
@@ -396,7 +515,11 @@
     "kana": [
       "～でございます"
     ],
-    "kanji": null
+    "kanji": null,
+    "romaji": [
+      "~de gozaimasu",
+      "～de gozaimasu"
+    ]
   },
   {
     "id": 39,
@@ -406,7 +529,13 @@
     "kana": [
       "[～を]みせてください"
     ],
-    "kanji": "[～を]見せてください"
+    "kanji": "[～を]見せてください",
+    "romaji": [
+      "[~o] misetekudasai",
+      "[~wo] misetekudasai",
+      "[～o] misetekudasai",
+      "[～wo] misetekudasai"
+    ]
   },
   {
     "id": 40,
@@ -417,7 +546,10 @@
     "kana": [
       "じゃ"
     ],
-    "kanji": null
+    "kanji": null,
+    "romaji": [
+      "ja"
+    ]
   },
   {
     "id": 41,
@@ -427,6 +559,12 @@
     "kana": [
       "[～を]ください"
     ],
-    "kanji": null
+    "kanji": null,
+    "romaji": [
+      "[~o] kudasai",
+      "[~wo] kudasai",
+      "[～o] kudasai",
+      "[～wo] kudasai"
+    ]
   }
 ]

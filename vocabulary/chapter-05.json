@@ -7,7 +7,10 @@
         "kana": [
             "いきます"
         ],
-        "kanji": "行きます"
+        "kanji": "行きます",
+        "romaji": [
+            "ikimasu"
+        ]
     },
     {
         "id": 2,
@@ -17,7 +20,10 @@
         "kana": [
             "きます"
         ],
-        "kanji": "来ます"
+        "kanji": "来ます",
+        "romaji": [
+            "kimasu"
+        ]
     },
     {
         "id": 3,
@@ -28,7 +34,10 @@
         "kana": [
             "かえります"
         ],
-        "kanji": "帰ります"
+        "kanji": "帰ります",
+        "romaji": [
+            "kaerimasu"
+        ]
     },
     {
         "id": 4,
@@ -38,7 +47,10 @@
         "kana": [
             "がっこう"
         ],
-        "kanji": "学校"
+        "kanji": "学校",
+        "romaji": [
+            "gakkou"
+        ]
     },
     {
         "id": 5,
@@ -48,7 +60,11 @@
         "kana": [
             "スーパー"
         ],
-        "kanji": null
+        "kanji": null,
+        "romaji": [
+            "su-pa-",
+            "suupaa"
+        ]
     },
     {
         "id": 6,
@@ -58,7 +74,10 @@
         "kana": [
             "えき"
         ],
-        "kanji": "駅"
+        "kanji": "駅",
+        "romaji": [
+            "eki"
+        ]
     },
     {
         "id": 7,
@@ -68,7 +87,10 @@
         "kana": [
             "ひこうき"
         ],
-        "kanji": "飛行機"
+        "kanji": "飛行機",
+        "romaji": [
+            "hikouki"
+        ]
     },
     {
         "id": 8,
@@ -79,7 +101,10 @@
         "kana": [
             "ふね"
         ],
-        "kanji": "船"
+        "kanji": "船",
+        "romaji": [
+            "fune"
+        ]
     },
     {
         "id": 9,
@@ -89,7 +114,10 @@
         "kana": [
             "でんしゃ"
         ],
-        "kanji": "電車"
+        "kanji": "電車",
+        "romaji": [
+            "densha"
+        ]
     },
     {
         "id": 10,
@@ -100,7 +128,10 @@
         "kana": [
             "ちかてつ"
         ],
-        "kanji": "地下鉄"
+        "kanji": "地下鉄",
+        "romaji": [
+            "chikatetsu"
+        ]
     },
     {
         "id": 11,
@@ -111,7 +142,10 @@
         "kana": [
             "しんかんせん"
         ],
-        "kanji": "新幹線"
+        "kanji": "新幹線",
+        "romaji": [
+            "shinkansen"
+        ]
     },
     {
         "id": 12,
@@ -121,7 +155,10 @@
         "kana": [
             "バス"
         ],
-        "kanji": null
+        "kanji": null,
+        "romaji": [
+            "basu"
+        ]
     },
     {
         "id": 13,
@@ -131,7 +168,11 @@
         "kana": [
             "タクシー"
         ],
-        "kanji": null
+        "kanji": null,
+        "romaji": [
+            "takushi-",
+            "takushii"
+        ]
     },
     {
         "id": 14,
@@ -141,7 +182,10 @@
         "kana": [
             "じてんしゃ"
         ],
-        "kanji": "自転車"
+        "kanji": "自転車",
+        "romaji": [
+            "jitensha"
+        ]
     },
     {
         "id": 15,
@@ -151,7 +195,10 @@
         "kana": [
             "あるいて"
         ],
-        "kanji": "歩いて"
+        "kanji": "歩いて",
+        "romaji": [
+            "aruite"
+        ]
     },
     {
         "id": 16,
@@ -162,7 +209,10 @@
         "kana": [
             "ひと"
         ],
-        "kanji": "人"
+        "kanji": "人",
+        "romaji": [
+            "hito"
+        ]
     },
     {
         "id": 17,
@@ -172,7 +222,10 @@
         "kana": [
             "ともだち"
         ],
-        "kanji": "友達"
+        "kanji": "友達",
+        "romaji": [
+            "tomodachi"
+        ]
     },
     {
         "id": 18,
@@ -183,7 +236,10 @@
         "kana": [
             "かれ"
         ],
-        "kanji": "彼"
+        "kanji": "彼",
+        "romaji": [
+            "kare"
+        ]
     },
     {
         "id": 19,
@@ -194,7 +250,10 @@
         "kana": [
             "かのじょ"
         ],
-        "kanji": "彼女"
+        "kanji": "彼女",
+        "romaji": [
+            "kanojo"
+        ]
     },
     {
         "id": 20,
@@ -204,7 +263,10 @@
         "kana": [
             "かぞく"
         ],
-        "kanji": "家族"
+        "kanji": "家族",
+        "romaji": [
+            "kazoku"
+        ]
     },
     {
         "id": 21,
@@ -215,7 +277,11 @@
         "kana": [
             "ひとりで"
         ],
-        "kanji": "一人で"
+        "kanji": "一人で",
+        "romaji": [
+            "hitoride",
+            "hitori de"
+        ]
     },
     {
         "id": 22,
@@ -225,7 +291,10 @@
         "kana": [
             "せんしゅう"
         ],
-        "kanji": "先週"
+        "kanji": "先週",
+        "romaji": [
+            "senshuu"
+        ]
     },
     {
         "id": 23,
@@ -235,7 +304,10 @@
         "kana": [
             "こんしゅう"
         ],
-        "kanji": "今週"
+        "kanji": "今週",
+        "romaji": [
+            "konshuu"
+        ]
     },
     {
         "id": 24,
@@ -245,7 +317,10 @@
         "kana": [
             "らいしゅう"
         ],
-        "kanji": "来週"
+        "kanji": "来週",
+        "romaji": [
+            "raishuu"
+        ]
     },
     {
         "id": 25,
@@ -255,7 +330,10 @@
         "kana": [
             "せんげつ"
         ],
-        "kanji": "先月"
+        "kanji": "先月",
+        "romaji": [
+            "sengetsu"
+        ]
     },
     {
         "id": 26,
@@ -265,7 +343,10 @@
         "kana": [
             "こんげつ"
         ],
-        "kanji": "今月"
+        "kanji": "今月",
+        "romaji": [
+            "kongetsu"
+        ]
     },
     {
         "id": 27,
@@ -275,7 +356,10 @@
         "kana": [
             "らいげつ"
         ],
-        "kanji": "来月"
+        "kanji": "来月",
+        "romaji": [
+            "raigetsu"
+        ]
     },
     {
         "id": 28,
@@ -285,7 +369,10 @@
         "kana": [
             "きょねん"
         ],
-        "kanji": "去年"
+        "kanji": "去年",
+        "romaji": [
+            "kyonen"
+        ]
     },
     {
         "id": 29,
@@ -295,7 +382,10 @@
         "kana": [
             "ことし"
         ],
-        "kanji": "今年"
+        "kanji": "今年",
+        "romaji": [
+            "kotoshi"
+        ]
     },
     {
         "id": 30,
@@ -305,7 +395,10 @@
         "kana": [
             "らいねん"
         ],
-        "kanji": "来年"
+        "kanji": "来年",
+        "romaji": [
+            "rainen"
+        ]
     },
     {
         "id": 31,
@@ -315,7 +408,11 @@
         "kana": [
             "～がつ"
         ],
-        "kanji": "～月"
+        "kanji": "～月",
+        "romaji": [
+            "~gatsu",
+            "～gatsu"
+        ]
     },
     {
         "id": 32,
@@ -325,7 +422,10 @@
         "kana": [
             "なんがつ"
         ],
-        "kanji": "何月"
+        "kanji": "何月",
+        "romaji": [
+            "nangatsu"
+        ]
     },
     {
         "id": 33,
@@ -335,7 +435,10 @@
         "kana": [
             "ついたち"
         ],
-        "kanji": "1日"
+        "kanji": "1日",
+        "romaji": [
+            "tsuitachi"
+        ]
     },
     {
         "id": 34,
@@ -346,7 +449,10 @@
         "kana": [
             "ふつか"
         ],
-        "kanji": "2日"
+        "kanji": "2日",
+        "romaji": [
+            "futsuka"
+        ]
     },
     {
         "id": 35,
@@ -357,7 +463,10 @@
         "kana": [
             "みっか"
         ],
-        "kanji": "3日"
+        "kanji": "3日",
+        "romaji": [
+            "mikka"
+        ]
     },
     {
         "id": 36,
@@ -368,7 +477,10 @@
         "kana": [
             "よっか"
         ],
-        "kanji": "4日"
+        "kanji": "4日",
+        "romaji": [
+            "yokka"
+        ]
     },
     {
         "id": 37,
@@ -379,7 +491,10 @@
         "kana": [
             "いつか"
         ],
-        "kanji": "5日"
+        "kanji": "5日",
+        "romaji": [
+            "itsuka"
+        ]
     },
     {
         "id": 38,
@@ -390,7 +505,10 @@
         "kana": [
             "むいか"
         ],
-        "kanji": "6日"
+        "kanji": "6日",
+        "romaji": [
+            "muika"
+        ]
     },
     {
         "id": 39,
@@ -401,7 +519,10 @@
         "kana": [
             "なのか"
         ],
-        "kanji": "7日"
+        "kanji": "7日",
+        "romaji": [
+            "nanoka"
+        ]
     },
     {
         "id": 40,
@@ -412,7 +533,10 @@
         "kana": [
             "ようか"
         ],
-        "kanji": "8日"
+        "kanji": "8日",
+        "romaji": [
+            "youka"
+        ]
     },
     {
         "id": 41,
@@ -423,7 +547,10 @@
         "kana": [
             "ここのか"
         ],
-        "kanji": "9日"
+        "kanji": "9日",
+        "romaji": [
+            "kokonoka"
+        ]
     },
     {
         "id": 42,
@@ -434,7 +561,10 @@
         "kana": [
             "とおか"
         ],
-        "kanji": "10日"
+        "kanji": "10日",
+        "romaji": [
+            "tooka"
+        ]
     },
     {
         "id": 43,
@@ -445,7 +575,10 @@
         "kana": [
             "じゅうよっか"
         ],
-        "kanji": "14日"
+        "kanji": "14日",
+        "romaji": [
+            "juuyokka"
+        ]
     },
     {
         "id": 44,
@@ -456,7 +589,10 @@
         "kana": [
             "はつか"
         ],
-        "kanji": "20日"
+        "kanji": "20日",
+        "romaji": [
+            "hatsuka"
+        ]
     },
     {
         "id": 45,
@@ -467,7 +603,10 @@
         "kana": [
             "にじゅうよっか"
         ],
-        "kanji": "24日"
+        "kanji": "24日",
+        "romaji": [
+            "nijuuyokka"
+        ]
     },
     {
         "id": 46,
@@ -478,7 +617,11 @@
         "kana": [
             "～にち"
         ],
-        "kanji": "～日"
+        "kanji": "～日",
+        "romaji": [
+            "~nichi",
+            "～nichi"
+        ]
     },
     {
         "id": 47,
@@ -489,7 +632,10 @@
         "kana": [
             "なんにち"
         ],
-        "kanji": "何日"
+        "kanji": "何日",
+        "romaji": [
+            "nannichi"
+        ]
     },
     {
         "id": 48,
@@ -499,7 +645,10 @@
         "kana": [
             "いつ"
         ],
-        "kanji": null
+        "kanji": null,
+        "romaji": [
+            "itsu"
+        ]
     },
     {
         "id": 49,
@@ -509,7 +658,10 @@
         "kana": [
             "たんじょうび"
         ],
-        "kanji": "誕生日"
+        "kanji": "誕生日",
+        "romaji": [
+            "tanjoubi"
+        ]
     },
     {
         "id": 50,
@@ -519,7 +671,10 @@
         "kana": [
             "ふつう"
         ],
-        "kanji": "普通"
+        "kanji": "普通",
+        "romaji": [
+            "futsuu"
+        ]
     },
     {
         "id": 51,
@@ -529,7 +684,10 @@
         "kana": [
             "きゅうこう"
         ],
-        "kanji": "急行"
+        "kanji": "急行",
+        "romaji": [
+            "kyuukou"
+        ]
     },
     {
         "id": 52,
@@ -539,7 +697,10 @@
         "kana": [
             "とっきゅう"
         ],
-        "kanji": "特急"
+        "kanji": "特急",
+        "romaji": [
+            "tokkyuu"
+        ]
     },
     {
         "id": 53,
@@ -550,7 +711,11 @@
         "kana": [
             "つぎの"
         ],
-        "kanji": "次の"
+        "kanji": "次の",
+        "romaji": [
+            "tsugino",
+            "tsugi no"
+        ]
     },
     {
         "id": 54,
@@ -561,7 +726,10 @@
         "kana": [
             "どういたしまして"
         ],
-        "kanji": null
+        "kanji": null,
+        "romaji": [
+            "douitashimashite"
+        ]
     },
     {
         "id": 55,
@@ -572,6 +740,10 @@
         "kana": [
             "～ばんせん"
         ],
-        "kanji": "～番線"
+        "kanji": "～番線",
+        "romaji": [
+            "~bansen",
+            "～bansen"
+        ]
     }
 ]

@@ -122,7 +122,12 @@ function checkAnswer(input, word, mode) {
         // Japanese has no spaces — ignore any (half- or full-width) the user typed
         const jpAnswer = stripSpaces(userAnswer);
         // Accept kana, or the kanji form an IME may have autocorrected to
-        return getJapaneseAnswers(word).some((a) => expandVariants(a).map(stripSpaces).includes(jpAnswer));
+        const matchesJapanese = getJapaneseAnswers(word).some((a) => expandVariants(a).map(stripSpaces).includes(jpAnswer));
+        if (matchesJapanese)
+            return true;
+        // Silently accept romaji representation (case-insensitive, spaces stripped from both input and target)
+        const lowerNoSpacesUser = stripSpaces(userAnswer.toLowerCase());
+        return (word.romaji || []).some((r) => expandVariants(r).map((v) => stripSpaces(v.toLowerCase())).includes(lowerNoSpacesUser));
     }
     else {
         const lowerAnswer = userAnswer.toLowerCase();

@@ -8,7 +8,10 @@
         "kana": [
             "これ"
         ],
-        "kanji": null
+        "kanji": null,
+        "romaji": [
+            "kore"
+        ]
     },
     {
         "id": 2,
@@ -19,7 +22,10 @@
         "kana": [
             "それ"
         ],
-        "kanji": null
+        "kanji": null,
+        "romaji": [
+            "sore"
+        ]
     },
     {
         "id": 3,
@@ -30,7 +36,10 @@
         "kana": [
             "あれ"
         ],
-        "kanji": null
+        "kanji": null,
+        "romaji": [
+            "are"
+        ]
     },
     {
         "id": 4,
@@ -41,7 +50,11 @@
         "kana": [
             "この～"
         ],
-        "kanji": null
+        "kanji": null,
+        "romaji": [
+            "kono ~",
+            "kono ～"
+        ]
     },
     {
         "id": 5,
@@ -52,7 +65,11 @@
         "kana": [
             "その～"
         ],
-        "kanji": null
+        "kanji": null,
+        "romaji": [
+            "sono ~",
+            "sono ～"
+        ]
     },
     {
         "id": 6,
@@ -63,7 +80,11 @@
         "kana": [
             "あの～"
         ],
-        "kanji": null
+        "kanji": null,
+        "romaji": [
+            "ano ~",
+            "ano ～"
+        ]
     },
     {
         "id": 7,
@@ -73,7 +94,10 @@
         "kana": [
             "ほん"
         ],
-        "kanji": "本"
+        "kanji": "本",
+        "romaji": [
+            "hon"
+        ]
     },
     {
         "id": 8,
@@ -83,7 +107,10 @@
         "kana": [
             "じしょ"
         ],
-        "kanji": "辞書"
+        "kanji": "辞書",
+        "romaji": [
+            "jisho"
+        ]
     },
     {
         "id": 9,
@@ -93,7 +120,10 @@
         "kana": [
             "ざっし"
         ],
-        "kanji": "雑誌"
+        "kanji": "雑誌",
+        "romaji": [
+            "zasshi"
+        ]
     },
     {
         "id": 10,
@@ -103,7 +133,10 @@
         "kana": [
             "しんぶん"
         ],
-        "kanji": "新聞"
+        "kanji": "新聞",
+        "romaji": [
+            "shinbun"
+        ]
     },
     {
         "id": 11,
@@ -113,7 +146,11 @@
         "kana": [
             "ノート"
         ],
-        "kanji": null
+        "kanji": null,
+        "romaji": [
+            "no-to",
+            "nooto"
+        ]
     },
     {
         "id": 12,
@@ -124,7 +161,10 @@
         "kana": [
             "てちょう"
         ],
-        "kanji": "手帳"
+        "kanji": "手帳",
+        "romaji": [
+            "techou"
+        ]
     },
     {
         "id": 13,
@@ -134,7 +174,10 @@
         "kana": [
             "めいし"
         ],
-        "kanji": "名刺"
+        "kanji": "名刺",
+        "romaji": [
+            "meishi"
+        ]
     },
     {
         "id": 14,
@@ -145,7 +188,11 @@
         "kana": [
             "カード"
         ],
-        "kanji": null
+        "kanji": null,
+        "romaji": [
+            "ka-do",
+            "kaado"
+        ]
     },
     {
         "id": 15,
@@ -155,7 +202,10 @@
         "kana": [
             "えんぴつ"
         ],
-        "kanji": "鉛筆"
+        "kanji": "鉛筆",
+        "romaji": [
+            "enpitsu"
+        ]
     },
     {
         "id": 16,
@@ -165,7 +215,11 @@
         "kana": [
             "ボールペン"
         ],
-        "kanji": null
+        "kanji": null,
+        "romaji": [
+            "bo-rupen",
+            "boorupen"
+        ]
     },
     {
         "id": 17,
@@ -176,7 +230,11 @@
         "kana": [
             "シャープペンシル"
         ],
-        "kanji": null
+        "kanji": null,
+        "romaji": [
+            "sha-pupenshiru",
+            "shaapupenshiru"
+        ]
     },
     {
         "id": 18,
@@ -186,7 +244,10 @@
         "kana": [
             "かぎ"
         ],
-        "kanji": "鍵"
+        "kanji": "鍵",
+        "romaji": [
+            "kagi"
+        ]
     },
     {
         "id": 19,
@@ -197,7 +258,10 @@
         "kana": [
             "とけい"
         ],
-        "kanji": "時計"
+        "kanji": "時計",
+        "romaji": [
+            "tokei"
+        ]
     },
     {
         "id": 20,
@@ -207,7 +271,10 @@
         "kana": [
             "かさ"
         ],
-        "kanji": "傘"
+        "kanji": "傘",
+        "romaji": [
+            "kasa"
+        ]
     },
     {
         "id": 21,
@@ -218,7 +285,10 @@
         "kana": [
             "かばん"
         ],
-        "kanji": "鞄"
+        "kanji": "鞄",
+        "romaji": [
+            "kaban"
+        ]
     },
     {
         "id": 22,
@@ -229,7 +299,11 @@
         "kana": [
             "テープ"
         ],
-        "kanji": null
+        "kanji": null,
+        "romaji": [
+            "te-pu",
+            "teepu"
+        ]
     },
     {
         "id": 23,
@@ -239,7 +313,11 @@
         "kana": [
             "テープレコーダー"
         ],
-        "kanji": null
+        "kanji": null,
+        "romaji": [
+            "te-pureko-da-",
+            "teepurekoodaa"
+        ]
     },
     {
         "id": 24,
@@ -250,7 +328,10 @@
         "kana": [
             "テレビ"
         ],
-        "kanji": null
+        "kanji": null,
+        "romaji": [
+            "terebi"
+        ]
     },
     {
         "id": 25,
@@ -260,7 +341,10 @@
         "kana": [
             "ラジオ"
         ],
-        "kanji": null
+        "kanji": null,
+        "romaji": [
+            "rajio"
+        ]
     },
     {
         "id": 26,
@@ -270,7 +354,10 @@
         "kana": [
             "カメラ"
         ],
-        "kanji": null
+        "kanji": null,
+        "romaji": [
+            "kamera"
+        ]
     },
     {
         "id": 27,
@@ -281,7 +368,11 @@
         "kana": [
             "コンピューター"
         ],
-        "kanji": null
+        "kanji": null,
+        "romaji": [
+            "konpyu-ta-",
+            "konpyuutaa"
+        ]
     },
     {
         "id": 28,
@@ -293,7 +384,10 @@
         "kana": [
             "くるま"
         ],
-        "kanji": "車"
+        "kanji": "車",
+        "romaji": [
+            "kuruma"
+        ]
     },
     {
         "id": 29,
@@ -303,7 +397,10 @@
         "kana": [
             "つくえ"
         ],
-        "kanji": "机"
+        "kanji": "机",
+        "romaji": [
+            "tsukue"
+        ]
     },
     {
         "id": 30,
@@ -313,7 +410,10 @@
         "kana": [
             "いす"
         ],
-        "kanji": "椅子"
+        "kanji": "椅子",
+        "romaji": [
+            "isu"
+        ]
     },
     {
         "id": 31,
@@ -323,7 +423,11 @@
         "kana": [
             "チョコレート"
         ],
-        "kanji": null
+        "kanji": null,
+        "romaji": [
+            "chokore-to",
+            "chokoreeto"
+        ]
     },
     {
         "id": 32,
@@ -333,7 +437,11 @@
         "kana": [
             "コーヒー"
         ],
-        "kanji": null
+        "kanji": null,
+        "romaji": [
+            "ko-hi-",
+            "koohii"
+        ]
     },
     {
         "id": 33,
@@ -344,7 +452,10 @@
         "kana": [
             "おみやげ"
         ],
-        "kanji": "お土産"
+        "kanji": "お土産",
+        "romaji": [
+            "omiyage"
+        ]
     },
     {
         "id": 34,
@@ -354,7 +465,10 @@
         "kana": [
             "えいご"
         ],
-        "kanji": "英語"
+        "kanji": "英語",
+        "romaji": [
+            "eigo"
+        ]
     },
     {
         "id": 35,
@@ -364,7 +478,10 @@
         "kana": [
             "にほんご"
         ],
-        "kanji": "日本語"
+        "kanji": "日本語",
+        "romaji": [
+            "nihongo"
+        ]
     },
     {
         "id": 36,
@@ -374,7 +491,11 @@
         "kana": [
             "～ご"
         ],
-        "kanji": "～語"
+        "kanji": "～語",
+        "romaji": [
+            "~go",
+            "～go"
+        ]
     },
     {
         "id": 37,
@@ -385,7 +506,11 @@
             "なん",
             "なに"
         ],
-        "kanji": "何"
+        "kanji": "何",
+        "romaji": [
+            "nan",
+            "nani"
+        ]
     },
     {
         "id": 38,
@@ -395,7 +520,10 @@
         "kana": [
             "そう"
         ],
-        "kanji": null
+        "kanji": null,
+        "romaji": [
+            "sou"
+        ]
     },
     {
         "id": 39,
@@ -407,7 +535,10 @@
         "kana": [
             "ちがいます"
         ],
-        "kanji": "違います"
+        "kanji": "違います",
+        "romaji": [
+            "chigaimasu"
+        ]
     },
     {
         "id": 40,
@@ -418,7 +549,11 @@
         "kana": [
             "そうですか"
         ],
-        "kanji": null
+        "kanji": null,
+        "romaji": [
+            "soudesuka",
+            "sou desu ka"
+        ]
     },
     {
         "id": 41,
@@ -429,7 +564,10 @@
         "kana": [
             "あのう"
         ],
-        "kanji": null
+        "kanji": null,
+        "romaji": [
+            "anou"
+        ]
     },
     {
         "id": 42,
@@ -440,7 +578,10 @@
         "kana": [
             "どうぞ"
         ],
-        "kanji": null
+        "kanji": null,
+        "romaji": [
+            "douzo"
+        ]
     },
     {
         "id": 43,
@@ -450,7 +591,10 @@
         "kana": [
             "[どうも]ありがとう[ございます]"
         ],
-        "kanji": null
+        "kanji": null,
+        "romaji": [
+            "[doumo] arigatou [gozaimasu]"
+        ]
     },
     {
         "id": 44,
@@ -460,7 +604,11 @@
         "kana": [
             "これからおせわになります"
         ],
-        "kanji": "これからお世話になります"
+        "kanji": "これからお世話になります",
+        "romaji": [
+            "korekara osewani narimasu",
+            "korekara osewa ni narimasu"
+        ]
     },
     {
         "id": 45,
@@ -470,6 +618,10 @@
         "kana": [
             "こちらこそよろしく[おねがいします]"
         ],
-        "kanji": "こちらこそよろしく[お願いします]"
+        "kanji": "こちらこそよろしく[お願いします]",
+        "romaji": [
+            "kochirakoso yoroshiku [onegaishimasu]",
+            "kochira koso yoroshiku [onegaishimasu]"
+        ]
     }
 ]

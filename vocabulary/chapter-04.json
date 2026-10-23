@@ -8,7 +8,10 @@
         "kana": [
             "おきます"
         ],
-        "kanji": "起きます"
+        "kanji": "起きます",
+        "romaji": [
+            "okimasu"
+        ]
     },
     {
         "id": 2,
@@ -19,7 +22,10 @@
         "kana": [
             "ねます"
         ],
-        "kanji": "寝ます"
+        "kanji": "寝ます",
+        "romaji": [
+            "nemasu"
+        ]
     },
     {
         "id": 3,
@@ -29,7 +35,10 @@
         "kana": [
             "はたらきます"
         ],
-        "kanji": "働きます"
+        "kanji": "働きます",
+        "romaji": [
+            "hatarakimasu"
+        ]
     },
     {
         "id": 4,
@@ -41,7 +50,10 @@
         "kana": [
             "やすみます"
         ],
-        "kanji": "休みます"
+        "kanji": "休みます",
+        "romaji": [
+            "yasumimasu"
+        ]
     },
     {
         "id": 5,
@@ -51,7 +63,11 @@
         "kana": [
             "べんきょうします"
         ],
-        "kanji": "勉強します"
+        "kanji": "勉強します",
+        "romaji": [
+            "benkyoushimasu",
+            "benkyou shimasu"
+        ]
     },
     {
         "id": 6,
@@ -62,7 +78,10 @@
         "kana": [
             "おわります"
         ],
-        "kanji": "終わります"
+        "kanji": "終わります",
+        "romaji": [
+            "owarimasu"
+        ]
     },
     {
         "id": 7,
@@ -72,7 +91,11 @@
         "kana": [
             "デパート"
         ],
-        "kanji": null
+        "kanji": null,
+        "romaji": [
+            "depa-to",
+            "depaato"
+        ]
     },
     {
         "id": 8,
@@ -82,7 +105,10 @@
         "kana": [
             "ぎんこう"
         ],
-        "kanji": "銀行"
+        "kanji": "銀行",
+        "romaji": [
+            "ginkou"
+        ]
     },
     {
         "id": 9,
@@ -92,7 +118,10 @@
         "kana": [
             "ゆうびんきょく"
         ],
-        "kanji": "郵便局"
+        "kanji": "郵便局",
+        "romaji": [
+            "yuubinkyoku"
+        ]
     },
     {
         "id": 10,
@@ -102,7 +131,10 @@
         "kana": [
             "としょかん"
         ],
-        "kanji": "図書館"
+        "kanji": "図書館",
+        "romaji": [
+            "toshokan"
+        ]
     },
     {
         "id": 11,
@@ -113,7 +145,10 @@
         "kana": [
             "びじゅつかん"
         ],
-        "kanji": "美術館"
+        "kanji": "美術館",
+        "romaji": [
+            "bijutsukan"
+        ]
     },
     {
         "id": 12,
@@ -123,7 +158,10 @@
         "kana": [
             "いま"
         ],
-        "kanji": "今"
+        "kanji": "今",
+        "romaji": [
+            "ima"
+        ]
     },
     {
         "id": 13,
@@ -133,7 +171,11 @@
         "kana": [
             "～じ"
         ],
-        "kanji": "～時"
+        "kanji": "～時",
+        "romaji": [
+            "~ji",
+            "～ji"
+        ]
     },
     {
         "id": 14,
@@ -144,7 +186,13 @@
             "～ふん",
             "～ぷん"
         ],
-        "kanji": "～分"
+        "kanji": "～分",
+        "romaji": [
+            "~fun",
+            "～fun",
+            "~pun",
+            "～pun"
+        ]
     },
     {
         "id": 15,
@@ -155,7 +203,10 @@
         "kana": [
             "はん"
         ],
-        "kanji": "半"
+        "kanji": "半",
+        "romaji": [
+            "han"
+        ]
     },
     {
         "id": 16,
@@ -165,7 +216,10 @@
         "kana": [
             "なんじ"
         ],
-        "kanji": "何時"
+        "kanji": "何時",
+        "romaji": [
+            "nanji"
+        ]
     },
     {
         "id": 17,
@@ -175,7 +229,10 @@
         "kana": [
             "なんぷん"
         ],
-        "kanji": "何分"
+        "kanji": "何分",
+        "romaji": [
+            "nanpun"
+        ]
     },
     {
         "id": 18,
@@ -186,7 +243,10 @@
         "kana": [
             "ごぜん"
         ],
-        "kanji": "午前"
+        "kanji": "午前",
+        "romaji": [
+            "gozen"
+        ]
     },
     {
         "id": 19,
@@ -197,7 +257,10 @@
         "kana": [
             "ごご"
         ],
-        "kanji": "午後"
+        "kanji": "午後",
+        "romaji": [
+            "gogo"
+        ]
     },
     {
         "id": 20,
@@ -207,7 +270,10 @@
         "kana": [
             "あさ"
         ],
-        "kanji": "朝"
+        "kanji": "朝",
+        "romaji": [
+            "asa"
+        ]
     },
     {
         "id": 21,
@@ -218,7 +284,10 @@
         "kana": [
             "ひる"
         ],
-        "kanji": "昼"
+        "kanji": "昼",
+        "romaji": [
+            "hiru"
+        ]
     },
     {
         "id": 22,
@@ -230,7 +299,11 @@
             "ばん",
             "よる"
         ],
-        "kanji": "晩/夜"
+        "kanji": "晩/夜",
+        "romaji": [
+            "ban",
+            "yoru"
+        ]
     },
     {
         "id": 23,
@@ -240,7 +313,10 @@
         "kana": [
             "おととい"
         ],
-        "kanji": null
+        "kanji": null,
+        "romaji": [
+            "ototoi"
+        ]
     },
     {
         "id": 24,
@@ -250,7 +326,10 @@
         "kana": [
             "きのう"
         ],
-        "kanji": null
+        "kanji": null,
+        "romaji": [
+            "kinou"
+        ]
     },
     {
         "id": 25,
@@ -260,7 +339,10 @@
         "kana": [
             "きょう"
         ],
-        "kanji": "今日"
+        "kanji": "今日",
+        "romaji": [
+            "kyou"
+        ]
     },
     {
         "id": 26,
@@ -270,7 +352,10 @@
         "kana": [
             "あした"
         ],
-        "kanji": null
+        "kanji": null,
+        "romaji": [
+            "ashita"
+        ]
     },
     {
         "id": 27,
@@ -280,7 +365,10 @@
         "kana": [
             "あさって"
         ],
-        "kanji": null
+        "kanji": null,
+        "romaji": [
+            "asatte"
+        ]
     },
     {
         "id": 28,
@@ -290,7 +378,10 @@
         "kana": [
             "けさ"
         ],
-        "kanji": "今朝"
+        "kanji": "今朝",
+        "romaji": [
+            "kesa"
+        ]
     },
     {
         "id": 29,
@@ -301,7 +392,10 @@
         "kana": [
             "こんばん"
         ],
-        "kanji": "今晩"
+        "kanji": "今晩",
+        "romaji": [
+            "konban"
+        ]
     },
     {
         "id": 30,
@@ -313,7 +407,10 @@
         "kana": [
             "やすみ"
         ],
-        "kanji": "休み"
+        "kanji": "休み",
+        "romaji": [
+            "yasumi"
+        ]
     },
     {
         "id": 31,
@@ -323,7 +420,11 @@
         "kana": [
             "ひるやすみ"
         ],
-        "kanji": "昼休み"
+        "kanji": "昼休み",
+        "romaji": [
+            "hiruyasumi",
+            "hiru yasumi"
+        ]
     },
     {
         "id": 32,
@@ -333,7 +434,10 @@
         "kana": [
             "まいあさ"
         ],
-        "kanji": "毎朝"
+        "kanji": "毎朝",
+        "romaji": [
+            "maiasa"
+        ]
     },
     {
         "id": 33,
@@ -343,7 +447,10 @@
         "kana": [
             "まいばん"
         ],
-        "kanji": "毎晩"
+        "kanji": "毎晩",
+        "romaji": [
+            "maiban"
+        ]
     },
     {
         "id": 34,
@@ -353,7 +460,10 @@
         "kana": [
             "まいにち"
         ],
-        "kanji": "毎日"
+        "kanji": "毎日",
+        "romaji": [
+            "mainichi"
+        ]
     },
     {
         "id": 35,
@@ -363,7 +473,10 @@
         "kana": [
             "げつようび"
         ],
-        "kanji": "月曜日"
+        "kanji": "月曜日",
+        "romaji": [
+            "getsuyoubi"
+        ]
     },
     {
         "id": 36,
@@ -373,7 +486,10 @@
         "kana": [
             "かようび"
         ],
-        "kanji": "火曜日"
+        "kanji": "火曜日",
+        "romaji": [
+            "kayoubi"
+        ]
     },
     {
         "id": 37,
@@ -383,7 +499,10 @@
         "kana": [
             "すいようび"
         ],
-        "kanji": "水曜日"
+        "kanji": "水曜日",
+        "romaji": [
+            "suiyoubi"
+        ]
     },
     {
         "id": 38,
@@ -393,7 +512,10 @@
         "kana": [
             "もくようび"
         ],
-        "kanji": "木曜日"
+        "kanji": "木曜日",
+        "romaji": [
+            "mokuyoubi"
+        ]
     },
     {
         "id": 39,
@@ -403,7 +525,10 @@
         "kana": [
             "きんようび"
         ],
-        "kanji": "金曜日"
+        "kanji": "金曜日",
+        "romaji": [
+            "kinyoubi"
+        ]
     },
     {
         "id": 40,
@@ -413,7 +538,10 @@
         "kana": [
             "どようび"
         ],
-        "kanji": "土曜日"
+        "kanji": "土曜日",
+        "romaji": [
+            "doyoubi"
+        ]
     },
     {
         "id": 41,
@@ -423,7 +551,10 @@
         "kana": [
             "にちようび"
         ],
-        "kanji": "日曜日"
+        "kanji": "日曜日",
+        "romaji": [
+            "nichiyoubi"
+        ]
     },
     {
         "id": 42,
@@ -433,7 +564,10 @@
         "kana": [
             "なんようび"
         ],
-        "kanji": "何曜日"
+        "kanji": "何曜日",
+        "romaji": [
+            "nanyoubi"
+        ]
     },
     {
         "id": 43,
@@ -443,7 +577,10 @@
         "kana": [
             "ばんごう"
         ],
-        "kanji": "番号"
+        "kanji": "番号",
+        "romaji": [
+            "bangou"
+        ]
     },
     {
         "id": 44,
@@ -453,7 +590,10 @@
         "kana": [
             "なんばん"
         ],
-        "kanji": "何番"
+        "kanji": "何番",
+        "romaji": [
+            "nanban"
+        ]
     },
     {
         "id": 45,
@@ -463,7 +603,11 @@
         "kana": [
             "～から"
         ],
-        "kanji": null
+        "kanji": null,
+        "romaji": [
+            "~kara",
+            "～kara"
+        ]
     },
     {
         "id": 46,
@@ -474,7 +618,11 @@
         "kana": [
             "～まで"
         ],
-        "kanji": null
+        "kanji": null,
+        "romaji": [
+            "~made",
+            "～made"
+        ]
     },
     {
         "id": 47,
@@ -484,7 +632,12 @@
         "kana": [
             "～と～"
         ],
-        "kanji": null
+        "kanji": null,
+        "romaji": [
+            "~to~",
+            "～to～",
+            "~ to ~"
+        ]
     },
     {
         "id": 48,
@@ -495,7 +648,11 @@
         "kana": [
             "たいへんですね"
         ],
-        "kanji": "大変ですね"
+        "kanji": "大変ですね",
+        "romaji": [
+            "taihen desune",
+            "taihendesune"
+        ]
     },
     {
         "id": 49,
@@ -506,7 +663,11 @@
         "kana": [
             "えーと"
         ],
-        "kanji": null
+        "kanji": null,
+        "romaji": [
+            "e-to",
+            "eeto"
+        ]
     },
     {
         "id": 50,
@@ -516,7 +677,10 @@
         "kana": [
             "おねがいします"
         ],
-        "kanji": "お願いします"
+        "kanji": "お願いします",
+        "romaji": [
+            "onegaishimasu"
+        ]
     },
     {
         "id": 51,
@@ -526,7 +690,10 @@
         "kana": [
             "かしこまりました"
         ],
-        "kanji": null
+        "kanji": null,
+        "romaji": [
+            "kashikomarimashita"
+        ]
     },
     {
         "id": 52,
@@ -536,7 +703,11 @@
         "kana": [
             "おといあわせのばんごう"
         ],
-        "kanji": "お問い合わせの番号"
+        "kanji": "お問い合わせの番号",
+        "romaji": [
+            "otoiawase no bangou",
+            "otoiawasenobangou"
+        ]
     },
     {
         "id": 53,
@@ -546,6 +717,9 @@
         "kana": [
             "[どうも]ありがとうございました"
         ],
-        "kanji": null
+        "kanji": null,
+        "romaji": [
+            "[doumo] arigatou gozaimashita"
+        ]
     }
 ]

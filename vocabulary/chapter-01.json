@@ -8,7 +8,10 @@
     "kana": [
       "わたし"
     ],
-    "kanji": "私"
+    "kanji": "私",
+    "romaji": [
+      "watashi"
+    ]
   },
   {
     "id": 2,
@@ -18,7 +21,10 @@
     "kana": [
       "わたしたち"
     ],
-    "kanji": "私たち"
+    "kanji": "私たち",
+    "romaji": [
+      "watashitachi"
+    ]
   },
   {
     "id": 3,
@@ -28,7 +34,10 @@
     "kana": [
       "あなた"
     ],
-    "kanji": "貴方"
+    "kanji": "貴方",
+    "romaji": [
+      "anata"
+    ]
   },
   {
     "id": 4,
@@ -38,7 +47,11 @@
     "kana": [
       "あのひと"
     ],
-    "kanji": "あの人"
+    "kanji": "あの人",
+    "romaji": [
+      "anohito",
+      "ano hito"
+    ]
   },
   {
     "id": 5,
@@ -48,7 +61,11 @@
     "kana": [
       "あのかた"
     ],
-    "kanji": "あの方"
+    "kanji": "あの方",
+    "romaji": [
+      "anokata",
+      "ano kata"
+    ]
   },
   {
     "id": 6,
@@ -60,7 +77,10 @@
     "kana": [
       "みなさん"
     ],
-    "kanji": "皆さん"
+    "kanji": "皆さん",
+    "romaji": [
+      "minasan"
+    ]
   },
   {
     "id": 7,
@@ -71,7 +91,11 @@
     "kana": [
       "～さん"
     ],
-    "kanji": null
+    "kanji": null,
+    "romaji": [
+      "~san",
+      "～san"
+    ]
   },
   {
     "id": 8,
@@ -81,7 +105,11 @@
     "kana": [
       "～ちゃん"
     ],
-    "kanji": null
+    "kanji": null,
+    "romaji": [
+      "~chan",
+      "～chan"
+    ]
   },
   {
     "id": 9,
@@ -91,7 +119,11 @@
     "kana": [
       "～くん"
     ],
-    "kanji": "～君"
+    "kanji": "～君",
+    "romaji": [
+      "~kun",
+      "～kun"
+    ]
   },
   {
     "id": 10,
@@ -102,7 +134,11 @@
     "kana": [
       "～じん"
     ],
-    "kanji": "～人"
+    "kanji": "～人",
+    "romaji": [
+      "~jin",
+      "～jin"
+    ]
   },
   {
     "id": 11,
@@ -113,7 +149,10 @@
     "kana": [
       "せんせい"
     ],
-    "kanji": "先生"
+    "kanji": "先生",
+    "romaji": [
+      "sensei"
+    ]
   },
   {
     "id": 12,
@@ -124,7 +163,10 @@
     "kana": [
       "きょうし"
     ],
-    "kanji": "教師"
+    "kanji": "教師",
+    "romaji": [
+      "kyoushi"
+    ]
   },
   {
     "id": 13,
@@ -134,7 +176,10 @@
     "kana": [
       "がくせい"
     ],
-    "kanji": "学生"
+    "kanji": "学生",
+    "romaji": [
+      "gakusei"
+    ]
   },
   {
     "id": 14,
@@ -144,7 +189,10 @@
     "kana": [
       "かいしゃいん"
     ],
-    "kanji": "会社員"
+    "kanji": "会社員",
+    "romaji": [
+      "kaishain"
+    ]
   },
   {
     "id": 15,
@@ -154,7 +202,11 @@
     "kana": [
       "～のしゃいん"
     ],
-    "kanji": "～の社員"
+    "kanji": "～の社員",
+    "romaji": [
+      "~no shain",
+      "～no shain"
+    ]
   },
   {
     "id": 16,
@@ -164,7 +216,10 @@
     "kana": [
       "ぎんこういん"
     ],
-    "kanji": "銀行員"
+    "kanji": "銀行員",
+    "romaji": [
+      "ginkouin"
+    ]
   },
   {
     "id": 17,
@@ -175,7 +230,10 @@
     "kana": [
       "いしゃ"
     ],
-    "kanji": "医者"
+    "kanji": "医者",
+    "romaji": [
+      "isha"
+    ]
   },
   {
     "id": 18,
@@ -186,7 +244,10 @@
     "kana": [
       "けんきゅうしゃ"
     ],
-    "kanji": "研究者"
+    "kanji": "研究者",
+    "romaji": [
+      "kenkyuusha"
+    ]
   },
   {
     "id": 19,
@@ -196,7 +257,10 @@
     "kana": [
       "エンジニア"
     ],
-    "kanji": null
+    "kanji": null,
+    "romaji": [
+      "enjinia"
+    ]
   },
   {
     "id": 20,
@@ -207,7 +271,10 @@
     "kana": [
       "だいがく"
     ],
-    "kanji": "大学"
+    "kanji": "大学",
+    "romaji": [
+      "daigaku"
+    ]
   },
   {
     "id": 21,
@@ -217,7 +284,10 @@
     "kana": [
       "びょういん"
     ],
-    "kanji": "病院"
+    "kanji": "病院",
+    "romaji": [
+      "byouin"
+    ]
   },
   {
     "id": 22,
@@ -228,7 +298,10 @@
     "kana": [
       "でんき"
     ],
-    "kanji": "電気"
+    "kanji": "電気",
+    "romaji": [
+      "denki"
+    ]
   },
   {
     "id": 23,
@@ -238,7 +311,10 @@
     "kana": [
       "だれ"
     ],
-    "kanji": "誰"
+    "kanji": "誰",
+    "romaji": [
+      "dare"
+    ]
   },
   {
     "id": 24,
@@ -248,7 +324,10 @@
     "kana": [
       "どなた"
     ],
-    "kanji": null
+    "kanji": null,
+    "romaji": [
+      "donata"
+    ]
   },
   {
     "id": 25,
@@ -258,7 +337,11 @@
     "kana": [
       "～さい"
     ],
-    "kanji": "～歳"
+    "kanji": "～歳",
+    "romaji": [
+      "~sai",
+      "～sai"
+    ]
   },
   {
     "id": 26,
@@ -268,7 +351,10 @@
     "kana": [
       "なんさい"
     ],
-    "kanji": "何歳"
+    "kanji": "何歳",
+    "romaji": [
+      "nansai"
+    ]
   },
   {
     "id": 27,
@@ -278,7 +364,10 @@
     "kana": [
       "おいくつ"
     ],
-    "kanji": null
+    "kanji": null,
+    "romaji": [
+      "oikutsu"
+    ]
   },
   {
     "id": 28,
@@ -288,7 +377,10 @@
     "kana": [
       "はい"
     ],
-    "kanji": null
+    "kanji": null,
+    "romaji": [
+      "hai"
+    ]
   },
   {
     "id": 29,
@@ -298,7 +390,10 @@
     "kana": [
       "いいえ"
     ],
-    "kanji": null
+    "kanji": null,
+    "romaji": [
+      "iie"
+    ]
   },
   {
     "id": 30,
@@ -309,7 +404,10 @@
     "kana": [
       "はじめまして"
     ],
-    "kanji": "初めまして"
+    "kanji": "初めまして",
+    "romaji": [
+      "hajimemashite"
+    ]
   },
   {
     "id": 31,
@@ -320,7 +418,11 @@
     "kana": [
       "～からきました"
     ],
-    "kanji": "～から来ました"
+    "kanji": "～から来ました",
+    "romaji": [
+      "~kara kimashita",
+      "～kara kimashita"
+    ]
   },
   {
     "id": 32,
@@ -330,7 +432,10 @@
     "kana": [
       "どうぞよろしく[おねがいします]"
     ],
-    "kanji": "どうぞよろしく[お願いします]"
+    "kanji": "どうぞよろしく[お願いします]",
+    "romaji": [
+      "douzo yoroshiku [onegaishimasu]"
+    ]
   },
   {
     "id": 33,
@@ -340,7 +445,10 @@
     "kana": [
       "しつれいですが"
     ],
-    "kanji": "失礼ですが"
+    "kanji": "失礼ですが",
+    "romaji": [
+      "shitsurei desuga"
+    ]
   },
   {
     "id": 34,
@@ -351,7 +459,13 @@
     "kana": [
       "おなまえは？"
     ],
-    "kanji": "お名前は？"
+    "kanji": "お名前は？",
+    "romaji": [
+      "onamae wa?",
+      "onamae wa",
+      "onamae ha?",
+      "onamae ha"
+    ]
   },
   {
     "id": 35,
@@ -361,6 +475,12 @@
     "kana": [
       "こちらは～さんです"
     ],
-    "kanji": null
+    "kanji": null,
+    "romaji": [
+      "kochira wa ~san desu",
+      "kochira ha ~san desu",
+      "kochira wa ～san desu",
+      "kochira ha ～san desu"
+    ]
   }
 ]
