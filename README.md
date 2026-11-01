@@ -12,9 +12,8 @@ Live app: https://arturosbr.github.io/minna-cards/
 Minna Cards is a simple web app made to practice vocabulary chapter by
 chapter.
 
-It is built to be a no cookies, no log in, no downloads, no bullshit tool:
-open the link and start studying right away without accounts, trackers, or
-installs.
+It is built to be a no log in, no downloads, no bullshit tool: open the link
+and start studying right away without accounts or installs.
 
 ## Features
 

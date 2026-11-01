@@ -747,3 +747,127 @@ body {
 .study-pagination .btn-secondary {
   flex: 1;
 }
+
+/* --- Setup Hero (first viewport) --- */
+.setup-hero {
+  min-height: calc(100dvh - 2 * var(--space-md)); /* body has --space-md padding */
+  display: flex;
+  flex-direction: column;
+}
+
+.setup-hero > .app-header {
+  margin-top: auto;
+}
+
+.app-tagline {
+  margin-top: var(--space-sm);
+  font-size: 0.95rem;
+  font-weight: 400;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+.about-link {
+  margin-top: auto;
+  align-self: center;
+  padding: var(--space-lg) var(--space-md) var(--space-sm);
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  text-decoration: none;
+  letter-spacing: 0.04em;
+  transition: color var(--transition-fast);
+}
+
+.about-link:hover,
+.about-link:focus-visible {
+  color: var(--accent);
+}
+
+.about-link span {
+  display: inline-block;
+  animation: nudge 2s ease-in-out infinite;
+}
+
+@keyframes nudge {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(3px); }
+}
+
+/* --- About Section --- */
+.about {
+  padding: var(--space-2xl) 0 var(--space-xl);
+  scroll-margin-top: var(--space-lg);
+}
+
+.about-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: var(--space-md);
+}
+
+.about-text {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: var(--text-secondary);
+}
+
+.about-text strong {
+  color: var(--text-primary);
+  font-weight: 500;
+}
+
+.about-subtitle {
+  margin: var(--space-xl) 0 var(--space-md);
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.about-modes {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.about-mode {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: var(--space-md) var(--space-lg);
+}
+
+.about-mode dt {
+  font-weight: 600;
+  margin-bottom: var(--space-xs);
+}
+
+.about-mode dd {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+}
+
+/* --- Footer --- */
+.app-footer {
+  padding: var(--space-lg) 0 var(--space-md);
+  border-top: 1px solid var(--border-subtle);
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  text-align: center;
+  line-height: 1.6;
+}
+
+/* Smooth scroll for the anchor link, respecting reduced-motion users */
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .about-link span {
+    animation: none;
+  }
+}
