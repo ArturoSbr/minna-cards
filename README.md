@@ -3,7 +3,7 @@
 A lightweight flashcard and quiz app for learning Japanese vocabulary
 following the **みんなの日本語** (Minna no Nihongo) chapter structure.
 
-Live app: https://arturosbr.github.io/minna-cards/
+Live app: https://minnacards.com/
 
 ---
 
