@@ -428,10 +428,6 @@ function showWord(): void {
   const word = state.words[state.currentIndex];
   state.seenWordIds.add(word.id);
 
-  if (state.seenWordIds.size >= state.totalTarget && !state.isReviewPhase) {
-    state.isReviewPhase = true;
-  }
-
   updateProgress();
 
   // Set prompt based on mode
