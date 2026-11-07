@@ -1,0 +1,774 @@
+[
+    {
+        "id": 1,
+        "english": [
+            "handsome"
+        ],
+        "kana": [
+            "ハンサム[な]"
+        ],
+        "kanji": null,
+        "romaji": [
+            "hansamu [na]"
+        ]
+    },
+    {
+        "id": 2,
+        "english": [
+            "beautiful",
+            "clean"
+        ],
+        "kana": [
+            "きれい[な]"
+        ],
+        "kanji": "綺麗[な]",
+        "romaji": [
+            "kirei [na]"
+        ]
+    },
+    {
+        "id": 3,
+        "english": [
+            "quiet"
+        ],
+        "kana": [
+            "しずか[な]"
+        ],
+        "kanji": "静か[な]",
+        "romaji": [
+            "shizuka [na]"
+        ]
+    },
+    {
+        "id": 4,
+        "english": [
+            "lively",
+            "bustling"
+        ],
+        "kana": [
+            "にぎやか[な]"
+        ],
+        "kanji": "賑やか[な]",
+        "romaji": [
+            "nigiyaka [na]"
+        ]
+    },
+    {
+        "id": 5,
+        "english": [
+            "famous"
+        ],
+        "kana": [
+            "ゆうめい[な]"
+        ],
+        "kanji": "有名[な]",
+        "romaji": [
+            "yuumei [na]"
+        ]
+    },
+    {
+        "id": 6,
+        "english": [
+            "kind",
+            "helpful"
+        ],
+        "kana": [
+            "しんせつ[な]"
+        ],
+        "kanji": "親切[な]",
+        "romaji": [
+            "shinsetsu [na]"
+        ]
+    },
+    {
+        "id": 7,
+        "english": [
+            "healthy",
+            "sound",
+            "cheerful",
+            "energetic"
+        ],
+        "kana": [
+            "げんき[な]"
+        ],
+        "kanji": "元気[な]",
+        "romaji": [
+            "genki [na]"
+        ]
+    },
+    {
+        "id": 8,
+        "english": [
+            "free",
+            "free time",
+            "not busy"
+        ],
+        "kana": [
+            "ひま[な]"
+        ],
+        "kanji": "暇[な]",
+        "romaji": [
+            "hima [na]"
+        ]
+    },
+    {
+        "id": 9,
+        "english": [
+            "convenient"
+        ],
+        "kana": [
+            "べんり[な]"
+        ],
+        "kanji": "便利[な]",
+        "romaji": [
+            "benri [na]"
+        ]
+    },
+    {
+        "id": 10,
+        "english": [
+            "fine",
+            "nice",
+            "wonderful",
+            "lovely"
+        ],
+        "kana": [
+            "すてき[な]"
+        ],
+        "kanji": "素敵[な]",
+        "romaji": [
+            "suteki [na]"
+        ]
+    },
+    {
+        "id": 11,
+        "english": [
+            "big",
+            "large"
+        ],
+        "kana": [
+            "おおきい"
+        ],
+        "kanji": "大きい",
+        "romaji": [
+            "ookii"
+        ]
+    },
+    {
+        "id": 12,
+        "english": [
+            "small",
+            "little"
+        ],
+        "kana": [
+            "ちいさい"
+        ],
+        "kanji": "小さい",
+        "romaji": [
+            "chiisai"
+        ]
+    },
+    {
+        "id": 13,
+        "english": [
+            "new"
+        ],
+        "kana": [
+            "あたらしい"
+        ],
+        "kanji": "新しい",
+        "romaji": [
+            "atarashii"
+        ]
+    },
+    {
+        "id": 14,
+        "english": [
+            "old"
+        ],
+        "kana": [
+            "ふるい"
+        ],
+        "kanji": "古い",
+        "romaji": [
+            "furui"
+        ]
+    },
+    {
+        "id": 15,
+        "english": [
+            "good",
+            "fine"
+        ],
+        "kana": [
+            "いい",
+            "よい"
+        ],
+        "kanji": "良い",
+        "romaji": [
+            "ii",
+            "yoi"
+        ]
+    },
+    {
+        "id": 16,
+        "english": [
+            "bad"
+        ],
+        "kana": [
+            "わるい"
+        ],
+        "kanji": "悪い",
+        "romaji": [
+            "warui"
+        ]
+    },
+    {
+        "id": 17,
+        "english": [
+            "hot"
+        ],
+        "kana": [
+            "あつい"
+        ],
+        "kanji": "暑い/熱い",
+        "romaji": [
+            "atsui"
+        ]
+    },
+    {
+        "id": 18,
+        "english": [
+            "cold (weather)",
+            "cold"
+        ],
+        "kana": [
+            "さむい"
+        ],
+        "kanji": "寒い",
+        "romaji": [
+            "samui"
+        ]
+    },
+    {
+        "id": 19,
+        "english": [
+            "cold (to the touch)",
+            "cold",
+            "chilly"
+        ],
+        "kana": [
+            "つめたい"
+        ],
+        "kanji": "冷たい",
+        "romaji": [
+            "tsumetai"
+        ]
+    },
+    {
+        "id": 20,
+        "english": [
+            "difficult",
+            "hard"
+        ],
+        "kana": [
+            "むずかしい"
+        ],
+        "kanji": "難しい",
+        "romaji": [
+            "muzukashii"
+        ]
+    },
+    {
+        "id": 21,
+        "english": [
+            "easy"
+        ],
+        "kana": [
+            "やさしい"
+        ],
+        "kanji": "易しい",
+        "romaji": [
+            "yasashii"
+        ]
+    },
+    {
+        "id": 22,
+        "english": [
+            "expensive",
+            "tall",
+            "high"
+        ],
+        "kana": [
+            "たかい"
+        ],
+        "kanji": "高い",
+        "romaji": [
+            "takai"
+        ]
+    },
+    {
+        "id": 23,
+        "english": [
+            "inexpensive",
+            "cheap"
+        ],
+        "kana": [
+            "やすい"
+        ],
+        "kanji": "安い",
+        "romaji": [
+            "yasui"
+        ]
+    },
+    {
+        "id": 24,
+        "english": [
+            "low",
+            "short"
+        ],
+        "kana": [
+            "ひくい"
+        ],
+        "kanji": "低い",
+        "romaji": [
+            "hikui"
+        ]
+    },
+    {
+        "id": 25,
+        "english": [
+            "interesting",
+            "funny"
+        ],
+        "kana": [
+            "おもしろい"
+        ],
+        "kanji": "面白い",
+        "romaji": [
+            "omoshiroi"
+        ]
+    },
+    {
+        "id": 26,
+        "english": [
+            "delicious",
+            "tasty"
+        ],
+        "kana": [
+            "おいしい"
+        ],
+        "kanji": "美味しい",
+        "romaji": [
+            "oishii"
+        ]
+    },
+    {
+        "id": 27,
+        "english": [
+            "busy"
+        ],
+        "kana": [
+            "いそがしい"
+        ],
+        "kanji": "忙しい",
+        "romaji": [
+            "isogashii"
+        ]
+    },
+    {
+        "id": 28,
+        "english": [
+            "enjoyable",
+            "fun"
+        ],
+        "kana": [
+            "たのしい"
+        ],
+        "kanji": "楽しい",
+        "romaji": [
+            "tanoshii"
+        ]
+    },
+    {
+        "id": 29,
+        "english": [
+            "white"
+        ],
+        "kana": [
+            "しろい"
+        ],
+        "kanji": "白い",
+        "romaji": [
+            "shiroi"
+        ]
+    },
+    {
+        "id": 30,
+        "english": [
+            "black"
+        ],
+        "kana": [
+            "くろい"
+        ],
+        "kanji": "黒い",
+        "romaji": [
+            "kuroi"
+        ]
+    },
+    {
+        "id": 31,
+        "english": [
+            "red"
+        ],
+        "kana": [
+            "あかい"
+        ],
+        "kanji": "赤い",
+        "romaji": [
+            "akai"
+        ]
+    },
+    {
+        "id": 32,
+        "english": [
+            "blue"
+        ],
+        "kana": [
+            "あおい"
+        ],
+        "kanji": "青い",
+        "romaji": [
+            "aoi"
+        ]
+    },
+    {
+        "id": 33,
+        "english": [
+            "cherry blossom",
+            "sakura"
+        ],
+        "kana": [
+            "さくら"
+        ],
+        "kanji": "桜",
+        "romaji": [
+            "sakura"
+        ]
+    },
+    {
+        "id": 34,
+        "english": [
+            "mountain"
+        ],
+        "kana": [
+            "やま"
+        ],
+        "kanji": "山",
+        "romaji": [
+            "yama"
+        ]
+    },
+    {
+        "id": 35,
+        "english": [
+            "town",
+            "city"
+        ],
+        "kana": [
+            "まち"
+        ],
+        "kanji": "町",
+        "romaji": [
+            "machi"
+        ]
+    },
+    {
+        "id": 36,
+        "english": [
+            "food"
+        ],
+        "kana": [
+            "たべもの"
+        ],
+        "kanji": "食べ物",
+        "romaji": [
+            "tabemono"
+        ]
+    },
+    {
+        "id": 37,
+        "english": [
+            "car",
+            "vehicle"
+        ],
+        "kana": [
+            "くるま"
+        ],
+        "kanji": "車",
+        "romaji": [
+            "kuruma"
+        ]
+    },
+    {
+        "id": 38,
+        "english": [
+            "place",
+            "spot"
+        ],
+        "kana": [
+            "ところ"
+        ],
+        "kanji": "所",
+        "romaji": [
+            "tokoro"
+        ]
+    },
+    {
+        "id": 39,
+        "english": [
+            "dormitory",
+            "dorm"
+        ],
+        "kana": [
+            "りょう"
+        ],
+        "kanji": "寮",
+        "romaji": [
+            "ryou"
+        ]
+    },
+    {
+        "id": 40,
+        "english": [
+            "study"
+        ],
+        "kana": [
+            "べんきょう"
+        ],
+        "kanji": "勉強",
+        "romaji": [
+            "benkyou"
+        ]
+    },
+    {
+        "id": 41,
+        "english": [
+            "life",
+            "living"
+        ],
+        "kana": [
+            "せいかつ"
+        ],
+        "kanji": "生活",
+        "romaji": [
+            "seikatsu"
+        ]
+    },
+    {
+        "id": 42,
+        "english": [
+            "work",
+            "business",
+            "job"
+        ],
+        "kana": [
+            "[お]しごと"
+        ],
+        "kanji": "[お]仕事",
+        "romaji": [
+            "[o]shigoto"
+        ]
+    },
+    {
+        "id": 43,
+        "english": [
+            "how"
+        ],
+        "kana": [
+            "どう"
+        ],
+        "kanji": null,
+        "romaji": [
+            "dou"
+        ]
+    },
+    {
+        "id": 44,
+        "english": [
+            "what kind of ~"
+        ],
+        "kana": [
+            "どんな～"
+        ],
+        "kanji": null,
+        "romaji": [
+            "donna~",
+            "donna～"
+        ]
+    },
+    {
+        "id": 45,
+        "english": [
+            "which one"
+        ],
+        "kana": [
+            "どれ"
+        ],
+        "kanji": null,
+        "romaji": [
+            "dore"
+        ]
+    },
+    {
+        "id": 46,
+        "english": [
+            "very"
+        ],
+        "kana": [
+            "とても"
+        ],
+        "kanji": null,
+        "romaji": [
+            "totemo"
+        ]
+    },
+    {
+        "id": 47,
+        "english": [
+            "not so",
+            "not very"
+        ],
+        "kana": [
+            "あまり"
+        ],
+        "kanji": null,
+        "romaji": [
+            "amari"
+        ]
+    },
+    {
+        "id": 48,
+        "english": [
+            "and",
+            "and then"
+        ],
+        "kana": [
+            "そして"
+        ],
+        "kanji": null,
+        "romaji": [
+            "soshite"
+        ]
+    },
+    {
+        "id": 49,
+        "english": [
+            "~, but ~"
+        ],
+        "kana": [
+            "～が、～"
+        ],
+        "kanji": null,
+        "romaji": [
+            "~ga, ~",
+            "~ga~",
+            "～ga, ～",
+            "～ga～",
+            "～が～"
+        ]
+    },
+    {
+        "id": 50,
+        "english": [
+            "How are you?"
+        ],
+        "kana": [
+            "おげんきですか"
+        ],
+        "kanji": "お元気ですか",
+        "romaji": [
+            "ogenki desu ka",
+            "ogenkidesuka"
+        ]
+    },
+    {
+        "id": 51,
+        "english": [
+            "Well, let me see",
+            "That's right"
+        ],
+        "kana": [
+            "そうですね"
+        ],
+        "kanji": null,
+        "romaji": [
+            "soudesune",
+            "sou desu ne"
+        ]
+    },
+    {
+        "id": 52,
+        "english": [
+            "Won't you have another cup [of ~]?",
+            "Would you like another cup [of ~]?"
+        ],
+        "kana": [
+            "[～、]もういっぱいいかがですか"
+        ],
+        "kanji": "[～、]もう一杯いかがですか",
+        "romaji": [
+            "[~,] mou ippai ikaga desu ka",
+            "[~,] mou ippai ikagadesuka",
+            "[～、] mou ippai ikaga desu ka",
+            "[～、] mou ippai ikagadesuka"
+        ]
+    },
+    {
+        "id": 53,
+        "english": [
+            "No, thank you"
+        ],
+        "kana": [
+            "いいえ、けっこうです"
+        ],
+        "kanji": "いいえ、結構です",
+        "romaji": [
+            "iie, kekkou desu",
+            "iie kekkou desu",
+            "iiekekkoudesu",
+            "いいえけっこうです",
+            "いいえ結構です"
+        ]
+    },
+    {
+        "id": 54,
+        "english": [
+            "It's almost time to leave now",
+            "I must be leaving now"
+        ],
+        "kana": [
+            "そろそろしつれいします"
+        ],
+        "kanji": "そろそろ失礼します",
+        "romaji": [
+            "sorosoro shitsurei shimasu",
+            "sorosoroshitsureishimasu"
+        ]
+    },
+    {
+        "id": 55,
+        "english": [
+            "Please come again"
+        ],
+        "kana": [
+            "またいらっしゃってください"
+        ],
+        "kanji": null,
+        "romaji": [
+            "mata irasshatte kudasai",
+            "matairasshattekudasai"
+        ]
+    }
+]
+
