@@ -28,7 +28,7 @@ interface QuizState {
 
 // --- Constants ---
 
-const CHAPTERS = [1, 2, 3, 4, 5, 6];
+const CHAPTERS = [1, 2, 3, 4, 5, 6, 7];
 const STUDY_PAGE_SIZE = 5;
 
 // --- DOM Elements ---
