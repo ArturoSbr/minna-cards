@@ -1,0 +1,712 @@
+[
+    {
+        "id": 1,
+        "english": [
+            "understand"
+        ],
+        "kana": [
+            "わかります"
+        ],
+        "kanji": "分かります",
+        "romaji": [
+            "wakarimasu"
+        ]
+    },
+    {
+        "id": 2,
+        "english": [
+            "have"
+        ],
+        "kana": [
+            "あります"
+        ],
+        "kanji": null,
+        "romaji": [
+            "arimasu"
+        ]
+    },
+    {
+        "id": 3,
+        "english": [
+            "like",
+            "fond of"
+        ],
+        "kana": [
+            "すき[な]"
+        ],
+        "kanji": "好き[な]",
+        "romaji": [
+            "suki [na]"
+        ]
+    },
+    {
+        "id": 4,
+        "english": [
+            "dislike"
+        ],
+        "kana": [
+            "きらい[な]"
+        ],
+        "kanji": "嫌い[な]",
+        "romaji": [
+            "kirai [na]"
+        ]
+    },
+    {
+        "id": 5,
+        "english": [
+            "good at",
+            "skillful"
+        ],
+        "kana": [
+            "じょうず[な]"
+        ],
+        "kanji": "上手[な]",
+        "romaji": [
+            "jouzu [na]"
+        ]
+    },
+    {
+        "id": 6,
+        "english": [
+            "poor at",
+            "unskillful"
+        ],
+        "kana": [
+            "へた[な]"
+        ],
+        "kanji": "下手[な]",
+        "romaji": [
+            "heta [na]"
+        ]
+    },
+    {
+        "id": 7,
+        "english": [
+            "dish",
+            "cooked food",
+            "cooking"
+        ],
+        "kana": [
+            "りょうり"
+        ],
+        "kanji": "料理",
+        "romaji": [
+            "ryouri"
+        ]
+    },
+    {
+        "id": 8,
+        "english": [
+            "drinks",
+            "beverage",
+            "drink"
+        ],
+        "kana": [
+            "のみもの"
+        ],
+        "kanji": "飲み物",
+        "romaji": [
+            "nomimono"
+        ]
+    },
+    {
+        "id": 9,
+        "english": [
+            "sport",
+            "sports"
+        ],
+        "kana": [
+            "スポーツ"
+        ],
+        "kanji": null,
+        "romaji": [
+            "supo-tsu",
+            "supootsu"
+        ]
+    },
+    {
+        "id": 10,
+        "english": [
+            "baseball"
+        ],
+        "kana": [
+            "やきゅう"
+        ],
+        "kanji": "野球",
+        "romaji": [
+            "yakyuu"
+        ]
+    },
+    {
+        "id": 11,
+        "english": [
+            "dance",
+            "dancing"
+        ],
+        "kana": [
+            "ダンス"
+        ],
+        "kanji": null,
+        "romaji": [
+            "dansu"
+        ]
+    },
+    {
+        "id": 12,
+        "english": [
+            "music"
+        ],
+        "kana": [
+            "おんがく"
+        ],
+        "kanji": "音楽",
+        "romaji": [
+            "ongaku"
+        ]
+    },
+    {
+        "id": 13,
+        "english": [
+            "song"
+        ],
+        "kana": [
+            "うた"
+        ],
+        "kanji": "歌",
+        "romaji": [
+            "uta"
+        ]
+    },
+    {
+        "id": 14,
+        "english": [
+            "classical music"
+        ],
+        "kana": [
+            "クラシック"
+        ],
+        "kanji": null,
+        "romaji": [
+            "kurashikku"
+        ]
+    },
+    {
+        "id": 15,
+        "english": [
+            "jazz"
+        ],
+        "kana": [
+            "ジャズ"
+        ],
+        "kanji": null,
+        "romaji": [
+            "jazu"
+        ]
+    },
+    {
+        "id": 16,
+        "english": [
+            "concert"
+        ],
+        "kana": [
+            "コンサート"
+        ],
+        "kanji": null,
+        "romaji": [
+            "konsa-to",
+            "konsaato"
+        ]
+    },
+    {
+        "id": 17,
+        "english": [
+            "karaoke"
+        ],
+        "kana": [
+            "カラオケ"
+        ],
+        "kanji": null,
+        "romaji": [
+            "karaoke"
+        ]
+    },
+    {
+        "id": 18,
+        "english": [
+            "Kabuki",
+            "traditional Japanese musical drama"
+        ],
+        "kana": [
+            "かぶき"
+        ],
+        "kanji": "歌舞伎",
+        "romaji": [
+            "kabuki"
+        ]
+    },
+    {
+        "id": 19,
+        "english": [
+            "picture",
+            "drawing",
+            "painting"
+        ],
+        "kana": [
+            "え"
+        ],
+        "kanji": "絵",
+        "romaji": [
+            "e"
+        ]
+    },
+    {
+        "id": 20,
+        "english": [
+            "letter",
+            "character"
+        ],
+        "kana": [
+            "じ"
+        ],
+        "kanji": "字",
+        "romaji": [
+            "ji"
+        ]
+    },
+    {
+        "id": 21,
+        "english": [
+            "Chinese characters",
+            "kanji"
+        ],
+        "kana": [
+            "かんじ"
+        ],
+        "kanji": "漢字",
+        "romaji": [
+            "kanji"
+        ]
+    },
+    {
+        "id": 22,
+        "english": [
+            "hiragana",
+            "Hiragana script"
+        ],
+        "kana": [
+            "ひらがな"
+        ],
+        "kanji": "平仮名",
+        "romaji": [
+            "hiragana"
+        ]
+    },
+    {
+        "id": 23,
+        "english": [
+            "katakana",
+            "Katakana script"
+        ],
+        "kana": [
+            "カタカナ"
+        ],
+        "kanji": "片仮名",
+        "romaji": [
+            "katakana"
+        ]
+    },
+    {
+        "id": 24,
+        "english": [
+            "the Roman alphabet",
+            "romaji"
+        ],
+        "kana": [
+            "ローマじ"
+        ],
+        "kanji": "ローマ字",
+        "romaji": [
+            "ro-maji",
+            "roomaji"
+        ]
+    },
+    {
+        "id": 25,
+        "english": [
+            "small change",
+            "change"
+        ],
+        "kana": [
+            "こまかいおかね"
+        ],
+        "kanji": "細かいお金",
+        "romaji": [
+            "komakai okane",
+            "komakaiokane"
+        ]
+    },
+    {
+        "id": 26,
+        "english": [
+            "ticket"
+        ],
+        "kana": [
+            "チケット"
+        ],
+        "kanji": null,
+        "romaji": [
+            "chiketto"
+        ]
+    },
+    {
+        "id": 27,
+        "english": [
+            "time"
+        ],
+        "kana": [
+            "じかん"
+        ],
+        "kanji": "時間",
+        "romaji": [
+            "jikan"
+        ]
+    },
+    {
+        "id": 28,
+        "english": [
+            "something to do",
+            "errand",
+            "business"
+        ],
+        "kana": [
+            "ようじ"
+        ],
+        "kanji": "用事",
+        "romaji": [
+            "youji"
+        ]
+    },
+    {
+        "id": 29,
+        "english": [
+            "promise",
+            "appointment"
+        ],
+        "kana": [
+            "やくそく"
+        ],
+        "kanji": "約束",
+        "romaji": [
+            "yakusoku"
+        ]
+    },
+    {
+        "id": 30,
+        "english": [
+            "[someone else's] husband",
+            "husband (polite)"
+        ],
+        "kana": [
+            "ごしゅじん"
+        ],
+        "kanji": "ご主人",
+        "romaji": [
+            "goshujin"
+        ]
+    },
+    {
+        "id": 31,
+        "english": [
+            "[my] husband",
+            "husband (own)"
+        ],
+        "kana": [
+            "おっと",
+            "しゅじん"
+        ],
+        "kanji": "夫/主人",
+        "romaji": [
+            "otto",
+            "shujin"
+        ]
+    },
+    {
+        "id": 32,
+        "english": [
+            "[someone else's] wife",
+            "wife (polite)"
+        ],
+        "kana": [
+            "おくさん"
+        ],
+        "kanji": "奥さん",
+        "romaji": [
+            "okusan"
+        ]
+    },
+    {
+        "id": 33,
+        "english": [
+            "[my] wife",
+            "wife (own)"
+        ],
+        "kana": [
+            "つま",
+            "かない"
+        ],
+        "kanji": "妻/家内",
+        "romaji": [
+            "tsuma",
+            "kanai"
+        ]
+    },
+    {
+        "id": 34,
+        "english": [
+            "child",
+            "children"
+        ],
+        "kana": [
+            "こども"
+        ],
+        "kanji": "子ども/子供",
+        "romaji": [
+            "kodomo"
+        ]
+    },
+    {
+        "id": 35,
+        "english": [
+            "well",
+            "much"
+        ],
+        "kana": [
+            "よく"
+        ],
+        "kanji": null,
+        "romaji": [
+            "yoku"
+        ]
+    },
+    {
+        "id": 36,
+        "english": [
+            "mostly",
+            "roughly"
+        ],
+        "kana": [
+            "だいたい"
+        ],
+        "kanji": null,
+        "romaji": [
+            "daitai"
+        ]
+    },
+    {
+        "id": 37,
+        "english": [
+            "many",
+            "much",
+            "a lot"
+        ],
+        "kana": [
+            "たくさん"
+        ],
+        "kanji": null,
+        "romaji": [
+            "takusan"
+        ]
+    },
+    {
+        "id": 38,
+        "english": [
+            "a little",
+            "a few"
+        ],
+        "kana": [
+            "すこし"
+        ],
+        "kanji": "少し",
+        "romaji": [
+            "sukoshi"
+        ]
+    },
+    {
+        "id": 39,
+        "english": [
+            "not at all"
+        ],
+        "kana": [
+            "ぜんぜん"
+        ],
+        "kanji": "全然",
+        "romaji": [
+            "zenzen"
+        ]
+    },
+    {
+        "id": 40,
+        "english": [
+            "early",
+            "quickly",
+            "fast"
+        ],
+        "kana": [
+            "はやく"
+        ],
+        "kanji": "早く/速く",
+        "romaji": [
+            "hayaku"
+        ]
+    },
+    {
+        "id": 41,
+        "english": [
+            "because ~",
+            "since ~"
+        ],
+        "kana": [
+            "～から"
+        ],
+        "kanji": null,
+        "romaji": [
+            "~kara",
+            "～kara"
+        ]
+    },
+    {
+        "id": 42,
+        "english": [
+            "why"
+        ],
+        "kana": [
+            "どうして"
+        ],
+        "kanji": null,
+        "romaji": [
+            "doushite"
+        ]
+    },
+    {
+        "id": 43,
+        "english": [
+            "I'm sorry [to hear that]",
+            "That's a pity",
+            "That's too bad"
+        ],
+        "kana": [
+            "ざんねんですね"
+        ],
+        "kanji": "残念ですね",
+        "romaji": [
+            "zannendesune",
+            "zannen desu ne"
+        ]
+    },
+    {
+        "id": 44,
+        "english": [
+            "I am sorry",
+            "Excuse me"
+        ],
+        "kana": [
+            "すみません"
+        ],
+        "kanji": null,
+        "romaji": [
+            "sumimasen"
+        ]
+    },
+    {
+        "id": 45,
+        "english": [
+            "Hello (on the phone)",
+            "Hello"
+        ],
+        "kana": [
+            "もしもし"
+        ],
+        "kanji": null,
+        "romaji": [
+            "moshimoshi",
+            "moshi moshi"
+        ]
+    },
+    {
+        "id": 46,
+        "english": [
+            "oh"
+        ],
+        "kana": [
+            "ああ"
+        ],
+        "kanji": null,
+        "romaji": [
+            "aa"
+        ]
+    },
+    {
+        "id": 47,
+        "english": [
+            "Won't you join me?",
+            "Would you like to join me?"
+        ],
+        "kana": [
+            "いっしょにいかがですか"
+        ],
+        "kanji": "一緒にいかがですか",
+        "romaji": [
+            "issho ni ikaga desu ka",
+            "isshoni ikagadesuka"
+        ]
+    },
+    {
+        "id": 48,
+        "english": [
+            "[~ is] a bit difficult",
+            "I'm afraid [~ is out of the question]"
+        ],
+        "kana": [
+            "[～は]ちょっと"
+        ],
+        "kanji": null,
+        "romaji": [
+            "[~wa] chotto",
+            "[~ha] chotto",
+            "[～wa] chotto",
+            "[～ha] chotto"
+        ]
+    },
+    {
+        "id": 49,
+        "english": [
+            "So you cannot [come]?",
+            "Is it no good?"
+        ],
+        "kana": [
+            "だめですか"
+        ],
+        "kanji": null,
+        "romaji": [
+            "damedesuka",
+            "dame desu ka"
+        ]
+    },
+    {
+        "id": 50,
+        "english": [
+            "Please ask me again [some other time]",
+            "Maybe next time"
+        ],
+        "kana": [
+            "またこんどおねがいします"
+        ],
+        "kanji": "また今度お願いします",
+        "romaji": [
+            "mata kondo onegaishimasu",
+            "matakondoonegaishimasu"
+        ]
+    }
+]
+
