@@ -28,7 +28,7 @@ interface QuizState {
 
 // --- Constants ---
 
-const CHAPTERS = [1, 2, 3, 4, 5, 6, 8, 9, 10];
+const CHAPTERS = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const STUDY_PAGE_SIZE = 5;
 
 // --- DOM Elements ---
@@ -135,16 +135,21 @@ function normalize(s: string): string {
   return s.replace(/[～~〜]/g, "").trim();
 }
 
-/** Expand optional [bracket] parts into variants */
+/** Expand optional [bracket] parts into all combinations of variants */
 function expandVariants(s: string): string[] {
-  const withContent = s.replace(/[\[\]]/g, "");    // keep content, remove brackets
-  const withoutContent = s.replace(/\[.*?\]/g, ""); // remove brackets and content
-  const variants = [normalize(withContent)];
-  const stripped = normalize(withoutContent);
-  if (stripped !== variants[0]) {
-    variants.push(stripped);
+  const match = /\[([^\]]*)\]/.exec(s);
+  if (!match) {
+    return [normalize(s)];
   }
-  return variants;
+
+  const before = s.slice(0, match.index);
+  const content = match[1];
+  const after = s.slice(match.index + match[0].length);
+
+  const withContent = expandVariants(before + content + after);
+  const withoutContent = expandVariants(before + after);
+
+  return Array.from(new Set([...withContent, ...withoutContent]));
 }
 
 /** Remove all whitespace, including full-width spaces (U+3000) */
