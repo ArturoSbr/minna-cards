@@ -1,0 +1,653 @@
+[
+    {
+        "id": 1,
+        "english": [
+            "cut",
+            "slice"
+        ],
+        "kana": [
+            "きります"
+        ],
+        "kanji": "切ります",
+        "romaji": [
+            "kirimasu"
+        ]
+    },
+    {
+        "id": 2,
+        "english": [
+            "send"
+        ],
+        "kana": [
+            "おくります"
+        ],
+        "kanji": "送ります",
+        "romaji": [
+            "okurimasu"
+        ]
+    },
+    {
+        "id": 3,
+        "english": [
+            "give"
+        ],
+        "kana": [
+            "あげます"
+        ],
+        "kanji": null,
+        "romaji": [
+            "agemasu"
+        ]
+    },
+    {
+        "id": 4,
+        "english": [
+            "receive",
+            "get"
+        ],
+        "kana": [
+            "もらいます"
+        ],
+        "kanji": null,
+        "romaji": [
+            "moraimasu"
+        ]
+    },
+    {
+        "id": 5,
+        "english": [
+            "lend"
+        ],
+        "kana": [
+            "かします"
+        ],
+        "kanji": "貸します",
+        "romaji": [
+            "kashimasu"
+        ]
+    },
+    {
+        "id": 6,
+        "english": [
+            "borrow"
+        ],
+        "kana": [
+            "かります"
+        ],
+        "kanji": "借ります",
+        "romaji": [
+            "karimasu"
+        ]
+    },
+    {
+        "id": 7,
+        "english": [
+            "teach"
+        ],
+        "kana": [
+            "おしえます"
+        ],
+        "kanji": "教えます",
+        "romaji": [
+            "oshiemasu"
+        ]
+    },
+    {
+        "id": 8,
+        "english": [
+            "learn"
+        ],
+        "kana": [
+            "ならいます"
+        ],
+        "kanji": "習います",
+        "romaji": [
+            "naraimasu"
+        ]
+    },
+    {
+        "id": 9,
+        "english": [
+            "make [a telephone call]",
+            "make [a phone call]"
+        ],
+        "kana": [
+            "かけます"
+        ],
+        "kanji": "掛けます",
+        "romaji": [
+            "kakemasu"
+        ]
+    },
+    {
+        "id": 10,
+        "english": [
+            "hand",
+            "arm"
+        ],
+        "kana": [
+            "て"
+        ],
+        "kanji": "手",
+        "romaji": [
+            "te"
+        ]
+    },
+    {
+        "id": 11,
+        "english": [
+            "chopsticks"
+        ],
+        "kana": [
+            "はし"
+        ],
+        "kanji": "箸",
+        "romaji": [
+            "hashi"
+        ]
+    },
+    {
+        "id": 12,
+        "english": [
+            "spoon"
+        ],
+        "kana": [
+            "スプーン"
+        ],
+        "kanji": null,
+        "romaji": [
+            "supu-n",
+            "supuun"
+        ]
+    },
+    {
+        "id": 13,
+        "english": [
+            "knife"
+        ],
+        "kana": [
+            "ナイフ"
+        ],
+        "kanji": null,
+        "romaji": [
+            "naifu"
+        ]
+    },
+    {
+        "id": 14,
+        "english": [
+            "fork"
+        ],
+        "kana": [
+            "フォーク"
+        ],
+        "kanji": null,
+        "romaji": [
+            "fo-ku",
+            "fooku"
+        ]
+    },
+    {
+        "id": 15,
+        "english": [
+            "scissors"
+        ],
+        "kana": [
+            "はさみ"
+        ],
+        "kanji": "鋏",
+        "romaji": [
+            "hasami"
+        ]
+    },
+    {
+        "id": 16,
+        "english": [
+            "fax"
+        ],
+        "kana": [
+            "ファクス"
+        ],
+        "kanji": null,
+        "romaji": [
+            "fakusu"
+        ]
+    },
+    {
+        "id": 17,
+        "english": [
+            "word processor"
+        ],
+        "kana": [
+            "ワープロ"
+        ],
+        "kanji": null,
+        "romaji": [
+            "wa-puro",
+            "waapuro"
+        ]
+    },
+    {
+        "id": 18,
+        "english": [
+            "personal computer",
+            "PC"
+        ],
+        "kana": [
+            "パソコン"
+        ],
+        "kanji": null,
+        "romaji": [
+            "pasokon"
+        ]
+    },
+    {
+        "id": 19,
+        "english": [
+            "punch",
+            "hole punch"
+        ],
+        "kana": [
+            "パンチ"
+        ],
+        "kanji": null,
+        "romaji": [
+            "panchi"
+        ]
+    },
+    {
+        "id": 20,
+        "english": [
+            "stapler"
+        ],
+        "kana": [
+            "ホッチキス"
+        ],
+        "kanji": null,
+        "romaji": [
+            "hotchikisu",
+            "hocchikisu"
+        ]
+    },
+    {
+        "id": 21,
+        "english": [
+            "Scotch tape",
+            "clear adhesive tape",
+            "tape"
+        ],
+        "kana": [
+            "セロテープ"
+        ],
+        "kanji": null,
+        "romaji": [
+            "serote-pu",
+            "seroteepu"
+        ]
+    },
+    {
+        "id": 22,
+        "english": [
+            "eraser",
+            "rubber"
+        ],
+        "kana": [
+            "けしゴム"
+        ],
+        "kanji": "消しゴム",
+        "romaji": [
+            "keshigomu",
+            "keshi gomu"
+        ]
+    },
+    {
+        "id": 23,
+        "english": [
+            "paper"
+        ],
+        "kana": [
+            "かみ"
+        ],
+        "kanji": "紙",
+        "romaji": [
+            "kami"
+        ]
+    },
+    {
+        "id": 24,
+        "english": [
+            "flower",
+            "blossom"
+        ],
+        "kana": [
+            "はな"
+        ],
+        "kanji": "花",
+        "romaji": [
+            "hana"
+        ]
+    },
+    {
+        "id": 25,
+        "english": [
+            "shirt"
+        ],
+        "kana": [
+            "シャツ"
+        ],
+        "kanji": null,
+        "romaji": [
+            "shatsu"
+        ]
+    },
+    {
+        "id": 26,
+        "english": [
+            "present",
+            "gift"
+        ],
+        "kana": [
+            "プレゼント"
+        ],
+        "kanji": null,
+        "romaji": [
+            "purezento"
+        ]
+    },
+    {
+        "id": 27,
+        "english": [
+            "baggage",
+            "parcel",
+            "luggage"
+        ],
+        "kana": [
+            "にもつ"
+        ],
+        "kanji": "荷物",
+        "romaji": [
+            "nimotsu"
+        ]
+    },
+    {
+        "id": 28,
+        "english": [
+            "money"
+        ],
+        "kana": [
+            "おかね"
+        ],
+        "kanji": "お金",
+        "romaji": [
+            "okane"
+        ]
+    },
+    {
+        "id": 29,
+        "english": [
+            "ticket"
+        ],
+        "kana": [
+            "きっぷ"
+        ],
+        "kanji": "切符",
+        "romaji": [
+            "kippu"
+        ]
+    },
+    {
+        "id": 30,
+        "english": [
+            "Christmas"
+        ],
+        "kana": [
+            "クリスマス"
+        ],
+        "kanji": null,
+        "romaji": [
+            "kurisumasu"
+        ]
+    },
+    {
+        "id": 31,
+        "english": [
+            "[my] father",
+            "father (own)"
+        ],
+        "kana": [
+            "ちち"
+        ],
+        "kanji": "父",
+        "romaji": [
+            "chichi"
+        ]
+    },
+    {
+        "id": 32,
+        "english": [
+            "[my] mother",
+            "mother (own)"
+        ],
+        "kana": [
+            "はは"
+        ],
+        "kanji": "母",
+        "romaji": [
+            "haha"
+        ]
+    },
+    {
+        "id": 33,
+        "english": [
+            "[someone else's] father",
+            "father (polite)"
+        ],
+        "kana": [
+            "おとうさん"
+        ],
+        "kanji": "お父さん",
+        "romaji": [
+            "otousan"
+        ]
+    },
+    {
+        "id": 34,
+        "english": [
+            "[someone else's] mother",
+            "mother (polite)"
+        ],
+        "kana": [
+            "おかあさん"
+        ],
+        "kanji": "お母さん",
+        "romaji": [
+            "okaasan"
+        ]
+    },
+    {
+        "id": 35,
+        "english": [
+            "already"
+        ],
+        "kana": [
+            "もう"
+        ],
+        "kanji": null,
+        "romaji": [
+            "mou"
+        ]
+    },
+    {
+        "id": 36,
+        "english": [
+            "not yet"
+        ],
+        "kana": [
+            "まだ"
+        ],
+        "kanji": null,
+        "romaji": [
+            "mada"
+        ]
+    },
+    {
+        "id": 37,
+        "english": [
+            "from now on",
+            "soon"
+        ],
+        "kana": [
+            "これから"
+        ],
+        "kanji": null,
+        "romaji": [
+            "korekara",
+            "kore kara"
+        ]
+    },
+    {
+        "id": 38,
+        "english": [
+            "What a nice [~]!",
+            "That's nice, isn't it?",
+            "It's lovely, isn't it?"
+        ],
+        "kana": [
+            "[～、]すてきですね"
+        ],
+        "kanji": "[～、]素敵ですね",
+        "romaji": [
+            "[~,] suteki desu ne",
+            "[~,] sutekidesune",
+            "[～、] suteki desu ne",
+            "[～、] sutekidesune"
+        ]
+    },
+    {
+        "id": 39,
+        "english": [
+            "Excuse me",
+            "Anybody home?",
+            "May I come in?"
+        ],
+        "kana": [
+            "ごめんください"
+        ],
+        "kanji": null,
+        "romaji": [
+            "gomenkudasai",
+            "gomen kudasai"
+        ]
+    },
+    {
+        "id": 40,
+        "english": [
+            "Welcome",
+            "How nice of you to come"
+        ],
+        "kana": [
+            "いらっしゃい"
+        ],
+        "kanji": null,
+        "romaji": [
+            "irasshai"
+        ]
+    },
+    {
+        "id": 41,
+        "english": [
+            "Please come in",
+            "Do come in"
+        ],
+        "kana": [
+            "どうぞおあがりください"
+        ],
+        "kanji": "どうぞお上がりください",
+        "romaji": [
+            "douzo oagari kudasai",
+            "douzo oagarikudasai"
+        ]
+    },
+    {
+        "id": 42,
+        "english": [
+            "Thank you",
+            "May I?",
+            "Excuse me [for intruding]"
+        ],
+        "kana": [
+            "しつれいします"
+        ],
+        "kanji": "失礼します",
+        "romaji": [
+            "shitsureishimasu",
+            "shitsurei shimasu"
+        ]
+    },
+    {
+        "id": 43,
+        "english": [
+            "Won't you have [~]?",
+            "Would you like [~]?",
+            "How about [~]?"
+        ],
+        "kana": [
+            "[～は]いかがですか"
+        ],
+        "kanji": null,
+        "romaji": [
+            "[~wa] ikaga desu ka",
+            "[~wa] ikagadesuka",
+            "[~ha] ikaga desu ka",
+            "[~ha] ikagadesuka",
+            "[～wa] ikaga desu ka",
+            "[～wa] ikagadesuka",
+            "[～ha] ikaga desu ka",
+            "[～ha] ikagadesuka"
+        ]
+    },
+    {
+        "id": 44,
+        "english": [
+            "Thank you",
+            "I accept"
+        ],
+        "kana": [
+            "いただきます"
+        ],
+        "kanji": null,
+        "romaji": [
+            "itadakimasu"
+        ]
+    },
+    {
+        "id": 45,
+        "english": [
+            "trip",
+            "travel",
+            "tour"
+        ],
+        "kana": [
+            "りょこう"
+        ],
+        "kanji": "旅行",
+        "romaji": [
+            "ryokou"
+        ]
+    },
+    {
+        "id": 46,
+        "english": [
+            "souvenir",
+            "present"
+        ],
+        "kana": [
+            "おみやげ"
+        ],
+        "kanji": "お土産",
+        "romaji": [
+            "omiyage"
+        ]
+    }
+]
+
