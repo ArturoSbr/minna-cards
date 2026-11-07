@@ -1,0 +1,763 @@
+[
+    {
+        "id": 1,
+        "english": [
+            "eat"
+        ],
+        "kana": [
+            "たべます"
+        ],
+        "kanji": "食べます",
+        "romaji": [
+            "tabemasu"
+        ]
+    },
+    {
+        "id": 2,
+        "english": [
+            "drink"
+        ],
+        "kana": [
+            "のみます"
+        ],
+        "kanji": "飲みます",
+        "romaji": [
+            "nomimasu"
+        ]
+    },
+    {
+        "id": 3,
+        "english": [
+            "smoke [a cigarette]"
+        ],
+        "kana": [
+            "すいます"
+        ],
+        "kanji": "吸います",
+        "romaji": [
+            "suimasu"
+        ]
+    },
+    {
+        "id": 4,
+        "english": [
+            "see",
+            "look at",
+            "watch"
+        ],
+        "kana": [
+            "みます"
+        ],
+        "kanji": "見ます",
+        "romaji": [
+            "mimasu"
+        ]
+    },
+    {
+        "id": 5,
+        "english": [
+            "hear",
+            "listen"
+        ],
+        "kana": [
+            "ききます"
+        ],
+        "kanji": "聞きます",
+        "romaji": [
+            "kikimasu"
+        ]
+    },
+    {
+        "id": 6,
+        "english": [
+            "read"
+        ],
+        "kana": [
+            "よみます"
+        ],
+        "kanji": "読みます",
+        "romaji": [
+            "yomimasu"
+        ]
+    },
+    {
+        "id": 7,
+        "english": [
+            "write",
+            "draw",
+            "paint"
+        ],
+        "kana": [
+            "かきます"
+        ],
+        "kanji": "書きます",
+        "romaji": [
+            "kakimasu"
+        ]
+    },
+    {
+        "id": 8,
+        "english": [
+            "buy"
+        ],
+        "kana": [
+            "かいます"
+        ],
+        "kanji": "買います",
+        "romaji": [
+            "kaimasu"
+        ]
+    },
+    {
+        "id": 9,
+        "english": [
+            "take [a photograph]",
+            "take [a photo]",
+            "take [a picture]"
+        ],
+        "kana": [
+            "とります"
+        ],
+        "kanji": "撮ります",
+        "romaji": [
+            "torimasu"
+        ]
+    },
+    {
+        "id": 10,
+        "english": [
+            "do",
+            "play"
+        ],
+        "kana": [
+            "します"
+        ],
+        "kanji": null,
+        "romaji": [
+            "shimasu"
+        ]
+    },
+    {
+        "id": 11,
+        "english": [
+            "meet [a friend]"
+        ],
+        "kana": [
+            "あいます"
+        ],
+        "kanji": "会います",
+        "romaji": [
+            "aimasu"
+        ]
+    },
+    {
+        "id": 12,
+        "english": [
+            "a meal",
+            "cooked rice",
+            "meal",
+            "rice"
+        ],
+        "kana": [
+            "ごはん"
+        ],
+        "kanji": "ご飯",
+        "romaji": [
+            "gohan"
+        ]
+    },
+    {
+        "id": 13,
+        "english": [
+            "breakfast"
+        ],
+        "kana": [
+            "あさごはん"
+        ],
+        "kanji": "朝ご飯",
+        "romaji": [
+            "asagohan",
+            "asa gohan"
+        ]
+    },
+    {
+        "id": 14,
+        "english": [
+            "lunch"
+        ],
+        "kana": [
+            "ひるごはん"
+        ],
+        "kanji": "昼ご飯",
+        "romaji": [
+            "hirugohan",
+            "hiru gohan"
+        ]
+    },
+    {
+        "id": 15,
+        "english": [
+            "supper",
+            "dinner"
+        ],
+        "kana": [
+            "ばんごはん"
+        ],
+        "kanji": "晩ご飯",
+        "romaji": [
+            "bangohan",
+            "ban gohan"
+        ]
+    },
+    {
+        "id": 16,
+        "english": [
+            "bread"
+        ],
+        "kana": [
+            "パン"
+        ],
+        "kanji": null,
+        "romaji": [
+            "pan"
+        ]
+    },
+    {
+        "id": 17,
+        "english": [
+            "egg",
+            "eggs"
+        ],
+        "kana": [
+            "たまご"
+        ],
+        "kanji": "卵",
+        "romaji": [
+            "tamago"
+        ]
+    },
+    {
+        "id": 18,
+        "english": [
+            "meat"
+        ],
+        "kana": [
+            "にく"
+        ],
+        "kanji": "肉",
+        "romaji": [
+            "niku"
+        ]
+    },
+    {
+        "id": 19,
+        "english": [
+            "fish"
+        ],
+        "kana": [
+            "さかな"
+        ],
+        "kanji": "魚",
+        "romaji": [
+            "sakana"
+        ]
+    },
+    {
+        "id": 20,
+        "english": [
+            "vegetable",
+            "vegetables"
+        ],
+        "kana": [
+            "やさい"
+        ],
+        "kanji": "野菜",
+        "romaji": [
+            "yasai"
+        ]
+    },
+    {
+        "id": 21,
+        "english": [
+            "fruit",
+            "fruits"
+        ],
+        "kana": [
+            "くだもの"
+        ],
+        "kanji": "果物",
+        "romaji": [
+            "kudamono"
+        ]
+    },
+    {
+        "id": 22,
+        "english": [
+            "water"
+        ],
+        "kana": [
+            "みず"
+        ],
+        "kanji": "水",
+        "romaji": [
+            "mizu"
+        ]
+    },
+    {
+        "id": 23,
+        "english": [
+            "tea",
+            "green tea"
+        ],
+        "kana": [
+            "おちゃ"
+        ],
+        "kanji": "お茶",
+        "romaji": [
+            "ocha"
+        ]
+    },
+    {
+        "id": 24,
+        "english": [
+            "black tea"
+        ],
+        "kana": [
+            "こうちゃ"
+        ],
+        "kanji": "紅茶",
+        "romaji": [
+            "koucha"
+        ]
+    },
+    {
+        "id": 25,
+        "english": [
+            "milk"
+        ],
+        "kana": [
+            "ぎゅうにゅう",
+            "ミルク"
+        ],
+        "kanji": "牛乳",
+        "romaji": [
+            "gyuunyuu",
+            "miruku"
+        ]
+    },
+    {
+        "id": 26,
+        "english": [
+            "juice"
+        ],
+        "kana": [
+            "ジュース"
+        ],
+        "kanji": null,
+        "romaji": [
+            "ju-su",
+            "juusu"
+        ]
+    },
+    {
+        "id": 27,
+        "english": [
+            "beer"
+        ],
+        "kana": [
+            "ビール"
+        ],
+        "kanji": null,
+        "romaji": [
+            "bi-ru",
+            "biiru"
+        ]
+    },
+    {
+        "id": 28,
+        "english": [
+            "alcohol",
+            "Japanese rice wine",
+            "sake"
+        ],
+        "kana": [
+            "[お]さけ"
+        ],
+        "kanji": "[お]酒",
+        "romaji": [
+            "[o]sake"
+        ]
+    },
+    {
+        "id": 29,
+        "english": [
+            "tobacco",
+            "cigarette",
+            "cigarettes"
+        ],
+        "kana": [
+            "たばこ"
+        ],
+        "kanji": "煙草",
+        "romaji": [
+            "tabako"
+        ]
+    },
+    {
+        "id": 30,
+        "english": [
+            "video tape",
+            "video deck",
+            "video"
+        ],
+        "kana": [
+            "ビデオ"
+        ],
+        "kanji": null,
+        "romaji": [
+            "bideo"
+        ]
+    },
+    {
+        "id": 31,
+        "english": [
+            "movie",
+            "film"
+        ],
+        "kana": [
+            "えいが"
+        ],
+        "kanji": "映画",
+        "romaji": [
+            "eiga"
+        ]
+    },
+    {
+        "id": 32,
+        "english": [
+            "CD",
+            "compact disc"
+        ],
+        "kana": [
+            "CD",
+            "シーディー"
+        ],
+        "kanji": null,
+        "romaji": [
+            "cd",
+            "shi-di-",
+            "shiidii"
+        ]
+    },
+    {
+        "id": 33,
+        "english": [
+            "letter"
+        ],
+        "kana": [
+            "てがみ"
+        ],
+        "kanji": "手紙",
+        "romaji": [
+            "tegami"
+        ]
+    },
+    {
+        "id": 34,
+        "english": [
+            "report"
+        ],
+        "kana": [
+            "レポート"
+        ],
+        "kanji": null,
+        "romaji": [
+            "repo-to",
+            "repooto"
+        ]
+    },
+    {
+        "id": 35,
+        "english": [
+            "photograph",
+            "photo",
+            "picture"
+        ],
+        "kana": [
+            "しゃしん"
+        ],
+        "kanji": "写真",
+        "romaji": [
+            "shashin"
+        ]
+    },
+    {
+        "id": 36,
+        "english": [
+            "store",
+            "shop"
+        ],
+        "kana": [
+            "みせ"
+        ],
+        "kanji": "店",
+        "romaji": [
+            "mise"
+        ]
+    },
+    {
+        "id": 37,
+        "english": [
+            "restaurant"
+        ],
+        "kana": [
+            "レストラン"
+        ],
+        "kanji": null,
+        "romaji": [
+            "resutoran"
+        ]
+    },
+    {
+        "id": 38,
+        "english": [
+            "garden",
+            "yard"
+        ],
+        "kana": [
+            "にわ"
+        ],
+        "kanji": "庭",
+        "romaji": [
+            "niwa"
+        ]
+    },
+    {
+        "id": 39,
+        "english": [
+            "homework"
+        ],
+        "kana": [
+            "しゅくだい"
+        ],
+        "kanji": "宿題",
+        "romaji": [
+            "shukudai"
+        ]
+    },
+    {
+        "id": 40,
+        "english": [
+            "tennis"
+        ],
+        "kana": [
+            "テニス"
+        ],
+        "kanji": null,
+        "romaji": [
+            "tenisu"
+        ]
+    },
+    {
+        "id": 41,
+        "english": [
+            "soccer",
+            "football"
+        ],
+        "kana": [
+            "サッカー"
+        ],
+        "kanji": null,
+        "romaji": [
+            "sakka-",
+            "sakkaa"
+        ]
+    },
+    {
+        "id": 42,
+        "english": [
+            "cherry-blossom viewing",
+            "cherry blossom viewing"
+        ],
+        "kana": [
+            "[お]はなみ"
+        ],
+        "kanji": "[お]花見",
+        "romaji": [
+            "[o]hanami"
+        ]
+    },
+    {
+        "id": 43,
+        "english": [
+            "what"
+        ],
+        "kana": [
+            "なに"
+        ],
+        "kanji": "何",
+        "romaji": [
+            "nani"
+        ]
+    },
+    {
+        "id": 44,
+        "english": [
+            "together"
+        ],
+        "kana": [
+            "いっしょに"
+        ],
+        "kanji": "一緒に",
+        "romaji": [
+            "isshoni",
+            "issho ni"
+        ]
+    },
+    {
+        "id": 45,
+        "english": [
+            "a little",
+            "a while",
+            "a moment"
+        ],
+        "kana": [
+            "ちょっと"
+        ],
+        "kanji": null,
+        "romaji": [
+            "chotto"
+        ]
+    },
+    {
+        "id": 46,
+        "english": [
+            "always",
+            "usually"
+        ],
+        "kana": [
+            "いつも"
+        ],
+        "kanji": null,
+        "romaji": [
+            "itsumo"
+        ]
+    },
+    {
+        "id": 47,
+        "english": [
+            "sometimes"
+        ],
+        "kana": [
+            "ときどき"
+        ],
+        "kanji": "時々",
+        "romaji": [
+            "tokidoki"
+        ]
+    },
+    {
+        "id": 48,
+        "english": [
+            "after that",
+            "and then"
+        ],
+        "kana": [
+            "それから"
+        ],
+        "kanji": null,
+        "romaji": [
+            "sorekara",
+            "sore kara"
+        ]
+    },
+    {
+        "id": 49,
+        "english": [
+            "yes"
+        ],
+        "kana": [
+            "ええ"
+        ],
+        "kanji": null,
+        "romaji": [
+            "ee"
+        ]
+    },
+    {
+        "id": 50,
+        "english": [
+            "That's good",
+            "Sounds good"
+        ],
+        "kana": [
+            "いいですね"
+        ],
+        "kanji": null,
+        "romaji": [
+            "iidesune",
+            "ii desu ne"
+        ]
+    },
+    {
+        "id": 51,
+        "english": [
+            "I see",
+            "I understand",
+            "Understood"
+        ],
+        "kana": [
+            "わかりました"
+        ],
+        "kanji": "分かりました",
+        "romaji": [
+            "wakarimashita"
+        ]
+    },
+    {
+        "id": 52,
+        "english": [
+            "Yes?",
+            "What is it?"
+        ],
+        "kana": [
+            "なんですか"
+        ],
+        "kanji": "何ですか",
+        "romaji": [
+            "nandesuka",
+            "nan desu ka"
+        ]
+    },
+    {
+        "id": 53,
+        "english": [
+            "See you [tomorrow]"
+        ],
+        "kana": [
+            "じゃ、また[あした]"
+        ],
+        "kanji": "じゃ、また[明日]",
+        "romaji": [
+            "ja, mata [ashita]",
+            "ja mata [ashita]",
+            "じゃまた[あした]"
+        ]
+    },
+    {
+        "id": 54,
+        "english": [
+            "Hello (on the phone)",
+            "Hello"
+        ],
+        "kana": [
+            "もしもし"
+        ],
+        "kanji": null,
+        "romaji": [
+            "moshimoshi",
+            "moshi moshi"
+        ]
+    }
+]
+

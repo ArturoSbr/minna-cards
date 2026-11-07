@@ -55,7 +55,7 @@ const resultsScore = $("results-score");
 const resultsDetail = $("results-detail");
 const restartBtn = $("restart-btn");
 // --- Constants ---
-const CHAPTERS = [1, 2, 3, 4, 5];
+const CHAPTERS = [1, 2, 3, 4, 5, 6];
 const STUDY_PAGE_SIZE = 5;
 // --- State ---
 let selectedChapter = null;
