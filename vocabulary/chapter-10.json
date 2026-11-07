@@ -1,0 +1,650 @@
+[
+    {
+        "id": 1,
+        "english": [
+            "exist",
+            "be (animate)"
+        ],
+        "kana": [
+            "います"
+        ],
+        "kanji": null,
+        "romaji": [
+            "imasu"
+        ]
+    },
+    {
+        "id": 2,
+        "english": [
+            "exist",
+            "be (inanimate)"
+        ],
+        "kana": [
+            "あります"
+        ],
+        "kanji": null,
+        "romaji": [
+            "arimasu"
+        ]
+    },
+    {
+        "id": 3,
+        "english": [
+            "various"
+        ],
+        "kana": [
+            "いろいろ[な]"
+        ],
+        "kanji": "色々[な]",
+        "romaji": [
+            "iroiro [na]"
+        ]
+    },
+    {
+        "id": 4,
+        "english": [
+            "man"
+        ],
+        "kana": [
+            "おとこのひと"
+        ],
+        "kanji": "男の人",
+        "romaji": [
+            "otoko no hito",
+            "otokonohito"
+        ]
+    },
+    {
+        "id": 5,
+        "english": [
+            "woman"
+        ],
+        "kana": [
+            "おんなのひと"
+        ],
+        "kanji": "女の人",
+        "romaji": [
+            "onna no hito",
+            "onnanohito"
+        ]
+    },
+    {
+        "id": 6,
+        "english": [
+            "boy"
+        ],
+        "kana": [
+            "おとこのこ"
+        ],
+        "kanji": "男の子",
+        "romaji": [
+            "otoko no ko",
+            "otokonoko"
+        ]
+    },
+    {
+        "id": 7,
+        "english": [
+            "girl"
+        ],
+        "kana": [
+            "おんなのこ"
+        ],
+        "kanji": "女の子",
+        "romaji": [
+            "onna no ko",
+            "onnanoko"
+        ]
+    },
+    {
+        "id": 8,
+        "english": [
+            "dog"
+        ],
+        "kana": [
+            "いぬ"
+        ],
+        "kanji": "犬",
+        "romaji": [
+            "inu"
+        ]
+    },
+    {
+        "id": 9,
+        "english": [
+            "cat"
+        ],
+        "kana": [
+            "ねこ"
+        ],
+        "kanji": "猫",
+        "romaji": [
+            "neko"
+        ]
+    },
+    {
+        "id": 10,
+        "english": [
+            "tree",
+            "wood"
+        ],
+        "kana": [
+            "き"
+        ],
+        "kanji": "木",
+        "romaji": [
+            "ki"
+        ]
+    },
+    {
+        "id": 11,
+        "english": [
+            "thing",
+            "object"
+        ],
+        "kana": [
+            "もの"
+        ],
+        "kanji": "物",
+        "romaji": [
+            "mono"
+        ]
+    },
+    {
+        "id": 12,
+        "english": [
+            "film"
+        ],
+        "kana": [
+            "フィルム"
+        ],
+        "kanji": null,
+        "romaji": [
+            "firumu"
+        ]
+    },
+    {
+        "id": 13,
+        "english": [
+            "battery"
+        ],
+        "kana": [
+            "でんち"
+        ],
+        "kanji": "電池",
+        "romaji": [
+            "denchi"
+        ]
+    },
+    {
+        "id": 14,
+        "english": [
+            "box"
+        ],
+        "kana": [
+            "はこ"
+        ],
+        "kanji": "箱",
+        "romaji": [
+            "hako"
+        ]
+    },
+    {
+        "id": 15,
+        "english": [
+            "switch"
+        ],
+        "kana": [
+            "スイッチ"
+        ],
+        "kanji": null,
+        "romaji": [
+            "suitchi",
+            "suicchi"
+        ]
+    },
+    {
+        "id": 16,
+        "english": [
+            "refrigerator",
+            "fridge"
+        ],
+        "kana": [
+            "れいぞうこ"
+        ],
+        "kanji": "冷蔵庫",
+        "romaji": [
+            "reizouko"
+        ]
+    },
+    {
+        "id": 17,
+        "english": [
+            "table"
+        ],
+        "kana": [
+            "テーブル"
+        ],
+        "kanji": null,
+        "romaji": [
+            "te-buru",
+            "teeburu"
+        ]
+    },
+    {
+        "id": 18,
+        "english": [
+            "bed"
+        ],
+        "kana": [
+            "ベッド"
+        ],
+        "kanji": null,
+        "romaji": [
+            "beddo"
+        ]
+    },
+    {
+        "id": 19,
+        "english": [
+            "shelf"
+        ],
+        "kana": [
+            "たな"
+        ],
+        "kanji": "棚",
+        "romaji": [
+            "tana"
+        ]
+    },
+    {
+        "id": 20,
+        "english": [
+            "door"
+        ],
+        "kana": [
+            "ドア"
+        ],
+        "kanji": null,
+        "romaji": [
+            "doa"
+        ]
+    },
+    {
+        "id": 21,
+        "english": [
+            "window"
+        ],
+        "kana": [
+            "まど"
+        ],
+        "kanji": "窓",
+        "romaji": [
+            "mado"
+        ]
+    },
+    {
+        "id": 22,
+        "english": [
+            "mailbox",
+            "postbox"
+        ],
+        "kana": [
+            "ポスト"
+        ],
+        "kanji": null,
+        "romaji": [
+            "posuto"
+        ]
+    },
+    {
+        "id": 23,
+        "english": [
+            "building"
+        ],
+        "kana": [
+            "ビル"
+        ],
+        "kanji": null,
+        "romaji": [
+            "biru"
+        ]
+    },
+    {
+        "id": 24,
+        "english": [
+            "park"
+        ],
+        "kana": [
+            "こうえん"
+        ],
+        "kanji": "公園",
+        "romaji": [
+            "kouen"
+        ]
+    },
+    {
+        "id": 25,
+        "english": [
+            "coffee shop",
+            "cafe"
+        ],
+        "kana": [
+            "きっさてん"
+        ],
+        "kanji": "喫茶店",
+        "romaji": [
+            "kissaten"
+        ]
+    },
+    {
+        "id": 26,
+        "english": [
+            "bookstore",
+            "bookshop"
+        ],
+        "kana": [
+            "ほんや"
+        ],
+        "kanji": "本屋",
+        "romaji": [
+            "honya"
+        ]
+    },
+    {
+        "id": 27,
+        "english": [
+            "~ store",
+            "~ shop"
+        ],
+        "kana": [
+            "～や"
+        ],
+        "kanji": "～屋",
+        "romaji": [
+            "~ya",
+            "～ya"
+        ]
+    },
+    {
+        "id": 28,
+        "english": [
+            "place to catch taxis, trains, etc.",
+            "boarding area",
+            "stand"
+        ],
+        "kana": [
+            "のりば"
+        ],
+        "kanji": "乗り場",
+        "romaji": [
+            "noriba"
+        ]
+    },
+    {
+        "id": 29,
+        "english": [
+            "prefecture"
+        ],
+        "kana": [
+            "けん"
+        ],
+        "kanji": "県",
+        "romaji": [
+            "ken"
+        ]
+    },
+    {
+        "id": 30,
+        "english": [
+            "on",
+            "above",
+            "over"
+        ],
+        "kana": [
+            "うえ"
+        ],
+        "kanji": "上",
+        "romaji": [
+            "ue"
+        ]
+    },
+    {
+        "id": 31,
+        "english": [
+            "under",
+            "below",
+            "beneath"
+        ],
+        "kana": [
+            "した"
+        ],
+        "kanji": "下",
+        "romaji": [
+            "shita"
+        ]
+    },
+    {
+        "id": 32,
+        "english": [
+            "front",
+            "before"
+        ],
+        "kana": [
+            "まえ"
+        ],
+        "kanji": "前",
+        "romaji": [
+            "mae"
+        ]
+    },
+    {
+        "id": 33,
+        "english": [
+            "back",
+            "behind"
+        ],
+        "kana": [
+            "うしろ"
+        ],
+        "kanji": "後ろ",
+        "romaji": [
+            "ushiro"
+        ]
+    },
+    {
+        "id": 34,
+        "english": [
+            "right [side]"
+        ],
+        "kana": [
+            "みぎ"
+        ],
+        "kanji": "右",
+        "romaji": [
+            "migi"
+        ]
+    },
+    {
+        "id": 35,
+        "english": [
+            "left [side]"
+        ],
+        "kana": [
+            "ひだり"
+        ],
+        "kanji": "左",
+        "romaji": [
+            "hidari"
+        ]
+    },
+    {
+        "id": 36,
+        "english": [
+            "in",
+            "inside"
+        ],
+        "kana": [
+            "なか"
+        ],
+        "kanji": "中",
+        "romaji": [
+            "naka"
+        ]
+    },
+    {
+        "id": 37,
+        "english": [
+            "outside"
+        ],
+        "kana": [
+            "そと"
+        ],
+        "kanji": "外",
+        "romaji": [
+            "soto"
+        ]
+    },
+    {
+        "id": 38,
+        "english": [
+            "next",
+            "next door"
+        ],
+        "kana": [
+            "となり"
+        ],
+        "kanji": "隣",
+        "romaji": [
+            "tonari"
+        ]
+    },
+    {
+        "id": 39,
+        "english": [
+            "near",
+            "vicinity"
+        ],
+        "kana": [
+            "ちかく"
+        ],
+        "kanji": "近く",
+        "romaji": [
+            "chikaku"
+        ]
+    },
+    {
+        "id": 40,
+        "english": [
+            "between",
+            "among"
+        ],
+        "kana": [
+            "あいだ"
+        ],
+        "kanji": "間",
+        "romaji": [
+            "aida"
+        ]
+    },
+    {
+        "id": 41,
+        "english": [
+            "~, ~, and so on"
+        ],
+        "kana": [
+            "～や～[など]"
+        ],
+        "kanji": null,
+        "romaji": [
+            "~ya~[nado]",
+            "～ya～[nado]"
+        ]
+    },
+    {
+        "id": 42,
+        "english": [
+            "the most ~"
+        ],
+        "kana": [
+            "いちばん～"
+        ],
+        "kanji": "一番～",
+        "romaji": [
+            "ichiban~",
+            "ichiban～"
+        ]
+    },
+    {
+        "id": 43,
+        "english": [
+            "the -th shelf"
+        ],
+        "kana": [
+            "～だんめ"
+        ],
+        "kanji": "～段目",
+        "romaji": [
+            "~danme",
+            "～danme"
+        ]
+    },
+    {
+        "id": 44,
+        "english": [
+            "Thank you",
+            "I'm sorry"
+        ],
+        "kana": [
+            "[どうも]すみません"
+        ],
+        "kanji": null,
+        "romaji": [
+            "[doumo] sumimasen"
+        ]
+    },
+    {
+        "id": 45,
+        "english": [
+            "chili sauce"
+        ],
+        "kana": [
+            "チリソース"
+        ],
+        "kanji": null,
+        "romaji": [
+            "chiriso-su",
+            "chirisoosu"
+        ]
+    },
+    {
+        "id": 46,
+        "english": [
+            "the back",
+            "inner part"
+        ],
+        "kana": [
+            "おく"
+        ],
+        "kanji": "奥",
+        "romaji": [
+            "oku"
+        ]
+    },
+    {
+        "id": 47,
+        "english": [
+            "spice corner"
+        ],
+        "kana": [
+            "スパイス・コーナー",
+            "スパイスコーナー"
+        ],
+        "kanji": null,
+        "romaji": [
+            "supaisu ko-na-",
+            "supaisu koonaa"
+        ]
+    }
+]
+
