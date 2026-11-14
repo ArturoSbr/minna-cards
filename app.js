@@ -14,6 +14,7 @@ const studyScreen = $("study-screen");
 const quizScreen = $("quiz-screen");
 const resultsScreen = $("results-screen");
 // Setup
+const chapterRangeTabs = $("chapter-range-tabs");
 const chapterSelect = $("chapter-select");
 const actionFork = $("action-fork");
 const studyBtn = $("study-btn");
@@ -56,9 +57,11 @@ const resultsDetail = $("results-detail");
 const restartBtn = $("restart-btn");
 // --- Constants ---
 const CHAPTERS = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const CHAPTERS_PER_RANGE = 10;
 const STUDY_PAGE_SIZE = 5;
 // --- State ---
 let selectedChapter = null;
+let activeRangeIndex = 0;
 let selectedMode = "en-to-kana";
 const chapterWordCounts = new Map();
 const chapterDataCache = new Map();
@@ -149,17 +152,71 @@ function showScreen(screen) {
     screen.style.animation = "";
 }
 // --- Setup Screen Logic ---
-function initSetupScreen() {
-    // Generate chapter chips
+function getChapterRanges() {
+    const ranges = [];
+    for (let i = 0; i < CHAPTERS.length; i += CHAPTERS_PER_RANGE) {
+        const slice = CHAPTERS.slice(i, i + CHAPTERS_PER_RANGE);
+        const first = slice[0];
+        const last = slice[slice.length - 1];
+        const label = first === last ? String(first) : `${first}–${last}`;
+        ranges.push({ chapters: slice, label });
+    }
+    return ranges;
+}
+function renderRangeTabs() {
+    const ranges = getChapterRanges();
+    chapterRangeTabs.innerHTML = "";
+    if (ranges.length <= 1) {
+        chapterRangeTabs.classList.add("hidden");
+        return;
+    }
+    chapterRangeTabs.classList.remove("hidden");
+    ranges.forEach((range, index) => {
+        const isActive = index === activeRangeIndex;
+        const tab = document.createElement("button");
+        tab.type = "button";
+        tab.className = isActive ? "range-tab active" : "range-tab";
+        tab.setAttribute("role", "tab");
+        tab.setAttribute("aria-selected", String(isActive));
+        tab.textContent = range.label;
+        tab.addEventListener("click", () => selectRange(index));
+        chapterRangeTabs.appendChild(tab);
+    });
+}
+function renderChapterGrid() {
+    const ranges = getChapterRanges();
+    const currentChapters = ranges[activeRangeIndex]?.chapters ?? [];
     chapterSelect.innerHTML = "";
-    CHAPTERS.forEach((ch) => {
+    currentChapters.forEach((ch) => {
+        const isSelected = ch === selectedChapter;
         const chip = document.createElement("button");
-        chip.className = "chip";
+        chip.type = "button";
+        chip.className = isSelected ? "chip selected" : "chip";
         chip.dataset.chapter = String(ch);
-        chip.innerHTML = `<span class="chip-text">Ch. ${ch}</span>`;
+        chip.setAttribute("aria-label", `Chapter ${ch}`);
+        chip.setAttribute("aria-pressed", String(isSelected));
+        chip.innerHTML = `<span class="chip-text">${ch}</span>`;
         chip.addEventListener("click", () => selectChapter(ch));
         chapterSelect.appendChild(chip);
     });
+}
+function selectRange(rangeIndex) {
+    const ranges = getChapterRanges();
+    if (rangeIndex < 0 || rangeIndex >= ranges.length)
+        return;
+    if (rangeIndex !== activeRangeIndex) {
+        activeRangeIndex = rangeIndex;
+        renderRangeTabs();
+        renderChapterGrid();
+    }
+    const rangeChapters = ranges[rangeIndex].chapters;
+    if (selectedChapter === null || !rangeChapters.includes(selectedChapter)) {
+        selectChapter(rangeChapters[0]);
+    }
+}
+function initSetupScreen() {
+    renderRangeTabs();
+    renderChapterGrid();
     // Mode chip listeners
     modeSelect.querySelectorAll(".chip").forEach((chip) => {
         chip.addEventListener("click", () => {
@@ -176,33 +233,47 @@ function initSetupScreen() {
     wordCountInput.addEventListener("input", () => {
         validateSetup();
     });
-    // Preload word counts for all chapters
-    preloadWordCounts();
+    // Always start on Chapter 1
+    if (CHAPTERS.length > 0) {
+        selectChapter(CHAPTERS[0]);
+    }
 }
-async function preloadWordCounts() {
-    for (const ch of CHAPTERS) {
+async function ensureChapterWordCount(chapter) {
+    if (!chapterWordCounts.has(chapter)) {
         try {
-            const words = await loadChapter(ch);
-            chapterWordCounts.set(ch, words.length);
+            const words = await loadChapter(chapter);
+            chapterWordCounts.set(chapter, words.length);
         }
         catch {
-            chapterWordCounts.set(ch, 0);
+            chapterWordCounts.set(chapter, 0);
         }
     }
-    // Auto-select Chapter 1
-    selectChapter(1);
+    if (selectedChapter === chapter) {
+        updateWordCountForChapter(chapter);
+        validateSetup();
+    }
 }
 function selectChapter(chapter) {
     selectedChapter = chapter;
-    // Update chip selection
+    const ranges = getChapterRanges();
+    const targetRangeIndex = ranges.findIndex((r) => r.chapters.includes(chapter));
+    if (targetRangeIndex !== -1 && targetRangeIndex !== activeRangeIndex) {
+        activeRangeIndex = targetRangeIndex;
+        renderRangeTabs();
+        renderChapterGrid();
+    }
+    // Update tile selection in place (preserves focus & CSS transitions)
     chapterSelect.querySelectorAll(".chip").forEach((chip) => {
         const ch = Number(chip.dataset.chapter);
-        chip.classList.toggle("selected", ch === chapter);
+        const isSelected = ch === chapter;
+        chip.classList.toggle("selected", isSelected);
+        chip.setAttribute("aria-pressed", String(isSelected));
     });
     // Show the fork buttons, hide quiz options
     actionFork.classList.remove("hidden");
     quizOptions.classList.add("hidden");
     updateWordCountForChapter(chapter);
+    ensureChapterWordCount(chapter);
 }
 function updateWordCountForChapter(chapter) {
     const count = chapterWordCounts.get(chapter) || 0;
