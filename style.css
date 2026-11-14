@@ -17,6 +17,12 @@
   --accent-glow: rgba(231, 76, 60, 0.25);
   --accent-subtle: rgba(231, 76, 60, 0.1);
 
+  /* Secondary cool surface (Study button) */
+  --cool-surface: #2c3558;
+  --cool-surface-hover: #36416b;
+  --cool-border: rgba(130, 152, 230, 0.28);
+  --cool-glow: rgba(100, 128, 220, 0.22);
+
   /* Text */
   --text-primary: #f0e6d3;
   --text-secondary: #a89f91;
@@ -356,6 +362,35 @@ body {
   color: var(--text-primary);
 }
 
+.btn-study {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.5rem;
+  background: var(--cool-surface);
+  color: var(--text-primary);
+  border: 1px solid var(--cool-border);
+  border-radius: var(--radius-md);
+  font-family: var(--font-family);
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.btn-study:hover {
+  background: var(--cool-surface-hover);
+  border-color: rgba(130, 152, 230, 0.48);
+  box-shadow: 0 4px 16px var(--cool-glow);
+  transform: translateY(-1px);
+}
+
+.btn-study:active {
+  transform: translateY(0);
+}
+
 .btn-ghost {
   display: inline-flex;
   align-items: center;
@@ -681,6 +716,20 @@ body {
   line-height: 1.6;
 }
 
+.results-actions {
+  display: flex;
+  gap: var(--space-sm);
+  width: 100%;
+}
+
+.results-actions .btn-secondary,
+.results-actions .btn-primary {
+  flex: 1;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  white-space: nowrap;
+}
+
 /* --- Responsive --- */
 @media (max-width: 400px) {
   .app-title {
@@ -704,6 +753,16 @@ body {
   .setup-card {
     padding: var(--space-lg);
   }
+
+  .results-card {
+    padding: var(--space-lg);
+  }
+
+  .results-actions .btn-secondary,
+  .results-actions .btn-primary {
+    font-size: 0.9rem;
+    padding: 0.75rem 0.75rem;
+  }
 }
 
 /* --- Action Fork (Study / Quiz) --- */
@@ -716,6 +775,7 @@ body {
   display: none;
 }
 
+.action-fork .btn-study,
 .action-fork .btn-secondary,
 .action-fork .btn-primary {
   flex: 1;

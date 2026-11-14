@@ -97,6 +97,7 @@ const continueBtn = $("continue-btn");
 const resultsScore = $("results-score");
 const resultsDetail = $("results-detail");
 const restartBtn = $("restart-btn");
+const retryBtn = $("retry-btn");
 
 // --- State ---
 
@@ -747,6 +748,9 @@ function initQuizListeners(): void {
 
   // Restart button
   restartBtn.addEventListener("click", handleQuit);
+
+  // Retry button
+  retryBtn.addEventListener("click", handleStart);
 }
 
 function initStudyListeners(): void {

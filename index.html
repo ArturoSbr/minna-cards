@@ -63,7 +63,7 @@
         </div>
 
         <div id="action-fork" class="action-fork hidden">
-          <button id="study-btn" class="btn-secondary" onclick="gtag_report_conversion()">📖 Study</button>
+          <button id="study-btn" class="btn-study" onclick="gtag_report_conversion()">📖 Study</button>
           <button id="quiz-btn" class="btn-primary" onclick="gtag_report_conversion()">✍️ Quiz</button>
         </div>
 
@@ -204,7 +204,10 @@
       </div>
       <div id="results-score" class="results-score"></div>
       <div id="results-detail" class="results-detail"></div>
-      <button id="restart-btn" class="btn-primary">Back to Chapters</button>
+      <div class="results-actions">
+        <button id="restart-btn" class="btn-secondary">Back to Chapters</button>
+        <button id="retry-btn" class="btn-primary">Retry</button>
+      </div>
     </div>
   </section>
 

@@ -55,6 +55,7 @@ const continueBtn = $("continue-btn");
 const resultsScore = $("results-score");
 const resultsDetail = $("results-detail");
 const restartBtn = $("restart-btn");
+const retryBtn = $("retry-btn");
 // --- Constants ---
 const CHAPTERS = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const CHAPTERS_PER_RANGE = 10;
@@ -613,6 +614,8 @@ function initQuizListeners() {
     quitBtn.addEventListener("click", handleQuit);
     // Restart button
     restartBtn.addEventListener("click", handleQuit);
+    // Retry button
+    retryBtn.addEventListener("click", handleStart);
 }
 function initStudyListeners() {
     studyBackBtn.addEventListener("click", handleQuit);
