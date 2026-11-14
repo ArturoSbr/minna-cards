@@ -45,7 +45,7 @@
         "id": 4,
         "english": [
             "this ~",
-            "this ... here"
+            "this ~ here"
         ],
         "kana": [
             "この～"
@@ -60,7 +60,7 @@
         "id": 5,
         "english": [
             "that ~",
-            "that ... near you"
+            "that ~ near you"
         ],
         "kana": [
             "その～"
@@ -75,7 +75,7 @@
         "id": 6,
         "english": [
             "that ~",
-            "that ... over there"
+            "that ~ over there"
         ],
         "kana": [
             "あの～"

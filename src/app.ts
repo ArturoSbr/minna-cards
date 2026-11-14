@@ -139,9 +139,15 @@ async function loadChapter(chapter: number): Promise<Word[]> {
   return data;
 }
 
-/** Strip placeholder characters (～, ~, 〜) for comparison */
+/** Strip placeholder characters (～, ~, 〜) and normalize resulting spacing/punctuation */
 function normalize(s: string): string {
-  return s.replace(/[～~〜]/g, "").trim();
+  return s
+    .replace(/[～~〜]/g, "")
+    .replace(/\s+/g, " ")
+    .replace(/\s+([,?.!])/g, "$1")
+    .replace(/,\s*,+/g, ",")
+    .replace(/^\s*,\s*/, "")
+    .trim();
 }
 
 /** Expand optional [bracket] parts into all combinations of variants */

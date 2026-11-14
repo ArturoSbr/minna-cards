@@ -94,9 +94,15 @@ async function loadChapter(chapter) {
     chapterDataCache.set(chapter, data);
     return data;
 }
-/** Strip placeholder characters (～, ~, 〜) for comparison */
+/** Strip placeholder characters (～, ~, 〜) and normalize resulting spacing/punctuation */
 function normalize(s) {
-    return s.replace(/[～~〜]/g, "").trim();
+    return s
+        .replace(/[～~〜]/g, "")
+        .replace(/\s+/g, " ")
+        .replace(/\s+([,?.!])/g, "$1")
+        .replace(/,\s*,+/g, ",")
+        .replace(/^\s*,\s*/, "")
+        .trim();
 }
 /** Expand optional [bracket] parts into all combinations of variants */
 function expandVariants(s) {
