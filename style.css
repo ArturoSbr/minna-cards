@@ -146,6 +146,14 @@ body {
   gap: var(--space-sm);
 }
 
+.setup-group-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: var(--space-xs) var(--space-sm);
+}
+
 .setup-label {
   font-size: 0.75rem;
   font-weight: 500;
@@ -154,7 +162,57 @@ body {
   letter-spacing: 0.08em;
 }
 
-/* --- Chip Group (Chapter & Mode selectors) --- */
+/* --- Range Tabs (shown automatically when > 10 chapters) --- */
+.range-tabs {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  padding: 2px;
+  background: var(--bg-deep);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-sm);
+}
+
+.range-tab {
+  padding: 0.2rem 0.55rem;
+  background: transparent;
+  border: none;
+  border-radius: calc(var(--radius-sm) - 2px);
+  color: var(--text-muted);
+  font-family: var(--font-family);
+  font-size: 0.72rem;
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.range-tab:hover {
+  color: var(--text-primary);
+}
+
+.range-tab.active {
+  background: var(--bg-elevated);
+  color: var(--accent);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* --- Chapter 5-Column Number Grid & Chip Group (Mode selector) --- */
+.chapter-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: var(--space-sm);
+}
+
+.chapter-grid .chip {
+  justify-content: center;
+  padding: 0.6rem 0;
+  font-variant-numeric: tabular-nums;
+}
+
 .chip-group {
   display: flex;
   flex-wrap: wrap;
@@ -636,6 +694,11 @@ body {
   .chip {
     padding: 0.5rem 0.75rem;
     font-size: 0.8rem;
+  }
+
+  .chapter-grid .chip {
+    padding: 0.55rem 0;
+    font-size: 0.85rem;
   }
 
   .setup-card {
