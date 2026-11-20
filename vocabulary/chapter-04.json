@@ -313,7 +313,7 @@
         "kana": [
             "おととい"
         ],
-        "kanji": null,
+        "kanji": "一昨日",
         "romaji": [
             "ototoi"
         ]
@@ -326,7 +326,7 @@
         "kana": [
             "きのう"
         ],
-        "kanji": null,
+        "kanji": "昨日",
         "romaji": [
             "kinou"
         ]
@@ -352,7 +352,7 @@
         "kana": [
             "あした"
         ],
-        "kanji": null,
+        "kanji": "明日",
         "romaji": [
             "ashita"
         ]
@@ -365,7 +365,7 @@
         "kana": [
             "あさって"
         ],
-        "kanji": null,
+        "kanji": "明後日",
         "romaji": [
             "asatte"
         ]
@@ -627,7 +627,7 @@
     {
         "id": 47,
         "english": [
-            "and (used to connect nouns)"
+            "~ and ~ (used to connect nouns)"
         ],
         "kana": [
             "～と～"
