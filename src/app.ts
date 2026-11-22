@@ -412,6 +412,31 @@ async function handleStudy(): Promise<void> {
   renderStudyPage();
 }
 
+/** Append Japanese text with <wbr> hints at natural phrase/variant boundaries */
+function appendJapaneseWithBreaks(container: HTMLElement, text: string): void {
+  let segmentStart = 0;
+
+  const flush = (end: number): void => {
+    if (end > segmentStart) {
+      if (container.childNodes.length > 0) {
+        container.appendChild(document.createElement("wbr"));
+      }
+      container.appendChild(document.createTextNode(text.slice(segmentStart, end)));
+      segmentStart = end;
+    }
+  };
+
+  for (let i = 0; i < text.length; i++) {
+    const ch = text[i];
+    if (ch === "[") {
+      flush(i);
+    } else if (ch === "]" || ch === "/" || (ch === "、" && text[i + 1] !== "]")) {
+      flush(i + 1);
+    }
+  }
+  flush(text.length);
+}
+
 function renderStudyPage(): void {
   const start = studyPage * STUDY_PAGE_SIZE;
   const end = Math.min(start + STUDY_PAGE_SIZE, studyWords.length);
@@ -434,18 +459,31 @@ function renderStudyPage(): void {
     const tr = document.createElement("tr");
 
     const englishTd = document.createElement("td");
+    englishTd.className = "english-cell";
     englishTd.textContent = word.english.join(", ");
 
     const kanaTd = document.createElement("td");
-    kanaTd.textContent = word.kana.join(", ");
+    kanaTd.className = "kana-cell";
+
+    const kanaText = document.createElement("div");
+    kanaText.className = "kana-text";
+    appendJapaneseWithBreaks(kanaText, word.kana.join(", "));
+    kanaTd.appendChild(kanaText);
+
+    if (word.kanji) {
+      const kanjiInline = document.createElement("div");
+      kanjiInline.className = "kanji-inline";
+      appendJapaneseWithBreaks(kanjiInline, word.kanji);
+      kanaTd.appendChild(kanjiInline);
+    }
 
     const kanjiTd = document.createElement("td");
     if (word.kanji) {
-      kanjiTd.textContent = word.kanji;
+      appendJapaneseWithBreaks(kanjiTd, word.kanji);
       kanjiTd.className = "kanji-cell";
     } else {
       kanjiTd.textContent = "—";
-      kanjiTd.className = "no-kanji";
+      kanjiTd.className = "kanji-cell no-kanji";
     }
 
     tr.appendChild(englishTd);
